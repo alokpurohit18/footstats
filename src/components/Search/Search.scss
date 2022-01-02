@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+
+.search-container {
+  position: relative;
+  font-size: 1.5vw;
+  margin-left: 6vw;
+}
+
+.search-bar {
+  border-radius: 1vw;
+  padding-left: 1vw;
+}
+
+.search-icon {
+  position: absolute;
+  right: 0;
+  border-radius: 1vw;
+  margin-right: 1vw;
+  padding: 0.1vw;
+}
