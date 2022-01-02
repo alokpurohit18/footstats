@@ -17,7 +17,7 @@ class Navbar extends React.Component {
   }
 
   createNavElement = (pageName) => {
-    return <div className="nav-element ant-col ant-col-2">{pageName}</div>;
+    return <div className="nav-element ant-col">{pageName}</div>;
   };
 
   render() {
@@ -32,6 +32,8 @@ class Navbar extends React.Component {
         </div>
 
         {this.pages.map(this.createNavElement)}
+
+        <Search placeholder="Search"/>
       </div>
     );
   }
