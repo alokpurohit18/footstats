@@ -20,7 +20,7 @@ class Search extends React.Component {
         <input
           className="search-bar ant-col ant-col-24"
           type="search"
-          placeholder={this.placeholder}
+          placeholder={this.placeholder}x
           onChange={this.handleSearch}
         />
         <div className="search-icon ant-col ant-col-4">{this.searchIcon}</div>
