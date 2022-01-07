@@ -1,10 +1,21 @@
 #!C:\Python39\python.exe
 import requests
 from bs4 import BeautifulSoup
+from selenium.webdriver import Chrome
+from selenium.webdriver.common.by import By
 
 news_url = "https://www.skysports.com/football/news"
 scores_url = "https://www.espn.in/football/scoreboard/_/league/all/"
 stats_url = ""
+
+driver = Chrome()
+driver.get(scores_url)
+driver.maximize_window()
+
+#code to read data from html href
+
+# element = driver.find_element(By.CSS_SELECTOR ,".team-info")
+# print(element.text)
 
 def create_news_data(url):
     request = requests.get(url)
@@ -23,11 +34,10 @@ def create_news_data(url):
         #print(news_object.find('img')['alt'])
 
 def create_scores_data(url):
-    request = requests.get(url)
-    soup = BeautifulSoup(request.content, "html.parser")
-    scores_source = soup.find('div', class_='team-info')
-    #team_name = scores_source.find_next('span', class_='short-name')
-    print(scores_source)
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    logos = soup.find_all("img", {"class": "team-logo imageLoaded"})
+    for i in logos:
+        print(i['src'])
     #for title_object in scores_source:
         #print(title_object)
 
@@ -46,10 +56,10 @@ create_news_data(news_url)
 create_scores_data(scores_url)
 
 
-#import json
-#import sys
+# #import json
+# #import sys
 
-#sys.stdout = open('test_data.js', 'w')
+# #sys.stdout = open('test_data.js', 'w')
 
-#jsonobj = json.dumps(dictionary)
-#print("var jsonstr = {} ".format(jsonobj))
+# #jsonobj = json.dumps(dictionary)
+# #print("var jsonstr = {} ".format(jsonobj))
