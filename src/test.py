@@ -1,17 +1,19 @@
 #!C:\Python39\python.exe
-from typing import Counter
+import json
+import sys
 import requests
 from bs4 import BeautifulSoup
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 
 news_url = "https://www.skysports.com/football/news"
-scores_url = "https://www.espn.in/football/scoreboard/_/league/all/"
+scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
 stats_url = ""
 
 final_news_data = []
 final_scores_data = []
 final_stats_data = []
+
 
 driver = Chrome()
 
@@ -23,6 +25,15 @@ def create_selenium_driver(url):
 #code to read data from html href using selenium
 # element = driver.find_element(By.CSS_SELECTOR ,".team-info")
 # print(element.text)
+
+
+def create_json_data(file_name, data_array):
+    sys.stdout = open(file_name, 'w')
+
+    jsonobj = json.dumps(data_array)
+    print("{}".format(jsonobj))
+    sys.stdout = sys.__stdout__
+
 
 def create_news_data(url):
     create_selenium_driver(url)
@@ -51,6 +62,8 @@ def create_news_data(url):
 
     for (news_content, news_object) in zip(news_content_source, final_news_data):
         news_object["shortDescription"] = news_content.text
+
+    create_json_data("newsData.json", final_news_data)
     
     # for news_object in final_news_data:
     #     create_selenium_driver(news_object['link'])
@@ -73,19 +86,66 @@ def create_news_data(url):
 def create_scores_data(url):
     create_selenium_driver(url)
     soup = BeautifulSoup(driver.page_source, "html.parser")
-    # logos = soup.find_all("img", {"class": "team-logo imageLoaded"})
-    # for i in logos:
-    #     print(i['src'])
+    score_card_containers = soup.find_all("div", {"class": "scoreboard-wrapper game-strip-scoreboard"})
 
+    global counter
+    counter = 1
+    for score_card_container in score_card_containers:
+        score_card = score_card_container.find("div", {"class": "main-container"})
+        team_names = score_card.find_all("span", {"class": "short-name"})
+        team_logos = score_card.find_all("img", {"class": "team-logo imageLoaded"})
+        team_scores = score_card.find_all("div", {"class": "score-container"})
+        
+        home_score = team_scores[0].text
+        away_score = team_scores[1].text
 
+        home_score = home_score.replace("\n", "")
+        home_score = home_score.replace(" ", "")
+        away_score = away_score.replace("\n", "")
+        away_score = away_score.replace(" ", "")
+
+        game_status = score_card.find("div", {"class": "game-status"})
+
+        goal_scorers = score_card.find_all("div", {"class": "team-info players"})
+        home_goal_scorers = ""
+        away_goal_scorers = ""
+
+        if(len(goal_scorers) > 1):
+            home_goal_scorers = goal_scorers[0].text.strip()
+            home_goal_scorers = home_goal_scorers.replace("\n", "")
+            home_goal_scorers = home_goal_scorers.replace("\t", "")
+            away_goal_scorers = goal_scorers[1].text.strip()
+            away_goal_scorers = away_goal_scorers.replace("\n", "")
+            away_goal_scorers = away_goal_scorers.replace("\t", "")
+
+        if(len(goal_scorers) == 1):
+            if(home_score > away_score):
+                home_goal_scorers = goal_scorers[0].text.strip()
+                home_goal_scorers = home_goal_scorers.replace("\n", "")
+                home_goal_scorers = home_goal_scorers.replace("\t", "")
+            else:
+                away_goal_scorers = goal_scorers[0].text.strip()
+                away_goal_scorers = away_goal_scorers.replace("\n", "")
+                away_goal_scorers = away_goal_scorers.replace("\t", "")
+        
+        final_score_object = {
+            "key": counter,
+            "home_team_name": team_names[0].text,
+            "home_team_logo": team_logos[0]["src"],
+            "home_score": home_score,
+            "home_scorers": home_goal_scorers,
+            "away_team_name": team_names[1].text,
+            "away_team_logo": team_logos[1]["src"],
+            "away_score": away_score,
+            "away_scorers": away_goal_scorers,
+            "game_status": game_status.text.strip()
+         }
+
+        counter = counter + 1
+        final_scores_data.append(final_score_object)
+
+        create_json_data("scoresData.json", final_scores_data)
+
+    
 create_news_data(news_url)
 create_scores_data(scores_url)
-
-
-# import json
-# import sys
-
-# sys.stdout = open('test_data.js', 'w')
-
-# jsonobj = json.dumps(final_news_data)
-# print("var final_news_data = {} ".format(jsonobj))
