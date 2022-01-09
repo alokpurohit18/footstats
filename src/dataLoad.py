@@ -2,9 +2,12 @@
 import json
 import sys
 import requests
+import os
 from bs4 import BeautifulSoup
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
+
+os.chdir("F:/Projects/footstats/src")
 
 news_url = "https://www.skysports.com/football/news"
 scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
@@ -30,7 +33,7 @@ def create_selenium_driver(url):
 def create_json_data(file_name, data_array):
     sys.stdout = open(file_name, 'w')
 
-    jsonobj = json.dumps(data_array)
+    jsonobj = json.dumps(data_array, indent=4)
     print("{}".format(jsonobj))
     sys.stdout = sys.__stdout__
 
@@ -87,10 +90,11 @@ def create_scores_data(url):
     create_selenium_driver(url)
     soup = BeautifulSoup(driver.page_source, "html.parser")
     score_card_containers = soup.find_all("div", {"class": "scoreboard-wrapper game-strip-scoreboard"})
+    link_containers = soup.find_all("div", {"class": "scoreboard-top no-tabs"})
 
     global counter
     counter = 1
-    for score_card_container in score_card_containers:
+    for (score_card_container, link_container) in zip(score_card_containers, link_containers):
         score_card = score_card_container.find("div", {"class": "main-container"})
         team_names = score_card.find_all("span", {"class": "short-name"})
         team_logos = score_card.find_all("img", {"class": "team-logo imageLoaded"})
@@ -109,6 +113,11 @@ def create_scores_data(url):
         goal_scorers = score_card.find_all("div", {"class": "team-info players"})
         home_goal_scorers = ""
         away_goal_scorers = ""
+
+        link = link_container.find("a", {"class": "button-alt sm"})
+        base_url = "https://www.espn.in"
+        summary_link =  base_url + link["href"]
+        league = link["rel"][0]
 
         if(len(goal_scorers) > 1):
             home_goal_scorers = goal_scorers[0].text.strip()
@@ -138,13 +147,15 @@ def create_scores_data(url):
             "away_team_logo": team_logos[1]["src"],
             "away_score": away_score,
             "away_scorers": away_goal_scorers,
-            "game_status": game_status.text.strip()
+            "game_status": game_status.text.strip(),
+            "link": summary_link,
+            "league": league
          }
 
         counter = counter + 1
         final_scores_data.append(final_score_object)
 
-        create_json_data("scoresData.json", final_scores_data)
+    create_json_data("scoresData.json", final_scores_data)
 
     
 create_news_data(news_url)
