@@ -15,7 +15,7 @@ class Navbar extends React.Component {
 
   createNavElement = (pageName) => {
     return (
-      <div className="nav-element ant-col">
+      <div key={pageName} className="nav-element ant-col">
         <a href="in">{pageName}</a>
       </div>
     );

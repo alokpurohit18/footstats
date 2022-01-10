@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar.jsx";
+import LandingPage from "../LandingPage/LandingPage.jsx"
 import "./App.scss";
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
           "Market Value",
           "Coaches Center",
         ]}
-        settings={["Profile", "Account", "Dashboard", "Logout"]}
       />
+
+      <LandingPage/>
     </div>
   );
 }
