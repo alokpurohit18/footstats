@@ -10,10 +10,18 @@ class ScoreCard extends React.Component {
     this.cardInfo = this.props.cardInfo;
   }
 
+  loadArrowIcon = () => {
+    if (this.cardInfo.home_score === "") {
+      return "";
+    } else {
+      return <div className="arrow-icon ant-col ant-col-2">▶</div>;
+    }
+  };
+
   render() {
     return (
       <div className="score-card-main">
-        <div className="team-info ant-row">
+        <div className="team-info team-info-top ant-row">
           <img
             className="team_logo ant-col ant-col-3"
             alt={this.cardInfo.home_team_name + " logo"}
@@ -22,13 +30,13 @@ class ScoreCard extends React.Component {
           <div className="team_name ant-col ant-col-15">
             {this.cardInfo.home_team_name}
           </div>
-          <div className="arrow-icon ant-col ant-col-2">▶</div>
+          {this.loadArrowIcon()}
           <div className="score ant-col ant-col-2">
             {this.cardInfo.home_score}
           </div>
         </div>
 
-        <div className="team-info ant-row">
+        <div className="team-info team-info-bottom ant-row">
           <img
             className="team_logo ant-col ant-col-3"
             alt={this.cardInfo.away_team_name + " logo"}
@@ -37,7 +45,7 @@ class ScoreCard extends React.Component {
           <div className="team_name ant-col ant-col-15">
             {this.cardInfo.away_team_name}
           </div>
-          <div className="arrow-icon ant-col ant-col-2">▶</div>
+          {this.loadArrowIcon()}
           <div className="score ant-col ant-col-2">
             {this.cardInfo.away_score}
           </div>

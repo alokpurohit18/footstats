@@ -7,9 +7,12 @@
   margin-right: 2vw;
   border-radius: 10px;
   padding: 1vw;
+  filter: drop-shadow(5px 5px 2px #2b2b2b);
 }
 
-.team_name, .arrow-icon, .score {
+.team_name,
+.arrow-icon,
+.score {
   font-size: 1.5vw;
   margin-left: 0.5vw;
   margin-top: auto;
@@ -17,4 +20,8 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.team-info-top {
+  margin-bottom: 0.5vw;
 }
