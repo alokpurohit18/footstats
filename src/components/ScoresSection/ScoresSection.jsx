@@ -15,7 +15,6 @@ class ScoresSection extends React.Component {
   }
 
   createScoreCard = (cardInfo) => {
-    console.log(cardInfo);
     return <ScoreCard key={cardInfo.key} cardInfo={cardInfo} />;
   };
 

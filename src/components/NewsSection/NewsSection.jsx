@@ -15,7 +15,6 @@ class NewsSection extends React.Component {
   }
 
   createNewsCard = (cardInfo) => {
-    console.log(cardInfo);
     return <NewsCard key={cardInfo.key} cardInfo={cardInfo} />;
   };
 
