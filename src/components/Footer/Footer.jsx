@@ -1,7 +1,6 @@
 import * as React from "react";
-import Avatar from "@mui/material/Avatar";
 import "antd/dist/antd.css";
-import { appLogo, appName } from "../../variables";
+import { combinedLogo } from "../../variables";
 
 class Footer extends React.Component {
   pages;
@@ -22,17 +21,23 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer-main ant-row">
-        <div className="app-logo-container ant-col ant-col-1">
-          <span className="app-logo">
-            <Avatar alt="App Logo" src={appLogo} />
-          </span>
-        </div>
-
-        <div className="app-name-container ant-col ant-col-4">
-          <a href="in">Welcome to {appName}!!!</a>
+        <div className="ant-col">
+          <img
+            className="comined-app-logo"
+            alt="Combined App Logo"
+            src={combinedLogo}
+          />
         </div>
 
         {this.pages.map(this.createNavElement)}
+
+        <div className="ant-col">
+          <img
+            className="comined-app-logo"
+            alt="Combined App Logo"
+            src={combinedLogo}
+          />
+        </div>
       </div>
     );
   }
