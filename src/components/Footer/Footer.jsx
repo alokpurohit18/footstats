@@ -2,8 +2,6 @@ import * as React from "react";
 import Avatar from "@mui/material/Avatar";
 import "antd/dist/antd.css";
 import { appLogo, appName } from "../../variables";
-import Navbar from "../Navbar/Navbar.jsx";
-import "./Footer.scss";
 
 class Footer extends React.Component {
   pages;
