@@ -1,13 +1,17 @@
 @import "../../variables.scss";
 
+.news-card-main,
 .score-card-main {
   background-color: black;
   margin-bottom: 1vw;
-  margin-left: 2vw;
-  margin-right: 2vw;
   border-radius: 10px;
   padding: 1vw;
   filter: drop-shadow(5px 5px 2px #2b2b2b);
+}
+
+.score-card-main {
+  margin-left: 2vw;
+  margin-right: 2vw;
 
   h3 {
     color: white;

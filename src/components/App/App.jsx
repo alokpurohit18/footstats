@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar.jsx";
-import LandingPage from "../LandingPage/LandingPage.jsx"
+import Footer from "../Footer/Footer.jsx";
+import LandingPage from "../LandingPage/LandingPage.jsx";
 import "./App.scss";
 
 function App() {
@@ -15,8 +16,15 @@ function App() {
           "Coaches Center",
         ]}
       />
-
-      <LandingPage/>
+      <LandingPage />
+      <Footer
+        pages={[
+          "Terms of Use",
+          "Privacy Policy",
+          "Developer Info",
+          "Contact Us",
+        ]}
+      />
     </div>
   );
 }

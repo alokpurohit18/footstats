@@ -9,10 +9,10 @@ class LandingPage extends React.Component {
     return (
       <div className="landing-page-main ant-row">
         <div className="news-section-container ant-col ant-col-8">
-          <NewsSection cardCount="5" />
+          <NewsSection cardCount="10" />
         </div>
         <div className="scores-section-container ant-col ant-col-8">
-          <ScoresSection cardCount="30" />
+          <ScoresSection cardCount="10" />
         </div>
         <div className="prediction-section-container ant-col ant-col-8"></div>
       </div>

@@ -2,7 +2,6 @@ import * as React from "react";
 import "antd/dist/antd.css";
 import newsData from "../../newsData.json";
 import NewsCard from "../NewsCard/NewsCard.jsx";
-import "./NewsSection.scss";
 
 class NewsSection extends React.Component {
   cardCount;
