@@ -1,19 +1,26 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import NewsSection from "../NewsSection/NewsSection.jsx";
 import ScoresSection from "../ScoresSection/ScoresSection.jsx";
+import scoresData from "../../scoresData.json";
 
 class ScoresPage extends React.Component {
   render() {
     return (
-      <div className="landing-page-main ant-row">
-        <div className="news-section-container ant-col ant-col-8">
-          <NewsSection cardCount="9" />
+      <div className="scores-page-main ant-row">
+        <div className="ant-col ant-col-12">
+          <ScoresSection
+            sectionHeading=""
+            cardCount={Math.trunc(scoresData.length / 2)}
+            cardStart="0"
+          />
         </div>
-        <div className="scores-section-container ant-col ant-col-8">
-          <ScoresSection cardCount="10" />
+        <div className="ant-col ant-col-12">
+          <ScoresSection
+            sectionHeading=""
+            cardCount={Math.trunc(scoresData.length / 2)}
+            cardStart={Math.trunc(scoresData.length / 2)}
+          />
         </div>
-        <div className="prediction-section-container ant-col ant-col-8"></div>
       </div>
     );
   }

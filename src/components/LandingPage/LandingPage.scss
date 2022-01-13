@@ -1,8 +1,22 @@
 @import "../../variables.scss";
 
-.landing-page-main {
+.landing-page-main,
+.news-page-main,
+.scores-page-main {
   margin: 0.5%;
   border-radius: 10px;
   padding: 1vw;
   color: $secondary-text-color;
+}
+
+.news-page-main,
+.scores-page-main {
+  padding-left: 5vw;
+  padding-right: 5vw;
+
+  .news-card-main,
+  .scores-card-main {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
 }

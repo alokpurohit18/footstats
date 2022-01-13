@@ -50,7 +50,7 @@ def create_news_data(url):
             news_details_array.append(news_detials)
     
     global counter
-    counter = 1
+    counter = 0
     for news_detials in news_details_array:
         final_news_object = {
             "key": counter,
@@ -93,7 +93,7 @@ def create_scores_data(url):
     link_containers = soup.find_all("div", {"class": "scoreboard-top no-tabs"})
 
     global counter
-    counter = 1
+    counter = 0
     for (score_card_container, link_container) in zip(score_card_containers, link_containers):
         score_card = score_card_container.find("div", {"class": "main-container"})
         team_names = score_card.find_all("span", {"class": "short-name"})

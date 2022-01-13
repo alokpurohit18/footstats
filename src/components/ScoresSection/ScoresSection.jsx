@@ -6,10 +6,14 @@ import ScoreCard from "../ScoreCard/ScoreCard.jsx";
 class ScoresSection extends React.Component {
   cardCount;
   cardDetailsArray;
+  sectionHeading;
+  cardStart;
 
   constructor(props) {
     super(props);
     this.cardCount = this.props.cardCount;
+    this.sectionHeading = this.props.sectionHeading;
+    this.cardStart = this.props.cardStart;
     this.cardDetailsArray = [];
   }
 
@@ -19,16 +23,18 @@ class ScoresSection extends React.Component {
 
   choseScoreItems = () => {
     let counter = 0;
+    let start = this.cardStart;
     while (counter < this.cardCount) {
-      this.cardDetailsArray.push(scoresData[counter]);
+      this.cardDetailsArray.push(scoresData[start]);
       counter++;
+      start++;
     }
   };
 
   render() {
     return (
       <div className="scores-section-main">
-        <h2>Latest Fixtures</h2>
+        <h2>{this.sectionHeading}</h2>
         {this.choseScoreItems()}
         {this.cardDetailsArray.map(this.createScoreCard)}
       </div>
