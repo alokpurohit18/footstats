@@ -67,11 +67,11 @@ class ScoreCard extends React.Component {
         <h3>{this.loadLeagueName()}</h3>
         <div className="team-info team-info-top ant-row">
           <img
-            className="team_logo ant-col ant-col-3"
+            className="team-logo ant-col ant-col-3"
             alt={this.cardInfo.home_team_name + " logo"}
             src={this.cardInfo.home_team_logo}
           />
-          <div className="team_name ant-col ant-col-15">
+          <div className="team-name ant-col ant-col-15">
             {this.cardInfo.home_team_name}
           </div>
           {this.loadArrowIcon()}
@@ -82,11 +82,11 @@ class ScoreCard extends React.Component {
 
         <div className="team-info team-info-bottom ant-row">
           <img
-            className="team_logo ant-col ant-col-3"
+            className="team-logo ant-col ant-col-3"
             alt={this.cardInfo.away_team_name + " logo"}
             src={this.cardInfo.away_team_logo}
           />
-          <div className="team_name ant-col ant-col-15">
+          <div className="team-name ant-col ant-col-15">
             {this.cardInfo.away_team_name}
           </div>
           {this.loadArrowIcon()}

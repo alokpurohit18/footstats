@@ -1,6 +1,78 @@
 [
     {
         "key": 0,
+        "title": "Everton sign El Ghazi on loan until end of season",
+        "link": "https://www.skysports.com/football/news/11095/12514866/anwar-el-ghazi-everton-sign-aston-villa-winger-on-loan-until-the-end-of-the-season",
+        "imageSource": "https://e0.365dm.com/22/01/384x216/skysports-anwar-el-ghazi-aston-villa_5640191.jpg?20220113164001",
+        "shortDescription": "Everton have signed Aston Villa winger Anwar El Ghazi on loan until the end of the season.",
+        "longDescription": ""
+    },
+    {
+        "key": 1,
+        "title": "Brighton vs C Palace on Sky: Mwepu, Tomkins missing for M23 derby",
+        "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-crystal-palace/preview/446499",
+        "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-brighton-crystal-palace_5638369.jpg?20220111125005",
+        "shortDescription": "Team news, stats and prediction ahead of Brighton vs Crystal Palace in the Premier League on Friday Night Football; kick-off 8pm.",
+        "longDescription": ""
+    },
+    {
+        "key": 2,
+        "title": "Villa target Bissouma in no rush to leave Brighton",
+        "link": "https://www.skysports.com/football/news/11741/12515076/yves-bissouma-aston-villa-target-in-no-rush-to-leave-brighton-in-january-as-bigger-clubs-track-mali-midfielder",
+        "imageSource": "https://e2.365dm.com/21/08/384x216/skysports-yves-bissouma-brighton_5476632.jpg?20210812163732",
+        "shortDescription": "Yves Bissouma is in no rush to leave Brighton this month amid interest from Aston Villa - and manager Graham Potter is \"confident\" he will stay.",
+        "longDescription": ""
+    },
+    {
+        "key": 3,
+        "title": "Buendia: Coutinho and I can play together",
+        "link": "https://www.skysports.com/football/news/11095/12513492/emi-buendia-on-aston-villa-form-steven-gerrard-philippe-coutinho-lucas-digne-lionel-messi-dream",
+        "imageSource": "https://e2.365dm.com/22/01/384x216/skysports-buendia-aston-villa_5638340.jpg?20220111121706",
+        "shortDescription": "Aston Villa creator Emi Buendia has hit form in recent weeks but now faces direct competition from loan signing Philippe Coutinho... or does he? ",
+        "longDescription": ""
+    },
+    {
+        "key": 4,
+        "title": "Hibs' McGinn given two-game ban for 'inept' referee criticism",
+        "link": "https://www.skysports.com/football/news/11792/12515146/paul-mcginn-hibernian-defender-receives-two-game-ban-for-criticising-league-cup-final-referee-john-beaton",
+        "imageSource": "https://e2.365dm.com/21/12/384x216/skysports-mcginn-hibs_5620723.jpg?20211219220155",
+        "shortDescription": "Hibernian defender Paul McGinn has been banned for two games following criticism of League Cup final referee John Beaton.",
+        "longDescription": ""
+    },
+    {
+        "key": 5,
+        "title": "Cameroon vs Ethiopia: Latest score",
+        "link": "https://www.skysports.com/football/cameroon-vs-ethiopia/457206",
+        "imageSource": "https://e0.365dm.com/22/01/384x216/skysports-karl-toko-ekambi_5640542.jpg?20220113162801",
+        "shortDescription": "Follow all the action from the Olembe Stadium as Cameroon face Ethiopia in Group A of the Africa Cup of Nations. Watch live on Sky Sports PL.",
+        "longDescription": ""
+    },
+    {
+        "key": 6,
+        "title": "Newcastle make offer for Sevilla defender Carlos",
+        "link": "https://www.skysports.com/football/news/12040/12514895/diego-carlos-newcasle-pushing-to-sign-defender-and-are-awaiting-response-from-sevilla-after-submitting-bid",
+        "imageSource": "https://e2.365dm.com/22/01/384x216/skysports-diego-carlos-sevilla_5640211.jpg?20220113152716",
+        "shortDescription": "Newcastle are continuing to push to sign Diego Carlos and are awaiting a response from Sevilla after submitting a bid for the defender.",
+        "longDescription": ""
+    },
+    {
+        "key": 7,
+        "title": "Scottish Premiership returns: What is at stake?",
+        "link": "https://www.skysports.com/football/news/11781/12512917/scottish-premiership-returns-will-rangers-retain-the-title-how-will-the-relegation-battle-go",
+        "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-spfl-scot-prem-return_5639353.jpg?20220113152820",
+        "shortDescription": "Will Rangers retain the title? How will the relegation battle go? Who are the January signings to look out for? Here's your guide as the Scottish Premiership resumes.",
+        "longDescription": ""
+    },
+    {
+        "key": 8,
+        "title": "Prutton's Championship predictions",
+        "link": "https://www.skysports.com/football/news/11688/12514966/david-pruttons-sky-bet-championship-predictions",
+        "imageSource": "https://e0.365dm.com/20/10/384x216/skysports-david-prutton-predictions_5148395.jpg?20201024113201",
+        "shortDescription": "Who is David Prutton tipping for victory in the Sky Bet Championship this weekend? Find out here...",
+        "longDescription": ""
+    },
+    {
+        "key": 9,
         "title": "Shrewsbury fan arrested for Hillsborough chants",
         "link": "https://www.skysports.com/football/news/11095/12514939/police-confirm-arrest-of-man-for-abusive-chants-about-hillsborough-disaster-before-shrewsburys-fa-cup-tie-at-liverpool",
         "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-anfield-liverpool_5637452.jpg?20220110123351",
@@ -8,7 +80,7 @@
         "longDescription": ""
     },
     {
-        "key": 1,
+        "key": 10,
         "title": "The seven-day shake-up: Relegation picture analysed",
         "link": "https://www.skysports.com/football/news/11686/12512990/premier-league-relegation-battle-analysed-with-key-fixtures-over-the-next-seven-days",
         "imageSource": "https://e2.365dm.com/22/01/384x216/skysports-graphic-relegation_5640162.jpg?20220113102538",
@@ -16,7 +88,7 @@
         "longDescription": ""
     },
     {
-        "key": 2,
+        "key": 11,
         "title": "Newcastle transfer rumours: Van de Beek next arrival?",
         "link": "https://www.skysports.com/football/news/11678/12428783/newcastle-united-transfer-rumours-january-transfer-window-targets",
         "imageSource": "https://e2.365dm.com/21/10/384x216/skysports-donny-van-der-beek_5535185.jpg?20211004194348",
@@ -24,7 +96,7 @@
         "longDescription": ""
     },
     {
-        "key": 3,
+        "key": 12,
         "title": "Houghton signs Man City contract extension",
         "link": "https://www.skysports.com/football/news/11095/12514914/steph-houghton-signs-manchester-city-contract-extension",
         "imageSource": "https://e2.365dm.com/22/01/384x216/skysports-steph-houghton-man-city_5640234.jpg?20220113120625",
@@ -32,7 +104,7 @@
         "longDescription": ""
     },
     {
-        "key": 4,
+        "key": 13,
         "title": "AFCON: Who made the team of the round?",
         "link": "https://www.skysports.com/football/news/11095/12514931/africa-cup-of-nations-who-made-whoscored-coms-team-of-the-round",
         "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-sadio-mane-senegal_5637677.jpg?20220110155413",
@@ -40,7 +112,7 @@
         "longDescription": ""
     },
     {
-        "key": 5,
+        "key": 14,
         "title": "Why Villa have moved for Digne",
         "link": "https://www.skysports.com/football/news/11096/12512995/lucas-digne-to-aston-villa-the-stats-which-show-why-steven-gerrard-has-moved-for-the-everton-left-back",
         "imageSource": "https://e0.365dm.com/22/01/384x216/skysports-lucas-digne-aston-villa_5640093.jpg?20220113093234",
@@ -48,7 +120,7 @@
         "longDescription": ""
     },
     {
-        "key": 6,
+        "key": 15,
         "title": "Digne joins Villa for \u00a325m: 'I came here for the manager'",
         "link": "https://www.skysports.com/football/news/11677/12514196/lucas-digne-aston-villa-complete-signing-of-everton-left-back-in-deal-worth-up-to-25m",
         "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-lucas-digne-aston-villa_5640094.jpg?20220113093311",
@@ -56,7 +128,7 @@
         "longDescription": ""
     },
     {
-        "key": 7,
+        "key": 16,
         "title": "Newcastle sign Burnley striker Wood for \u00a325m",
         "link": "https://www.skysports.com/football/news/11095/12514215/newcastle-transfer-news-chris-wood-signs-from-burnley-in-25m-deal-to-become-second-january-arrival",
         "imageSource": "https://e2.365dm.com/22/01/384x216/skysports-chris-wood-newcastle-united_5640152.jpg?20220113101801",
@@ -64,7 +136,7 @@
         "longDescription": ""
     },
     {
-        "key": 8,
+        "key": 17,
         "title": "Man Utd transfer rumours: Brighton's Lamptey wanted for \u00a330m",
         "link": "https://www.skysports.com/football/news/11667/12482956/man-utd-transfer-news-and-rumours-january-transfer-window-2022",
         "imageSource": "https://e2.365dm.com/22/01/384x216/skysports-tariq-lamptey-brighton_5633784.jpg?20220106073917",
@@ -72,7 +144,7 @@
         "longDescription": ""
     },
     {
-        "key": 9,
+        "key": 18,
         "title": "Chelsea transfer rumours: Rudiger to stay after U-turn?",
         "link": "https://www.skysports.com/football/news/11668/12482950/chelsea-transfer-news-and-rumours-january-transfer-window-2022",
         "imageSource": "https://e1.365dm.com/21/10/384x216/skysports-antonio-rudiger-chelsea_5543011.jpg?20211011131540",
@@ -80,83 +152,11 @@
         "longDescription": ""
     },
     {
-        "key": 10,
+        "key": 19,
         "title": "Race for the Premier League top four examined",
         "link": "https://www.skysports.com/football/news/11661/12510327/premier-league-top-four-race-for-champions-league-qualification-analysed-by-form-fixtures-and-sky-sports-pundit-alan-smith",
         "imageSource": "https://e2.365dm.com/22/01/384x216/skysports-graphic-man-utd-arsenal_5637151.jpg?20220110075148",
         "shortDescription": "With the help of Sky Sports' Alan Smith, we assess the runners and riders in the race for the top four, their form and their fixtures until the end of the season...",
-        "longDescription": ""
-    },
-    {
-        "key": 11,
-        "title": "'Caged lion' Sanchez wins Inter Italian Super Cup",
-        "link": "https://www.skysports.com/football/news/11095/12514669/inter-milan-2-1-juventus-aet-alexis-sanchez-hits-last-gasp-winner-in-italian-super-cup",
-        "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-alexis-sanchez-inter_5639857.jpg?20220112232507",
-        "shortDescription": "Alexis Sanchez's last-gasp goal in extra-time won the Italian Super Cup for Inter Milan, snatching a 2-1 victory over rivals Juventus.",
-        "longDescription": ""
-    },
-    {
-        "key": 12,
-        "title": "Moyes tips Bowen for England call-up as West Ham beat Norwich",
-        "link": "https://www.skysports.com/football/west-ham-united-vs-norwich-city/report/446466",
-        "imageSource": "https://e0.365dm.com/22/01/384x216/skysports-jarrod-bowen-west-ham_5639910.jpg?20220113062801",
-        "shortDescription": "West Ham moved back into the Champions League places after sweeping aside rock-bottom Norwich 2-0 at the London Stadium in the Premier League on Wednesday.",
-        "longDescription": ""
-    },
-    {
-        "key": 13,
-        "title": "Ronaldo: I'm not at Man Utd to compete for sixth or seventh",
-        "link": "https://www.skysports.com/football/news/11667/12514613/cristiano-ronaldo-says-manchester-united-interim-boss-ralf-rangnick-needs-time-to-implement-his-ideas-at-old-trafford",
-        "imageSource": "https://e2.365dm.com/21/12/384x216/skysports-ralf-rangnick-cristiano-ronaldo_5605752.jpg?20211205205816",
-        "shortDescription": "Cristiano Ronaldo says it is not acceptable for Man Utd to be\u00a0aiming for anything less than a top-three\u00a0Premier League finish this season.",
-        "longDescription": ""
-    },
-    {
-        "key": 14,
-        "title": "Papers: Barcelona giving up on Dembele",
-        "link": "https://www.skysports.com/football/news/11095/12514631/ousmane-dembele-set-for-summer-premier-league-move-with-no-barcelona-agreement-paper-talk",
-        "imageSource": "https://e2.365dm.com/19/10/384x216/skysports-paper-talk-papers_4819668.jpg?20200516213727",
-        "shortDescription": "All the top stories and transfer rumours from Thursday's national newspapers...",
-        "longDescription": ""
-    },
-    {
-        "key": 15,
-        "title": "Rudiger: I have enjoyed this Chelsea chapter | Redknapp: Sign him up!",
-        "link": "https://www.skysports.com/football/news/11668/12514643/antonio-rudiger-i-have-enjoyed-this-chelsea-chapter-jamie-redknapp-tells-chelsea-to-sign-him-up",
-        "imageSource": "https://e2.365dm.com/22/01/384x216/skysports-antonio-rudiger-football_5639830.jpg?20220112223947",
-        "shortDescription": "Chelsea's soon-to-be out-of-contract Antonio Rudiger said he has enjoyed this chapter of his career while Jamie Redknapp has urged the club to sign him up.",
-        "longDescription": ""
-    },
-    {
-        "key": 16,
-        "title": "Chelsea ease past Spurs into Carabao Cup final",
-        "link": "https://www.skysports.com/football/tottenham-hotspur-vs-chelsea/report/462112",
-        "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-chelsea-fc_5639734.jpg?20220112211356",
-        "shortDescription": "Chelsea booked their spot in the Carabao Cup final as they eased past Tottenham 3-0 on aggregate.",
-        "longDescription": ""
-    },
-    {
-        "key": 17,
-        "title": "Hemp scores twice as Man City thrash Leicester to reach QFs",
-        "link": "https://www.skysports.com/football/leicester-city-women-vs-manchester-city-women/report/458128",
-        "imageSource": "https://e0.365dm.com/22/01/384x216/skysports-losada-stanway-man-city_5639811.jpg?20220112221704",
-        "shortDescription": "Manchester City booked their place in the Continental Cup knockouts with a 5-0 thrashing of Leicester City.",
-        "longDescription": ""
-    },
-    {
-        "key": 18,
-        "title": "Ronaldo: Rangnick will do a good job at Man Utd",
-        "link": "https://www.skysports.com/watch/video/12514632/cristiano-ronaldo-ralf-rangnick-needs-time-at-manchester-utd",
-        "imageSource": "https://e0.365dm.com/22/01/384x216/cbcd28f0f399bc2573375efe0c4694efc37379be52fb90c2ac060b75e393ff9f_5639787.jpg?20220112215904",
-        "shortDescription": "Cristiano Ronaldo says he expects Ralf Rangnick to do a good job at Manchester United but needs to be given time to turn things around.",
-        "longDescription": ""
-    },
-    {
-        "key": 19,
-        "title": "Real reach Super Cup final with Saudi Clasico win",
-        "link": "https://www.skysports.com/football/barcelona-vs-real-madrid/report/450481",
-        "imageSource": "https://e0.365dm.com/22/01/384x216/skysports-federico-valverde_5639798.jpg?20220112220517",
-        "shortDescription": "Real Madrid booked their ticket to the Spanish Super Cup final in Saudi Arabia courtesy of a 3-2 extra-time win over Barcelona - their fifth straight El Clasico victory.",
         "longDescription": ""
     }
 ]
