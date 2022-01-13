@@ -2,6 +2,7 @@ import * as React from "react";
 import "antd/dist/antd.css";
 import scoresData from "../../scoresData.json";
 import ScoreCard from "../ScoreCard/ScoreCard.jsx";
+import ScoreCardLarge from "../ScoreCardLarge/ScoreCardLarge.jsx";
 
 class ScoresSection extends React.Component {
   cardCount;
@@ -18,7 +19,9 @@ class ScoresSection extends React.Component {
   }
 
   createScoreCard = (cardInfo) => {
-    return <ScoreCard key={cardInfo.key} cardInfo={cardInfo} />;
+    if (this.props.scoreCardIsLarge)
+      return <ScoreCardLarge key={cardInfo.key} cardInfo={cardInfo} />;
+    else return <ScoreCard key={cardInfo.key} cardInfo={cardInfo} />;
   };
 
   choseScoreItems = () => {

@@ -9,6 +9,7 @@ class ScoresPage extends React.Component {
       <div className="scores-page-main ant-row">
         <div className="ant-col ant-col-12">
           <ScoresSection
+            scoreCardIsLarge={true}
             sectionHeading=""
             cardCount={Math.trunc(scoresData.length / 2)}
             cardStart="0"
@@ -16,6 +17,7 @@ class ScoresPage extends React.Component {
         </div>
         <div className="ant-col ant-col-12">
           <ScoresSection
+            scoreCardIsLarge={true}
             sectionHeading=""
             cardCount={Math.trunc(scoresData.length / 2)}
             cardStart={Math.trunc(scoresData.length / 2)}
