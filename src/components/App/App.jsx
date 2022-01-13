@@ -2,20 +2,44 @@ import React from "react";
 import Navbar from "../Navbar/Navbar.jsx";
 import Footer from "../Footer/Footer.jsx";
 import LandingPage from "../LandingPage/LandingPage.jsx";
+import ScoresPage from "../ScoresPage/ScoresPage.jsx";
+import NewsPage from "../NewsPage/NewsPage.jsx";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="main-app-container">
       <Navbar
         pages={[
-          "Live Scores",
-          "Statistics",
-          "News",
-          "Market Value",
-          "Coaches Center",
+          {
+            name: "Live Scores",
+            link: "/live_scores",
+          },
+          {
+            name: "Statistics",
+            link: "/statistics",
+          },
+          {
+            name: "News",
+            link: "/news",
+          },
+          {
+            name: "Market Value",
+            link: "/market_value",
+          },
+          {
+            name: "Coaches Center",
+            link: "/coaches_center",
+          },
         ]}
       />
-      <LandingPage />
+
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="live_scores" element={<ScoresPage />} />
+        <Route path="news" element={<NewsPage />} />
+      </Routes>
+
       <Footer
         pages={[
           {

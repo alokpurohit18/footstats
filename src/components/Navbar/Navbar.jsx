@@ -3,6 +3,7 @@ import Avatar from "@mui/material/Avatar";
 import "antd/dist/antd.css";
 import { appLogo, appName } from "../../variables";
 import Search from "../Search/Search.jsx";
+import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
 class Navbar extends React.Component {
@@ -13,10 +14,10 @@ class Navbar extends React.Component {
     this.pages = this.props.pages;
   }
 
-  createNavElement = (pageName) => {
+  createNavElement = (pageObject) => {
     return (
-      <div key={pageName} className="nav-element ant-col">
-        <a href="in">{pageName}</a>
+      <div key={pageObject.name} className="nav-element ant-col">
+        <Link to={pageObject.link}>{pageObject.name}</Link>
       </div>
     );
   };
@@ -31,7 +32,7 @@ class Navbar extends React.Component {
         </div>
 
         <div className="app-name-container ant-col ant-col-4">
-          <a href="in">Welcome to {appName}!!!</a>
+          <Link to="/">Welcome to {appName}!!!</Link>
         </div>
 
         {this.pages.map(this.createNavElement)}
