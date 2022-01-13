@@ -1,6 +1,6 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import { combinedLogo } from "../../variables";
+import { appName, combinedLogo } from "../../variables";
 
 class Footer extends React.Component {
   pages;
@@ -10,33 +10,50 @@ class Footer extends React.Component {
     this.pages = this.props.pages;
   }
 
-  createNavElement = (pageName) => {
+  createNavElement = (pageObject) => {
     return (
-      <div key={pageName} className="nav-element ant-col">
-        <a href="in">{pageName}</a>
+      <div key={pageObject.name} className="nav-element ant-col">
+        <a href={pageObject.link} target="_blank" rel="noreferrer">
+          {pageObject.name}
+        </a>
       </div>
     );
   };
 
   render() {
     return (
-      <div className="footer-main ant-row">
-        <div className="ant-col">
-          <img
-            className="comined-app-logo"
-            alt="Combined App Logo"
-            src={combinedLogo}
-          />
-        </div>
+      <div className="footer-main">
+        <div className="footer-container  ant-row">
+          <div className="ant-col ant-col-4">
+            <img
+              className="combined-app-logo"
+              alt="Combined App Logo"
+              src={combinedLogo}
+            />
+          </div>
 
-        {this.pages.map(this.createNavElement)}
+          <div className="ant-col ant-col-16">
+            <div className="nav-container ant-row">
+              {this.pages.map(this.createNavElement)}
+            </div>
+            <div className="copyright-container ant-row">
+              <span className="copyright-info">
+                {"Copyright: © " +
+                  new Date().getFullYear() +
+                  " " +
+                  appName +
+                  " Ltd. All rights reserved."}
+              </span>
+            </div>
+          </div>
 
-        <div className="ant-col">
-          <img
-            className="comined-app-logo"
-            alt="Combined App Logo"
-            src={combinedLogo}
-          />
+          <div className="ant-col ant-col-4">
+            <img
+              className="combined-app-logo"
+              alt="Combined App Logo"
+              src={combinedLogo}
+            />
+          </div>
         </div>
       </div>
     );

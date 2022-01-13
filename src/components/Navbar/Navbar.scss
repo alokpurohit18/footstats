@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 .navbar-main,
-.footer-main {
+.footer-container {
   text-align: center;
   background-color: black;
   margin: 0.5%;
@@ -10,10 +10,42 @@
   padding: 1vw;
 }
 
+.footer-main {
+  padding-bottom: 0.1vw;
+}
+
 .app-name-container {
   margin-right: 5vw;
 }
 
 .nav-element {
   margin-right: 2vw;
+}
+
+.footer-container {
+  .nav-element {
+    margin-left: 4.3vw;
+    margin-right: 4.3vw;
+    text-decoration: underline;
+    font-size: 1.25vw;
+  }
+}
+
+.combined-app-logo {
+  width: 15vw;
+  border-radius: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.copyright-container {
+  margin-top: 2vw;
+
+  .copyright-info {
+    color: $secondary-text-color;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.25vw;
+  }
 }

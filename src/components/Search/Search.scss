@@ -6,6 +6,12 @@
   margin-left: 6vw;
 }
 
+@-moz-document url-prefix() {
+  .search-container {
+    margin-left: 5vw;
+  }
+}
+
 .search-bar {
   font-style: oblique;
   caret-color: transparent;
