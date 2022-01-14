@@ -1,15 +1,5 @@
 @import "../../variables.scss";
 
-.news-card-main,
-.score-card-main,
-.score-card-large-main {
-  background-color: $primary-color;
-  margin-bottom: 1vw;
-  border-radius: 10px;
-  padding: 1vw;
-  filter: drop-shadow(5px 5px 2px #2b2b2b);
-}
-
 .score-card-main,
 .score-card-large-main {
   margin-left: 2vw;
@@ -61,6 +51,21 @@
   .game-status {
     text-align: center;
     font-size: 1.25vw;
+  }
+
+  .team-scorers {
+    font-size: 1vw;
+    margin-top: 1vw;
+
+    .home-team-scorers {
+      text-align: right;
+      margin-left: 1.75vw;
+    }
+
+    .away-team-scorers {
+      text-align: left;
+      margin-left: 5vw;
+    }
   }
 }
 

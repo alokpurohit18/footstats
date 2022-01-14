@@ -9,6 +9,25 @@ class ScoreCardLarge extends React.Component {
     this.cardInfo = this.props.cardInfo;
   }
 
+  loadSoccerBall = (team) => {
+    if (team === "home") {
+      if (
+        this.cardInfo.home_scorers === "" ||
+        this.cardInfo.home_scorers === " "
+      ) {
+        return;
+      } else {
+        return "⚽";
+      }
+    } else {
+      if (this.cardInfo.away_scorers === "") {
+        return;
+      } else {
+        return "⚽";
+      }
+    }
+  };
+
   render() {
     return (
       <div className="score-card-large-main">
@@ -45,10 +64,13 @@ class ScoreCardLarge extends React.Component {
           </div>
         </div>
         <div className="team-scorers ant-row">
-          <div className="home-team-scorers ant-col ant-col-12">
+          <div className="home-team-scorers ant-col ant-col-7">
             {this.cardInfo.home_scorers}
+            {this.loadSoccerBall("home")}
           </div>
-          <div className="away-team-scorers ant-col ant-col-12">
+          <div className="ant-col ant-col-7"></div>
+          <div className="away-team-scorers ant-col ant-col-7">
+            {this.loadSoccerBall("away")}
             {this.cardInfo.away_scorers}
           </div>
         </div>

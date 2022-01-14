@@ -123,19 +123,23 @@ def create_scores_data(url):
             home_goal_scorers = goal_scorers[0].text.strip()
             home_goal_scorers = home_goal_scorers.replace("\n", "")
             home_goal_scorers = home_goal_scorers.replace("\t", "")
+            home_goal_scorers = home_goal_scorers + " "
             away_goal_scorers = goal_scorers[1].text.strip()
             away_goal_scorers = away_goal_scorers.replace("\n", "")
             away_goal_scorers = away_goal_scorers.replace("\t", "")
+            away_goal_scorers = " " + away_goal_scorers
 
         if(len(goal_scorers) == 1):
             if(home_score > away_score):
                 home_goal_scorers = goal_scorers[0].text.strip()
                 home_goal_scorers = home_goal_scorers.replace("\n", "")
                 home_goal_scorers = home_goal_scorers.replace("\t", "")
+                home_goal_scorers = home_goal_scorers + " "
             else:
                 away_goal_scorers = goal_scorers[0].text.strip()
                 away_goal_scorers = away_goal_scorers.replace("\n", "")
                 away_goal_scorers = away_goal_scorers.replace("\t", "")
+                away_goal_scorers = " " + away_goal_scorers
         
         final_score_object = {
             "key": counter,
