@@ -1,6 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import LeagueConversion from "../../leagueConversion.json";
+import ScoreCard from "../ScoreCard/ScoreCard.jsx";
 
 class ScoreCardLarge extends React.Component {
   cardInfo;

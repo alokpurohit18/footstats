@@ -42,6 +42,6 @@ class ScoresSection extends React.Component {
         {this.cardDetailsArray.map(this.createScoreCard)}
       </div>
     );
-  }
+  } 
 }
 export default ScoresSection;
