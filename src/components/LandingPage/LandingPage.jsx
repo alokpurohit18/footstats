@@ -11,7 +11,7 @@ class LandingPage extends React.Component {
         <div className="news-section-container ant-col ant-col-8">
           <NewsSection
             sectionHeading="Latest News"
-            cardCount="4"
+            cardCount="5"
             cardStart="0"
           />
         </div>

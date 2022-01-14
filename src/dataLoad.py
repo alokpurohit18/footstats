@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 os.chdir("F:/Projects/footstats/src")
 
 news_url = "https://www.skysports.com/football/news"
-scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
+scores_url = "https://www.espn.in/football/scoreboard/_/league/all/date/20220113"
 stats_url = ""
 
 final_news_data = []
@@ -110,7 +110,7 @@ def create_scores_data(url):
 
         game_status = score_card.find("div", {"class": "game-status"})
 
-        goal_scorers = score_card.find_all("div", {"class": "team-info players"})
+        goal_scorers = score_card.find_all("ul", {"class": "icon-soccer-ball"})
         home_goal_scorers = ""
         away_goal_scorers = ""
 

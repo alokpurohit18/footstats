@@ -9,22 +9,16 @@ class ScoresPage extends React.Component {
       <div className="scores-page-main">
         <h2>Football Scores</h2>
         <div className="ant-row">
-          <div className="ant-col ant-col-12">
+          <div className="ant-col ant-col-2"></div>
+          <div className="ant-col ant-col-20">
             <ScoresSection
               scoreCardIsLarge={true}
               sectionHeading=""
-              cardCount={Math.trunc(scoresData.length / 2)}
+              cardCount={scoresData.length}
               cardStart="0"
             />
           </div>
-          <div className="ant-col ant-col-12">
-            <ScoresSection
-              scoreCardIsLarge={true}
-              sectionHeading=""
-              cardCount={Math.trunc(scoresData.length / 2)}
-              cardStart={Math.trunc(scoresData.length / 2)}
-            />
-          </div>
+          <div className="ant-col ant-col-2"></div>
         </div>
       </div>
     );

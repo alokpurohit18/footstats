@@ -1,7 +1,8 @@
 @import "../../variables.scss";
 
 .news-card-main,
-.score-card-main {
+.score-card-main,
+.score-card-large-main {
   background-color: $primary-color;
   margin-bottom: 1vw;
   border-radius: 10px;
@@ -9,7 +10,8 @@
   filter: drop-shadow(5px 5px 2px #2b2b2b);
 }
 
-.score-card-main {
+.score-card-main,
+.score-card-large-main {
   margin-left: 2vw;
   margin-right: 2vw;
 
@@ -17,6 +19,53 @@
     color: $secondary-text-color;
     text-align: center;
   }
+
+  .team-name,
+  .score {
+    font-size: 1.5vw;
+  }
+
+  .score {
+    font-weight: bold;
+    margin-left: 0.35vw;
+    margin-right: 0.35vw;
+    text-align: center;
+  }
+
+  .arrow-icon {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .team-name-left {
+    text-align: right;
+    margin-left: 0;
+    margin-right: 1vw;
+  }
+
+  .team-name-right {
+    text-align: left;
+    margin-right: 0;
+    margin-left: 1vw;
+  }
+}
+
+.score-card-large-main {
+  margin-bottom: 2vw;
+
+  h3 {
+    font-size: 1.25vw;
+    margin-bottom: 1vw;
+  }
+
+  .game-status {
+    text-align: center;
+    font-size: 1.25vw;
+  }
+}
+
+.score-card-main .game-status {
+  margin-left: 0.35vw;
 }
 
 .team-name,
@@ -37,7 +86,6 @@
 
 .game-status {
   font-size: 0.8vw;
-  margin-left: 0.35vw;
   margin-top: auto;
   margin-bottom: auto;
 }
