@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 os.chdir("F:/Projects/footstats/src")
 
 news_url = "https://www.skysports.com/football/news"
-scores_url = "https://www.espn.in/football/scoreboard/_/league/all/date/20220113"
+scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
 stats_url = ""
 
 final_news_data = []
