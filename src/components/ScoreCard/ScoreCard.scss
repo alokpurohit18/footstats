@@ -2,7 +2,7 @@
 
 .news-card-main,
 .score-card-main {
-  background-color: black;
+  background-color: $primary-color;
   margin-bottom: 1vw;
   border-radius: 10px;
   padding: 1vw;
@@ -14,7 +14,7 @@
   margin-right: 2vw;
 
   h3 {
-    color: white;
+    color: $secondary-text-color;
     text-align: center;
   }
 }

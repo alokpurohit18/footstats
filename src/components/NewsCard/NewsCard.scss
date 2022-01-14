@@ -15,7 +15,7 @@
 .news-image {
   height: 60%;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid $secondary-text-color;
 }
 
 .scores-section-main,
@@ -23,11 +23,5 @@
   h2 {
     text-align: center;
     color: $secondary-text-color;
-  }
-}
-
-.news-section-main {
-  h2 {
-    padding-left: 0.5vw;
   }
 }
