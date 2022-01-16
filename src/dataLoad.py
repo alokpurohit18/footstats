@@ -4,7 +4,7 @@ import sys
 import requests
 import os
 from bs4 import BeautifulSoup
-from selenium.webdriver import Chrome
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 os.chdir("F:/Projects/footstats/src")
@@ -17,8 +17,10 @@ final_news_data = []
 final_scores_data = []
 final_stats_data = []
 
-
-driver = Chrome()
+options = webdriver.ChromeOptions()
+options.headless = True
+driver = webdriver.Chrome(chrome_options=options)
+#driver.set_window_position(-10000,0)
 
 def create_selenium_driver(url):
     driver.get(url)
