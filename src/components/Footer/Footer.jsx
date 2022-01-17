@@ -1,6 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import { appName, combinedLogo } from "../../variables";
+import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
   pages;
@@ -13,9 +14,7 @@ class Footer extends React.Component {
   createNavElement = (pageObject) => {
     return (
       <div key={pageObject.name} className="nav-element ant-col">
-        <a href={pageObject.link} target="_blank" rel="noreferrer">
-          {pageObject.name}
-        </a>
+        <Link to={pageObject.link}>{pageObject.name}</Link>
       </div>
     );
   };
@@ -23,7 +22,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer-main">
-        <div className="footer-container  ant-row">
+        <div className="footer-container ant-row">
           <div className="ant-col ant-col-4">
             <img
               className="combined-app-logo"

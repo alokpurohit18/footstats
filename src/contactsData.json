@@ -1,0 +1,54 @@
+[
+  {
+    "key": 0,
+    "name": "Alok Rajpurohit",
+    "photo": "https://media-exp1.licdn.com/dms/image/C5603AQHqMyjRsREPEQ/profile-displayphoto-shrink_400_400/0/1623948421159?e=1648080000&v=beta&t=TKG7sLAiEbHfa_66haUmx-qbfHhCysbyFTcT73tcs6c",
+    "affiliation": "NMIMS University, Mumbai",
+    "links": {
+      "email": "alok.rajpurohit76@nmims.edu.in",
+      "phone": "+91 7718064605",
+      "linkedin": "https://www.linkedin.com/in/alok-rajpurohit-1941461a3",
+      "github": "https://github.com/alokpurohit18",
+      "website": "https://alokpurohit18.github.io/PersonalWebsite"
+    }
+  },
+  {
+    "key": 1,
+    "name": "Rushang Phira",
+    "photo": "https://media-exp1.licdn.com/dms/image/C5603AQHYtiLjd9_kFg/profile-displayphoto-shrink_400_400/0/1620735941517?e=1648080000&v=beta&t=iIXJmXBb4bOGORSzSJkiI_agMdut7AHr67NGWPvp-1w",
+    "affiliation": "NMIMS University, Mumbai",
+    "links": {
+      "email": "rushang.phira78@nmims.edu.in",
+      "phone": "+91 9869760860",
+      "linkedin": "https://www.linkedin.com/in/rushang-phira",
+      "github": "https://github.com/rphira",
+      "website": "https://alokpurohit18.github.io/PersonalWebsite"
+    }
+  },
+  {
+    "key": 2,
+    "name": "Aniket Raman",
+    "photo": "https://media-exp1.licdn.com/dms/image/C4E03AQFGrHjL22PKnw/profile-displayphoto-shrink_400_400/0/1607001267894?e=1648080000&v=beta&t=e4WfWE6CkiXMZVCl8GSJALhv4x2zv_xSjnfhaR2KOkQ",
+    "affiliation": "NMIMS University, Mumbai",
+    "links": {
+      "email": "aniket.raman79@nmims.edu.in",
+      "phone": "+91 9769910607",
+      "linkedin": "https://www.linkedin.com/in/aniket-raman-a95907200",
+      "github": "",
+      "website": "https://alokpurohit18.github.io/PersonalWebsite"
+    }
+  },
+  {
+    "key": 3,
+    "name": "Shaurya Rawat",
+    "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQH9rSO66i8Zwg/profile-displayphoto-shrink_400_400/0/1579288525126?e=1648080000&v=beta&t=L4c7Zvtche16ue_7ybRjgNe9bFD9C01-WdBXwmi1iRM",
+    "affiliation": "NMIMS University, Mumbai",
+    "links": {
+      "email": "shaurya.rawat82@nmims.edu.in",
+      "phone": "+91 7506071799",
+      "linkedin": "https://www.linkedin.com/in/shaurya-rawat-12b983191",
+      "github": "https://github.com/shauryarawat1",
+      "website": "https://alokpurohit18.github.io/PersonalWebsite"
+    }
+  }
+]

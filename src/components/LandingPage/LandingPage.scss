@@ -2,7 +2,9 @@
 
 .landing-page-main,
 .news-page-main,
-.scores-page-main {
+.scores-page-main,
+.document-page-main,
+.contact-page-main {
   margin: 0.5%;
   border-radius: 10px;
   padding: 1vw;
@@ -16,13 +18,31 @@
 }
 
 .news-page-main,
-.scores-page-main {
+.scores-page-main,
+.document-page-main,
+.contact-page-main {
   padding-left: 5vw;
   padding-right: 5vw;
 
   .news-card-main,
-  .scores-card-main {
+  .scores-card-main,
+  .contact-card-main {
     margin-left: 2vw;
     margin-right: 2vw;
   }
+
+  .document {
+    display: block;
+    width: 60vw;
+    height: 40vw;
+    margin-top: 1.5vw;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+  }
+}
+
+.contact-card-main {
+  margin-top: 0.5vw;
+  margin-bottom: 2vw;
 }
