@@ -1,7 +1,6 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import ContactCard from "../ContactCard/ContactCard.jsx";
-import contactsData from "../../contactsData.json";
 
 class ContactPage extends React.Component {
   contactsData1;
@@ -12,10 +11,10 @@ class ContactPage extends React.Component {
   };
 
   splitContactsData = () => {
-    this.contactsData2 = contactsData;
-    this.contactsData1 = contactsData.splice(
+    this.contactsData2 = this.props.contactsData;
+    this.contactsData1 = this.props.contactsData.splice(
       0,
-      Math.trunc(contactsData.length / 2)
+      Math.trunc(this.props.contactsData.length / 2)
     );
   };
 
