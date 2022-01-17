@@ -7,7 +7,6 @@ import NewsPage from "../NewsPage/NewsPage.jsx";
 import { Routes, Route } from "react-router-dom";
 import DocumentPage from "../DocumentPage/DocumentPage.jsx";
 import ContactPage from "../ContactPage/ContactPage.jsx";
-import contactsData from "../../contactsData.json";
 
 function App() {
   return (
@@ -59,7 +58,7 @@ function App() {
             />
           }
         />
-        <Route path="contact_us" element={<ContactPage contactsData={contactsData}/>} />
+        <Route path="contact_us" element={<ContactPage />} />
       </Routes>
 
       <Footer
