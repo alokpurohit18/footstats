@@ -11,7 +11,7 @@ class ContactCard extends React.Component {
 
   loadSocialIcon = (src, href) => {
     return (
-      <div className="ant-col">
+      <div className="social-icon-container ant-col">
         <a href={href} target="_blank" rel="noreferrer">
           <img className="social-icon" alt="contact card media" src={src} />
         </a>
