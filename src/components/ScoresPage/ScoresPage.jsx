@@ -9,7 +9,13 @@ class ScoresPage extends React.Component {
     return (
       <div className="scores-page-main">
         <h2>Football Scores</h2>
-        <Menu />
+        <Menu
+          options={[
+            { value: "one", label: "One" },
+            { value: "two", label: "Two" },
+          ]}
+          placeholder="Select a League"
+        />
         <div className="ant-row">
           <div className="ant-col ant-col-2"></div>
           <div className="ant-col ant-col-20">
