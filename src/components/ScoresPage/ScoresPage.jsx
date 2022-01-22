@@ -3,19 +3,81 @@ import "antd/dist/antd.css";
 import ScoresSection from "../ScoresSection/ScoresSection.jsx";
 import Menu from "../Menu/Menu.jsx";
 import scoresData from "../../scoresData.json";
+import LeagueConversion from "../../leagueConversion.json";
 
 class ScoresPage extends React.Component {
+  leagueNames;
+  options;
+
+  constructor(props) {
+    super(props);
+    this.leagueNames = [];
+    this.options = [];
+  }
+
+  loadLeagueName = (cardInfo) => {
+    if (LeagueConversion[0][cardInfo.league] === undefined) {
+      let half_league_name = "";
+      let final_league_name = "";
+      if (cardInfo.league.charAt(4) === "1") {
+        half_league_name = " League";
+        final_league_name = cardInfo.league.split(".")[0] + half_league_name;
+      } else if (cardInfo.league.charAt(4) === "2") {
+        half_league_name = " League 2";
+        final_league_name = cardInfo.league.split(".")[0] + half_league_name;
+      } else if (cardInfo.league.charAt(4) === "3") {
+        half_league_name = " League 3";
+        final_league_name = cardInfo.league.split(".")[0] + half_league_name;
+      } else if (cardInfo.league.charAt(4) === "4") {
+        half_league_name = " League 4";
+        final_league_name = cardInfo.league.split(".")[0] + half_league_name;
+      } else {
+        half_league_name = cardInfo.league.split(".")[1];
+        half_league_name =
+          " " +
+          half_league_name.charAt(0).toUpperCase() +
+          half_league_name.slice(1);
+        final_league_name = cardInfo.league.split(".")[0] + half_league_name;
+      }
+
+      final_league_name =
+        final_league_name.charAt(0).toUpperCase() + final_league_name.slice(1);
+      this.leagueNames.push(final_league_name);
+    } else {
+      this.leagueNames.push(LeagueConversion[0][cardInfo.league]);
+    }
+  };
+
+  reduceLeagueNames = () => {
+    this.leagueNames = this.leagueNames.filter((value, index, self) => {
+      return self.indexOf(value) === index;
+    });
+
+    for (let i = 0; i < this.leagueNames.length; i++) {
+      this.options.push({
+        value: this.leagueNames[i],
+        label: this.leagueNames[i],
+      });
+    }
+  };
+
+  filterScoreCards = (val) => {
+    console.log("Selected: " + JSON.stringify(val));
+  };
+
   render() {
     return (
       <div className="scores-page-main">
         <h2>Football Scores</h2>
-        <Menu
-          options={[
-            { value: "one", label: "One" },
-            { value: "two", label: "Two" },
-          ]}
-          placeholder="Select a League"
-        />
+        <div className="menu-container">
+          {scoresData.map(this.loadLeagueName)}
+          {this.reduceLeagueNames()}
+          <Menu
+            options={this.options}
+            placeholder="Select a League"
+            filterScoreCards={this.filterScoreCards}
+          />
+        </div>
         <div className="ant-row">
           <div className="ant-col ant-col-2"></div>
           <div className="ant-col ant-col-20">

@@ -25,10 +25,6 @@ class Menu extends React.Component {
     };
   }
 
-  logChange = (val) => {
-    console.log("Selected: " + JSON.stringify(val));
-  };
-
   render() {
     return (
       <div className="dropdown-menu">
@@ -36,7 +32,7 @@ class Menu extends React.Component {
           name="dropdown-menu"
           placeholder={this.placeholder}
           options={this.options}
-          onChange={this.logChange()}
+          onChange={this.props.filterScoreCards()}
           isSearchable="true"
           styles={this.customStyles}
         />
