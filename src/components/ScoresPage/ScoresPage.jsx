@@ -1,6 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import ScoresSection from "../ScoresSection/ScoresSection.jsx";
+import Menu from "../Menu/Menu.jsx";
 import scoresData from "../../scoresData.json";
 
 class ScoresPage extends React.Component {
@@ -8,6 +9,7 @@ class ScoresPage extends React.Component {
     return (
       <div className="scores-page-main">
         <h2>Football Scores</h2>
+        <Menu />
         <div className="ant-row">
           <div className="ant-col ant-col-2"></div>
           <div className="ant-col ant-col-20">
