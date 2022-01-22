@@ -78,13 +78,21 @@ class ScoresSection extends React.Component {
       );
   };
 
-  choseScoreItems = () => {
+  choseScoreItems = (leagueFilter) => {
     let counter = 0;
     let start = this.cardStart;
-    while (counter < this.cardCount) {
-      this.cardDetailsArray.push(scoresData[start]);
-      counter++;
-      start++;
+    if (leagueFilter === "all") {
+      while (counter < this.cardCount) {
+        this.cardDetailsArray.push(scoresData[start]);
+        counter++;
+        start++;
+      }
+    } else {
+      for (let i = 0; i < scoresData.length; i++) {
+        if (scoresData[i].league === leagueFilter) {
+          this.cardDetailsArray.push(scoresData[i]);
+        }
+      }
     }
   };
 
@@ -92,7 +100,7 @@ class ScoresSection extends React.Component {
     return (
       <div className="scores-section-main">
         <h2>{this.sectionHeading}</h2>
-        {this.choseScoreItems()}
+        {this.choseScoreItems(this.props.leagueFilter)}
         {this.cardDetailsArray.map(this.createScoreCard)}
       </div>
     );

@@ -24,6 +24,7 @@ class ScoresPage extends React.Component {
               sectionHeading=""
               cardCount={scoresData.length}
               cardStart="0"
+              leagueFilter="all"
             />
           </div>
           <div className="ant-col ant-col-2"></div>
