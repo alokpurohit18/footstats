@@ -55,7 +55,6 @@ class ScoresPage extends React.Component {
   };
 
   reduceLeagueNames = () => {
-    this.options = [];
     this.leagueNames = this.leagueNames.filter((value, index, self) => {
       return self.indexOf(value) === index;
     });
