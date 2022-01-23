@@ -12,9 +12,9 @@ class ScoresPage extends React.Component {
 
   constructor(props) {
     super(props);
-    this.leagueNames = [];
+    this.leagueNames = ["All"];
+    this.leagueKeys = ["all"];
     this.options = [];
-    this.leagueKeys = [];
     this.state = {
       leagueFilter: "all",
     };
