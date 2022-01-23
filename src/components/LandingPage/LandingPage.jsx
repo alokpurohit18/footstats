@@ -20,6 +20,7 @@ class LandingPage extends React.Component {
             sectionHeading="Latest Fixtures"
             cardCount="5"
             cardStart="0"
+            leagueFilter="all"
           />
         </div>
         <div className="prediction-section-container ant-col ant-col-8"></div>

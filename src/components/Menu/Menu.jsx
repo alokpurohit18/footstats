@@ -32,8 +32,8 @@ class Menu extends React.Component {
           name="dropdown-menu"
           placeholder={this.placeholder}
           options={this.options}
-          onChange={this.props.filterScoreCards()}
-          isSearchable="true"
+          onChange={this.props.filterScoreCards}
+          isSearchable={true}
           styles={this.customStyles}
         />
       </div>

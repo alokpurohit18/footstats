@@ -7,15 +7,18 @@ import LeagueConversion from "../../leagueConversion.json";
 
 class ScoresPage extends React.Component {
   leagueNames;
+  leagueKeys;
   options;
 
   constructor(props) {
     super(props);
     this.leagueNames = [];
     this.options = [];
+    this.leagueKeys = [];
   }
 
   loadLeagueName = (cardInfo) => {
+    this.leagueKeys.push(cardInfo.league);
     if (LeagueConversion[0][cardInfo.league] === undefined) {
       let half_league_name = "";
       let final_league_name = "";
@@ -53,9 +56,13 @@ class ScoresPage extends React.Component {
       return self.indexOf(value) === index;
     });
 
+    this.leagueKeys = this.leagueKeys.filter((value, index, self) => {
+      return self.indexOf(value) === index;
+    });
+
     for (let i = 0; i < this.leagueNames.length; i++) {
       this.options.push({
-        value: this.leagueNames[i],
+        value: this.leagueKeys[i],
         label: this.leagueNames[i],
       });
     }
@@ -63,6 +70,18 @@ class ScoresPage extends React.Component {
 
   filterScoreCards = (val) => {
     console.log("Selected: " + JSON.stringify(val));
+  };
+
+  loadScoresSection = () => {
+    return (
+      <ScoresSection
+        scoreCardIsLarge={true}
+        sectionHeading=""
+        cardCount={scoresData.length}
+        cardStart="0"
+        leagueFilter="all"
+      />
+    );
   };
 
   render() {
@@ -80,15 +99,7 @@ class ScoresPage extends React.Component {
         </div>
         <div className="ant-row">
           <div className="ant-col ant-col-2"></div>
-          <div className="ant-col ant-col-20">
-            <ScoresSection
-              scoreCardIsLarge={true}
-              sectionHeading=""
-              cardCount={scoresData.length}
-              cardStart="0"
-              leagueFilter="all"
-            />
-          </div>
+          <div className="ant-col ant-col-20">{this.loadScoresSection()}</div>
           <div className="ant-col ant-col-2"></div>
         </div>
       </div>
