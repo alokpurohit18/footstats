@@ -81,6 +81,7 @@ class ScoresSection extends React.Component {
   choseScoreItems = (leagueFilter) => {
     let counter = 0;
     let start = this.cardStart;
+    this.cardDetailsArray = [];
     if (leagueFilter === "all") {
       while (counter < this.cardCount) {
         this.cardDetailsArray.push(scoresData[start]);

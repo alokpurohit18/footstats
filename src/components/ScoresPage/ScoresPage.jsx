@@ -15,6 +15,9 @@ class ScoresPage extends React.Component {
     this.leagueNames = [];
     this.options = [];
     this.leagueKeys = [];
+    this.state = {
+      leagueFilter: "all",
+    };
   }
 
   loadLeagueName = (cardInfo) => {
@@ -68,8 +71,10 @@ class ScoresPage extends React.Component {
     }
   };
 
-  filterScoreCards = (val) => {
-    console.log("Selected: " + JSON.stringify(val));
+  filterScoreCards = (selectedObject) => {
+    this.setState({
+      leagueFilter: selectedObject.value,
+    });
   };
 
   loadScoresSection = () => {
@@ -79,7 +84,7 @@ class ScoresPage extends React.Component {
         sectionHeading=""
         cardCount={scoresData.length}
         cardStart="0"
-        leagueFilter="all"
+        leagueFilter={this.state.leagueFilter}
       />
     );
   };
