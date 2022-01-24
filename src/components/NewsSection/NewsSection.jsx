@@ -1,6 +1,6 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import newsData from "../../newsData.json";
+import newsData from "../../data/newsData.json";
 import NewsCard from "../NewsCard/NewsCard.jsx";
 
 class NewsSection extends React.Component {

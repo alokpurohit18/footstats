@@ -13,7 +13,7 @@ app = flask.Flask(__name__)
 @app.route('/api', methods=['GET'])
 def api():    
 
-    os.chdir("F:/Projects/footstats/src")
+    os.chdir("F:/Projects/footstats/src/data")
 
     news_url = "https://www.skysports.com/football/news"
     scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
@@ -173,4 +173,4 @@ def api():
     create_news_data(news_url)
     create_scores_data(scores_url)
 
-    return "api successfully created"
+    return "server message: api successfully created"
