@@ -1,6 +1,6 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import { appName, combinedLogo } from "../../variables";
+import { appName, combinedLogo } from "../../utils/variables.js";
 import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
