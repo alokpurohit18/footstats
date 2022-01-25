@@ -10,6 +10,10 @@ class NewsCard extends React.Component {
     this.cardInfo = this.props.cardInfo;
   }
 
+  loadLongDescription = () => {
+    
+  }
+
   render() {
     return (
       <div className="news-card-main ant-row">

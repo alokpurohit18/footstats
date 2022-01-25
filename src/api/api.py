@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 
 app = flask.Flask(__name__)
 
-@app.route('/api', methods=['GET'])
+@app.route("/api", methods=["GET"])
 def api():    
 
     os.chdir("F:/Projects/footstats/src/data")
@@ -163,7 +163,55 @@ def api():
                 "link": summary_link,
                 "league": league
              }
-    
+
+            if(final_score_object["home_team_name"] == "Swansea City"):
+                final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/45heVhzL3HvaZW3e2B94kg_96x96.png"
+
+            if(final_score_object["away_team_name"] == "Swansea City"):
+                final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/45heVhzL3HvaZW3e2B94kg_96x96.png"
+
+            if(final_score_object["home_team_name"] == "Queens Park Rangers"):
+                final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/SYBiHsr8jq3vT4p0HauolA_96x96.png"
+
+            if(final_score_object["away_team_name"] == "Queens Park Rangers"):
+                final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/SYBiHsr8jq3vT4p0HauolA_96x96.png"
+
+            if(final_score_object["home_team_name"] == "NorthEast United FC"):
+                final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/VeolOM7Y1XYnu6ufb1fEjg_96x96.png"
+
+            if(final_score_object["away_team_name"] == "NorthEast United FC"):
+                final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/VeolOM7Y1XYnu6ufb1fEjg_96x96.png"
+
+            if(final_score_object["home_team_name"] == "Brighton & Hove Albion"):
+                final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/EKIe0e-ZIphOcfQAwsuEEQ_96x96.png"
+
+            if(final_score_object["away_team_name"] == "Brighton & Hove Albion"):
+                final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/EKIe0e-ZIphOcfQAwsuEEQ_96x96.png"
+
+            if(final_score_object["home_team_name"] == "Tottenham Hotspur"):
+                final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/k3Q_mKE98Dnohrcea0JFgQ_96x96.png"
+
+            if(final_score_object["away_team_name"] == "Tottenham Hotspur"):
+                final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/k3Q_mKE98Dnohrcea0JFgQ_96x96.png"
+            
+            if(final_score_object["home_team_name"] == "Nice"):
+                final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/Llrxrqsc3Tw4JzE6xM7GWw_96x96.png"
+
+            if(final_score_object["away_team_name"] == "Nice"):
+                final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/Llrxrqsc3Tw4JzE6xM7GWw_96x96.png"
+            
+            if(final_score_object["home_team_name"] == "Strasbourg"):
+                final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/Eb9xtMpUy8FXQ0RCKvLxcg_96x96.png"
+
+            if(final_score_object["away_team_name"] == "Strasbourg"):
+                final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/Eb9xtMpUy8FXQ0RCKvLxcg_96x96.png"
+            
+            if(final_score_object["home_team_name"] == "Altay Izmir"):
+                final_score_object["home_team_logo"] = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
+                
+            if(final_score_object["away_team_name"] == "Altay Izmir"):
+                final_score_object["away_team_logo"] = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
+
             counter = counter + 1
             final_scores_data.append(final_score_object)
     
@@ -173,4 +221,15 @@ def api():
     create_news_data(news_url)
     create_scores_data(scores_url)
 
-    return "server message: api successfully created"
+    return {
+            "key": "200",
+            "server-message" : "api successfully created",
+        }
+
+@app.route("/news_description", methods=["GET"])
+def news_description():
+    print("HELLO")
+    return {
+            "key": 1,
+            "server-message" : "news description loaded",
+        }
