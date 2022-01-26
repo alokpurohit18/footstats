@@ -11,12 +11,30 @@
   filter: drop-shadow(5px 5px 2px #2b2b2b);
 }
 
+.news-card-main,
+.score-card-main,
+.score-card-large-main {
+  outline: none;
+  border: none;
+
+  &:active {
+    border-style: outset;
+    border: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+}
+
 .news-detail,
 .contact-detail {
   padding-left: 1vw;
 
   .card-title {
     color: $primary-text-color;
+    text-align: left;
   }
 
   .card-description {

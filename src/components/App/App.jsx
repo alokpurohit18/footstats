@@ -7,19 +7,12 @@ import NewsPage from "../NewsPage/NewsPage.jsx";
 import { Routes, Route } from "react-router-dom";
 import DocumentPage from "../DocumentPage/DocumentPage.jsx";
 import ContactPage from "../ContactPage/ContactPage.jsx";
-import { useEffect } from "react";
+import LoadAPI from "../../utils/LoadAPI";
 
 function App() {
-  useEffect(() => {
-    fetch("/api").then((response) =>
-      response.json().then((data) => {
-        console.log(data);
-      })
-    );
-  }, []);
-
   return (
     <div className="main-app-container">
+      <LoadAPI url="/api" />
       <Navbar
         pages={[
           {

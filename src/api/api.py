@@ -228,7 +228,6 @@ def api():
 
 @app.route("/news_description", methods=["GET"])
 def news_description():
-    print("HELLO")
     return {
             "key": 1,
             "server-message" : "news description loaded",

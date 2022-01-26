@@ -1,6 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import "./NewsCard.scss";
+import LoadAPI from "../../utils/LoadAPI";
 
 class NewsCard extends React.Component {
   cardInfo;
@@ -8,15 +9,23 @@ class NewsCard extends React.Component {
   constructor(props) {
     super(props);
     this.cardInfo = this.props.cardInfo;
+    this.state = {
+      isClicked: false,
+    };
   }
 
   loadLongDescription = () => {
-    
-  }
+    this.setState({
+      isClicked: true,
+    });
+  };
 
   render() {
     return (
-      <div className="news-card-main ant-row">
+      <button
+        className="news-card-main ant-row"
+        onClick={this.loadLongDescription}
+      >
         <img
           className="news-image ant-col ant-col-12"
           alt="news card media"
@@ -28,8 +37,10 @@ class NewsCard extends React.Component {
             {this.cardInfo.shortDescription}
           </div>
         </div>
-      </div>
+        {this.state.isClicked ? <LoadAPI url="/news_description"/> : null}
+      </button>
     );
   }
 }
+
 export default NewsCard;
