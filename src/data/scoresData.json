@@ -283,14 +283,14 @@
         "key": 20,
         "home_team_name": "Persiraja Banda Aceh",
         "home_team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100",
-        "home_score": "",
+        "home_score": "0",
         "home_scorers": "",
         "away_team_name": "Persela",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8031.png&h=100&w=100",
-        "away_score": "",
+        "away_score": "0",
         "away_scorers": "",
-        "game_status": "26/1\n1:45 PM",
-        "link": "https://www.espn.in/football/match/_/gameId/626290",
+        "game_status": "In Progress",
+        "link": "https://www.espn.in/football/match?gameId=626290",
         "league": "idn.1"
     },
     {

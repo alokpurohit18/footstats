@@ -1,4 +1,3 @@
-import React from "react";
 import { useEffect } from "react";
 
 const LoadAPI = (props) => {
@@ -8,9 +7,9 @@ const LoadAPI = (props) => {
         console.log(data);
       })
     );
-  }, []);
+  });
 
   return null;
-}
+};
 
 export default LoadAPI;
