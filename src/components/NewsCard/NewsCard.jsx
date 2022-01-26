@@ -37,7 +37,9 @@ class NewsCard extends React.Component {
             {this.cardInfo.shortDescription}
           </div>
         </div>
-        {this.state.isClicked ? <LoadAPI url="/news_description"/> : null}
+        {this.state.isClicked ? (
+          <LoadAPI url="/news_description" sourceLink={this.cardInfo.link} />
+        ) : null}
       </button>
     );
   }

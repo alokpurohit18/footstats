@@ -8,11 +8,19 @@ import { Routes, Route } from "react-router-dom";
 import DocumentPage from "../DocumentPage/DocumentPage.jsx";
 import ContactPage from "../ContactPage/ContactPage.jsx";
 import LoadAPI from "../../utils/LoadAPI";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    fetch("/api").then((response) =>
+      response.json().then((data) => {
+        console.log(data);
+      })
+    );
+  });
+
   return (
     <div className="main-app-container">
-      <LoadAPI url="/api" />
       <Navbar
         pages={[
           {

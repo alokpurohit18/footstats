@@ -10,10 +10,27 @@ from selenium.webdriver.common.by import By
 
 app = flask.Flask(__name__)
 
+os.chdir("F:/Projects/footstats/src/data")
+
+options = webdriver.ChromeOptions()
+options.headless = True
+driver = webdriver.Chrome(chrome_options=options)
+#driver.set_window_position(-10000,0)
+
+def create_selenium_driver(url):    
+    driver.get(url)
+    driver.maximize_window()
+    driver.minimize_window()
+
+def create_json_data(file_name, data_array):    
+    sys.stdout = open(file_name, 'w')
+    jsonobj = json.dumps(data_array, indent=4)
+    print("{}".format(jsonobj))
+    sys.stdout = sys.__stdout__
+
+
 @app.route("/api", methods=["GET"])
 def api():    
-
-    os.chdir("F:/Projects/footstats/src/data")
 
     news_url = "https://www.skysports.com/football/news"
     scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
@@ -22,28 +39,6 @@ def api():
     final_news_data = []
     final_scores_data = []
     final_stats_data = []
-
-    options = webdriver.ChromeOptions()
-    options.headless = True
-    driver = webdriver.Chrome(chrome_options=options)
-    #driver.set_window_position(-10000,0)
-    
-    def create_selenium_driver(url):    
-        driver.get(url)
-        driver.maximize_window()
-        driver.minimize_window()
-    
-    #code to read data from html href using selenium
-    # element = driver.find_element(By.CSS_SELECTOR ,".team-info")
-    # print(element.text)
-
-
-    def create_json_data(file_name, data_array):    
-        sys.stdout = open(file_name, 'w')
-
-        jsonobj = json.dumps(data_array, indent=4)
-        print("{}".format(jsonobj))
-        sys.stdout = sys.__stdout__
 
 
     def create_news_data(url):
@@ -76,23 +71,6 @@ def api():
     
         create_json_data("newsData.json", final_news_data)
         
-        # for news_object in final_news_data:
-        #     create_selenium_driver(news_object['link'])
-        #     soup = BeautifulSoup(driver.page_source, "html.parser")
-        #     news_description_container = soup.find("div", {"class": "sdc-article-body"})
-    
-        #     if (news_description_container is None):
-        #         continue
-    
-        #     news_description_source = news_description_container.find_all("p")
-    
-        #     news_description = ""
-    
-        #     for news_paragraph in news_description_source:
-        #         news_description = news_description + " LINEBREAK " + (news_paragraph.text)
-    
-        #     news_object['longDescription'] = news_description
-
 
     def create_scores_data(url):
         create_selenium_driver(url)
@@ -226,8 +204,26 @@ def api():
             "server-message" : "api successfully created",
         }
 
-@app.route("/news_description", methods=["GET"])
+@app.route("/news_description", methods=["POST"], strict_slashes=False)
 def news_description():
+    print(flask.request.data)
+    # for news_object in final_news_data:
+        #     create_selenium_driver(news_object['link'])
+        #     soup = BeautifulSoup(driver.page_source, "html.parser")
+        #     news_description_container = soup.find("div", {"class": "sdc-article-body"})
+    
+        #     if (news_description_container is None):
+        #         continue
+    
+        #     news_description_source = news_description_container.find_all("p")
+    
+        #     news_description = ""
+    
+        #     for news_paragraph in news_description_source:
+        #         news_description = news_description + " LINEBREAK " + (news_paragraph.text)
+    
+        #     news_object['longDescription'] = news_description
+
     return {
             "key": 1,
             "server-message" : "news description loaded",
