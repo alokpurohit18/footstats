@@ -8,24 +8,6 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-os.chdir("F:/Projects/footstats/src/data")
-
-options = webdriver.ChromeOptions()
-options.headless = True
-driver = webdriver.Chrome(chrome_options=options)
-
-def create_selenium_driver(url):    
-    driver.get(url)
-    driver.maximize_window()
-    driver.minimize_window()
-
-def create_json_data(file_name, data_array):    
-    sys.stdout = open(file_name, 'w')
-    jsonobj = json.dumps(data_array, indent=4)
-    print("{}".format(jsonobj))
-    sys.stdout = sys.__stdout__
-    
-
 app = flask.Flask(__name__)
 
 @app.route("/api", methods=["GET"])
@@ -38,6 +20,24 @@ def api():
     final_news_data = []
     final_scores_data = []
     final_stats_data = []
+
+    os.chdir("F:/Projects/footstats/src/data")
+
+    options = webdriver.ChromeOptions()
+    options.headless = True
+    driver = webdriver.Chrome(chrome_options=options)
+    
+    def create_selenium_driver(url):    
+        driver.get(url)
+        driver.maximize_window()
+        driver.minimize_window()
+    
+    def create_json_data(file_name, data_array):    
+        sys.stdout = open(file_name, 'w')
+        jsonobj = json.dumps(data_array, indent=4)
+        print("{}".format(jsonobj))
+        sys.stdout = sys.__stdout__
+
 
     def create_news_data(url):
         create_selenium_driver(url)
@@ -209,7 +209,7 @@ def api():
 
 @app.route("/news_description", methods=["POST"], strict_slashes=False)
 def news_description():
-    print(flask.request.data)
+    print(flask.request.json)
     # for news_object in final_news_data:
         #     create_selenium_driver(news_object['link'])
         #     soup = BeautifulSoup(driver.page_source, "html.parser")
