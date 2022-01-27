@@ -61,7 +61,6 @@ def api():
                 "link": news_detials['href'],
                 "imageSource": news_detials.find('img')['data-src'],
                 "shortDescription": "",
-                "longDescription": ""
             }
             counter = counter + 1
             final_news_data.append(final_news_object)
@@ -95,6 +94,11 @@ def api():
             away_score = away_score.replace(" ", "")
     
             game_status = score_card.find("div", {"class": "game-status"})
+            game_result = score_card.find("div", {"class": "game-status note"})
+            if(game_result == None):
+                game_result = ""
+            else:
+                game_result = game_result.text.strip()
     
             goal_scorers = score_card.find_all("ul", {"class": "icon-soccer-ball"})
             home_goal_scorers = ""
@@ -138,6 +142,7 @@ def api():
                 "away_score": away_score,
                 "away_scorers": away_goal_scorers,
                 "game_status": game_status.text.strip(),
+                "game_result": game_result,
                 "link": summary_link,
                 "league": league
              }
