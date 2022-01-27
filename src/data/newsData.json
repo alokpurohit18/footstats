@@ -22,17 +22,17 @@
     },
     {
         "key": 3,
-        "title": "Man City transfer rumours: Alvarez deal close",
-        "link": "https://www.skysports.com/football/news/11095/12482954/man-city-transfer-news-and-rumours-january-transfer-window-2022",
-        "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-julian-avarez-football_5651000.jpg?20220124112752",
-        "shortDescription": "All the latest Man City transfer news, rumours and gossip..."
-    },
-    {
-        "key": 4,
         "title": "Newcastle transfer rumours: Muller emerges as shock Toon target",
         "link": "https://www.skysports.com/football/news/11678/12428783/newcastle-united-transfer-rumours-january-transfer-window-targets",
         "imageSource": "https://e2.365dm.com/22/01/384x216/skysports-thomas-muller-bayern-munich_5653691.jpg?20220127064907",
         "shortDescription": "All the latest Newcastle transfer news, rumours and gossip, as new manager Eddie Howe looks to improve his squad in the January transfer window..."
+    },
+    {
+        "key": 4,
+        "title": "Man City transfer rumours: Alvarez deal close",
+        "link": "https://www.skysports.com/football/news/11095/12482954/man-city-transfer-news-and-rumours-january-transfer-window-2022",
+        "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-julian-avarez-football_5651000.jpg?20220124112752",
+        "shortDescription": "All the latest Man City transfer news, rumours and gossip..."
     },
     {
         "key": 5,
@@ -85,7 +85,7 @@
     },
     {
         "key": 12,
-        "title": "Papers:  Arsenal switch focus to Douglas Luiz",
+        "title": "Papers: Arsenal switch focus to Douglas Luiz",
         "link": "https://www.skysports.com/football/news/12709/12526176/arsenal-want-aston-villas-douglas-luiz-after-missing-out-on-bruno-guimaraes-paper-talk",
         "imageSource": "https://e2.365dm.com/19/10/384x216/skysports-paper-talk-papers_4819668.jpg?20200516213727",
         "shortDescription": "All the top stories and transfer rumours from Thursday's national newspapers..."
@@ -137,13 +137,6 @@
         "title": "Bailly's costly shoot-out miss: 'Why'd he do that?!'",
         "link": "https://www.skysports.com/watch/video/12526056/baillys-poor-pen-costs-ivory-coast-afcon",
         "imageSource": "https://e0.365dm.com/22/01/384x216/a74052e0002ff2c1ae6db7cb2e9f4ba89c675afd88b0238184e4318cb3568937_5653403.jpg?20220126185006",
-        "shortDescription": "Manchester United and Ivory Coast defender Eric Bailly saw his penalty saved in the shootout against Egypt; a miss which proved costly as his team were knocked out."
-    },
-    {
-        "key": 20,
-        "title": "Green on Arsenal vs Brighton: Recent results show anything can happen",
-        "link": "https://www.skysports.com/football/arsenal-women-vs-brighton-and-hove-albion-women/preview/456298",
-        "imageSource": "https://e1.365dm.com/22/01/384x216/skysports-kayleigh-green-brighton-women_5653163.jpg?20220126142215",
-        "shortDescription": "After a few shock recent results in the WSL, Brighton Women's Kayleigh Green says \"anything can happen\" as the Seagulls face Arsenal Women live on Sky Sports."
+        "shortDescription": "Manchester United and Ivory Coast defender Eric Bailly saw his penalty saved by Mohamed Abo Gabal in the shootout against Egypt; a miss which proved costly as his team were knocked out."
     }
 ]
