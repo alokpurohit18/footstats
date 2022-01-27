@@ -74,6 +74,9 @@ class ScoreCardLarge extends React.Component {
             {this.cardInfo.away_scorers}
           </div>
         </div>
+        <div className="game-result-special">
+          <span>{this.cardInfo.game_result}</span>
+        </div>
       </div>
     );
   }

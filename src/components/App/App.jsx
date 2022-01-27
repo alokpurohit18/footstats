@@ -7,7 +7,6 @@ import NewsPage from "../NewsPage/NewsPage.jsx";
 import { Routes, Route } from "react-router-dom";
 import DocumentPage from "../DocumentPage/DocumentPage.jsx";
 import ContactPage from "../ContactPage/ContactPage.jsx";
-import LoadAPI from "../../utils/LoadAPI";
 import { useEffect } from "react";
 
 function App() {

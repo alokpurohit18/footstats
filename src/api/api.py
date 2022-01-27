@@ -8,14 +8,11 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-app = flask.Flask(__name__)
-
 os.chdir("F:/Projects/footstats/src/data")
 
 options = webdriver.ChromeOptions()
 options.headless = True
 driver = webdriver.Chrome(chrome_options=options)
-#driver.set_window_position(-10000,0)
 
 def create_selenium_driver(url):    
     driver.get(url)
@@ -27,7 +24,9 @@ def create_json_data(file_name, data_array):
     jsonobj = json.dumps(data_array, indent=4)
     print("{}".format(jsonobj))
     sys.stdout = sys.__stdout__
+    
 
+app = flask.Flask(__name__)
 
 @app.route("/api", methods=["GET"])
 def api():    
@@ -39,7 +38,6 @@ def api():
     final_news_data = []
     final_scores_data = []
     final_stats_data = []
-
 
     def create_news_data(url):
         create_selenium_driver(url)
