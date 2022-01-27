@@ -1,5 +1,6 @@
 #!C:\Python39\python.exe
 import flask
+import helpers
 import json
 import sys
 import requests
@@ -13,6 +14,8 @@ app = flask.Flask(__name__)
 @app.route("/api", methods=["GET"])
 def api():    
 
+    os.chdir("F:/Projects/footstats/src/data")
+
     news_url = "https://www.skysports.com/football/news"
     scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
     stats_url = ""
@@ -20,8 +23,6 @@ def api():
     final_news_data = []
     final_scores_data = []
     final_stats_data = []
-
-    os.chdir("F:/Projects/footstats/src/data")
 
     options = webdriver.ChromeOptions()
     options.headless = True
@@ -31,12 +32,6 @@ def api():
         driver.get(url)
         driver.maximize_window()
         driver.minimize_window()
-    
-    def create_json_data(file_name, data_array):    
-        sys.stdout = open(file_name, 'w')
-        jsonobj = json.dumps(data_array, indent=4)
-        print("{}".format(jsonobj))
-        sys.stdout = sys.__stdout__
 
 
     def create_news_data(url):
@@ -66,7 +61,7 @@ def api():
         for (news_content, news_object) in zip(news_content_source, final_news_data):
             news_object["shortDescription"] = news_content.text
     
-        create_json_data("newsData.json", final_news_data)
+        helpers.create_json_data("newsData.json", final_news_data)
         
 
     def create_scores_data(url):
@@ -196,7 +191,7 @@ def api():
             counter = counter + 1
             final_scores_data.append(final_score_object)
     
-        create_json_data("scoresData.json", final_scores_data)
+        helpers.create_json_data("scoresData.json", final_scores_data)
     
         
     create_news_data(news_url)
