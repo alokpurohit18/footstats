@@ -19,11 +19,15 @@ class ContactPage extends React.Component {
 
   splitContactsArray = () => {
     let contacts = contactsData;
-    for (let i = 0; i < Math.trunc(contacts.length / 2); i++) {
+    let contactsData1Limit = Math.trunc(contacts.length / 2);
+    if (contacts.length % 2 !== 0) {
+      contactsData1Limit = Math.trunc(contacts.length / 2 + 1);
+    }
+    for (let i = 0; i < contactsData1Limit; i++) {
       this.contactsData1[i] = contacts[i];
     }
 
-    for (let j = Math.trunc(contacts.length / 2); j < contacts.length; j++) {
+    for (let j = contactsData1Limit; j < contacts.length; j++) {
       this.contactsData2[j] = contacts[j];
     }
   };
