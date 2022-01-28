@@ -20,6 +20,17 @@ class ScoresPage extends React.Component {
     };
   }
 
+  capitalizeLeagueName = (leagueName) => {
+    var words = leagueName.split(" ");
+    var CapitalizedWords = [];
+    words.forEach((element) => {
+      CapitalizedWords.push(
+        element[0].toUpperCase() + element.slice(1, element.length)
+      );
+    });
+    return CapitalizedWords.join(" ");
+  };
+
   loadLeagueName = (cardInfo) => {
     this.leagueKeys.push(cardInfo.league);
     if (LeagueConversion[0][cardInfo.league] === undefined) {
@@ -38,16 +49,32 @@ class ScoresPage extends React.Component {
         half_league_name = " League 4";
         final_league_name = cardInfo.league.split(".")[0] + half_league_name;
       } else {
-        half_league_name = cardInfo.league.split(".")[1];
-        half_league_name =
-          " " +
-          half_league_name.charAt(0).toUpperCase() +
-          half_league_name.slice(1);
-        final_league_name = cardInfo.league.split(".")[0] + half_league_name;
+        if (cardInfo.league.split(".")[1] === "w") {
+          if (cardInfo.league.split(".")[2] === undefined) {
+            final_league_name = cardInfo.league.split(".")[0] + " Women";
+          } else {
+            final_league_name =
+              cardInfo.league.split(".")[0] +
+              " Women " +
+              cardInfo.league.split(".")[2];
+          }
+        } else {
+          if (cardInfo.league.split(".")[2] === undefined) {
+            final_league_name =
+              cardInfo.league.split(".")[0] +
+              " " +
+              cardInfo.league.split(".")[1];
+          } else {
+            final_league_name =
+              cardInfo.league.split(".")[0] +
+              " " +
+              cardInfo.league.split(".")[1] +
+              " " +
+              cardInfo.league.split(".")[2];
+          }
+        }
       }
-
-      final_league_name =
-        final_league_name.charAt(0).toUpperCase() + final_league_name.slice(1);
+      final_league_name = this.capitalizeLeagueName(final_league_name);
       this.leagueNames.push(final_league_name);
     } else {
       this.leagueNames.push(LeagueConversion[0][cardInfo.league]);
