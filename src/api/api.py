@@ -158,11 +158,23 @@ def api():
             if(final_score_object["away_team_name"] == "Queens Park Rangers"):
                 final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/SYBiHsr8jq3vT4p0HauolA_96x96.png"
 
+            if(final_score_object["home_team_name"] == "Preston North End"):
+                final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/2NRxn9AO_zb45mFCRIdCYQ_96x96.png"
+
+            if(final_score_object["away_team_name"] == "Preston North End"):
+                final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/2NRxn9AO_zb45mFCRIdCYQ_96x96.png"
+
             if(final_score_object["home_team_name"] == "NorthEast United FC"):
                 final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/VeolOM7Y1XYnu6ufb1fEjg_96x96.png"
 
             if(final_score_object["away_team_name"] == "NorthEast United FC"):
                 final_score_object["away_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/VeolOM7Y1XYnu6ufb1fEjg_96x96.png"
+
+            if(final_score_object["home_team_name"] == "NEROCA FC"):
+                final_score_object["home_team_logo"] = "https://upload.wikimedia.org/wikipedia/en/5/5a/Official_NEROCA_FC_Logo.png"
+
+            if(final_score_object["away_team_name"] == "NEROCA FC"):
+                final_score_object["away_team_logo"] = "https://upload.wikimedia.org/wikipedia/en/5/5a/Official_NEROCA_FC_Logo.png"
 
             if(final_score_object["home_team_name"] == "Brighton & Hove Albion"):
                 final_score_object["home_team_logo"] = "https://ssl.gstatic.com/onebox/media/sports/logos/EKIe0e-ZIphOcfQAwsuEEQ_96x96.png"
