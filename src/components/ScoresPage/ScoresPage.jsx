@@ -2,8 +2,8 @@ import * as React from "react";
 import "antd/dist/antd.css";
 import ScoresSection from "../ScoresSection/ScoresSection.jsx";
 import Menu from "../Menu/Menu.jsx";
-import scoresData from "../../data/scoresData.json";
-import LeagueConversion from "../../data/leagueConversion.json";
+import scoresData from "../../api/data/scoresData.json";
+import LeagueConversion from "../../api/data/leagueConversion.json";
 
 class ScoresPage extends React.Component {
   leagueNames;

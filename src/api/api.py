@@ -244,3 +244,11 @@ def news_description():
             "key": 1,
             "server-message" : "news description loaded",
         }
+
+@app.route("/fifa22", methods=["POST"], strict_slashes=False)
+def fifa22():
+    print(flask.request.json)
+    return {
+            "key": 1,
+            "server-message" : "stats object loaded",
+        }

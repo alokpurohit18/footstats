@@ -7,6 +7,7 @@ import NewsPage from "../NewsPage/NewsPage.jsx";
 import { Routes, Route } from "react-router-dom";
 import DocumentPage from "../DocumentPage/DocumentPage.jsx";
 import ContactPage from "../ContactPage/ContactPage.jsx";
+import StatsPage from "../StatsPage/StatsPage.jsx";
 import { useEffect } from "react";
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="live_scores" element={<ScoresPage />} />
         <Route path="news" element={<NewsPage />} />
+        <Route path="statistics" element={<StatsPage />} />
         <Route
           path="terms_of_use"
           element={
