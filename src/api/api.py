@@ -26,10 +26,10 @@ def create_json_data(file_name, data_array):
     sys.stdout = sys.__stdout__
 
 
-@app.route("/api", methods=["GET"])
-def api():    
+@app.route("/scraping", methods=["GET"])
+def scraping():    
 
-    os.chdir("F:/Projects/footstats/src/data")
+    os.chdir("F:/Projects/footstats/src/api/data")
 
     news_url = "https://www.skysports.com/football/news"
     scores_url = "https://www.espn.in/football/scoreboard/_/league/all"

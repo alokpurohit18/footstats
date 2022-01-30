@@ -153,13 +153,13 @@
         "key": 10,
         "home_team_name": "Egypt",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/egy.png&h=100&w=100",
-        "home_score": "0",
-        "home_scorers": "",
+        "home_score": "1",
+        "home_scorers": "M Salah  (53') ",
         "away_team_name": "Morocco",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mar.png&h=100&w=100",
         "away_score": "1",
         "away_scorers": " S Boufal  (6'\u00a0PEN)",
-        "game_status": "53'",
+        "game_status": "63'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=629158",
         "league": "caf.nations"
@@ -189,7 +189,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/393.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "8'",
+        "game_status": "19'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=606874",
         "league": "eng.2"
@@ -219,7 +219,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12706.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "40'",
+        "game_status": "HT",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=613573",
         "league": "por.1"
@@ -234,7 +234,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5309.png&h=100&w=100",
         "away_score": "1",
         "away_scorers": " Rochinha  (21')",
-        "game_status": "41'",
+        "game_status": "HT",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=613574",
         "league": "por.1"
@@ -339,7 +339,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17544.png&h=100&w=100",
         "away_score": "1",
         "away_scorers": " A Yusuf  (16')",
-        "game_status": "50'",
+        "game_status": "59'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=603424",
         "league": "bel.1"
@@ -459,7 +459,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/989.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "40'",
+        "game_status": "HT",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=608405",
         "league": "sui.1"
@@ -474,7 +474,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/492.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "39'",
+        "game_status": "HT",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=608407",
         "league": "sui.1"
@@ -504,7 +504,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5460.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "53'",
+        "game_status": "63'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=610960",
         "league": "esp.2"
@@ -684,7 +684,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/144.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "23'",
+        "game_status": "29'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=603973",
         "league": "ned.2"
