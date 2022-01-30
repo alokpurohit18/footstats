@@ -1,4 +1,5 @@
 #!C:\Python39\python.exe
+import imp
 import flask
 import json
 import sys
@@ -26,8 +27,8 @@ def create_json_data(file_name, data_array):
     sys.stdout = sys.__stdout__
 
 
-@app.route("/scraping", methods=["GET"])
-def scraping():    
+@app.route("/data_scraping", methods=["GET"])
+def data_scraping():    
 
     os.chdir("F:/Projects/footstats/src/api/data")
 
@@ -216,8 +217,8 @@ def scraping():
     create_scores_data(scores_url)
 
     return {
-            "key": "200",
-            "server-message" : "api successfully created",
+            "key": 200,
+            "server-message" : "data scraping successfull and data files manually created",
         }
 
 @app.route("/news_description", methods=["POST"], strict_slashes=False)
@@ -242,13 +243,14 @@ def news_description():
 
     return {
             "key": 1,
-            "server-message" : "news description loaded",
+            "server-message" : "news description data loaded",
         }
 
 @app.route("/fifa22", methods=["POST"], strict_slashes=False)
 def fifa22():
-    print(flask.request.json)
-    return {
-            "key": 1,
-            "server-message" : "stats object loaded",
-        }
+    os.chdir("F:/Projects/footstats/src/api/data")
+    c = flask.request.json
+    c = int(c)
+    f = open('fifa22.json')
+    d = json.load(f)
+    return d[c]

@@ -12,7 +12,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    fetch("/scraping").then((response) =>
+    fetch("/data_scraping").then((response) =>
       response.json().then((data) => {
         console.log(data);
       })
