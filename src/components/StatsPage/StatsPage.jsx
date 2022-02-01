@@ -4,20 +4,22 @@ import Menu from "../Menu/Menu.jsx";
 import SubNav from "../SubNav/SubNav.jsx";
 import LoadAPI from "../../utils/LoadAPI";
 import { Routes, Route } from "react-router-dom";
+import Subnav from "../SubNav/SubNav.jsx";
 
 class StatsPage extends React.Component {
   player;
-  options;
 
   constructor(props) {
     super(props);
     this.player = "";
-    this.options = [
-      { value: "League", label: "Leagues" },
-      { value: "Player", label: "Players" },
-      { value: "World Cup", label: "World Cups" },
-    ];
   }
+
+  initializeSubNavColor = () => {
+    let subNav = document.getElementsByClassName("subnav-main")[0];
+    console.log(subNav);
+    subNav.style.backgroundColor = "black";
+    subNav.style.color = "whitesmoke";
+  };
 
   loadPlayerObject = (player) => {
     this.player = player;
@@ -32,7 +34,7 @@ class StatsPage extends React.Component {
           pages={[
             {
               name: "League Stats",
-              link: "leagues",
+              link: "/statistics",
             },
             {
               name: "Player Stats",
@@ -70,7 +72,7 @@ class StatsPage extends React.Component {
         </div> */}
 
         <Routes>
-          <Route path="leagues" element={<Menu />} />
+          <Route path="/" element={<Menu />} />
           <Route path="players" element={<Menu />} />
           <Route path="world_cup_2018" element={<Menu />} />
           <Route path="euro_2020" element={<Menu />} />

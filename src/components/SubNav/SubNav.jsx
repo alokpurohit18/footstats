@@ -1,7 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import { Link } from "react-router-dom";
-import "./SubNav.scss";
+import "../NavBar/NavBar.scss";
 
 class Subnav extends React.Component {
   pages;
