@@ -11,6 +11,9 @@ const LoadAPI = (props) => {
     }).then((response) =>
       response.json().then((data) => {
         console.log(data);
+        if (props.loadPlayerObject !== undefined) {
+          props.loadPlayerObject(data);
+        }
       })
     );
   });

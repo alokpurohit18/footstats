@@ -4,7 +4,7 @@ import "antd/dist/antd.css";
 import { appLogo, appName } from "../../utils/variables.js";
 import Search from "../Search/Search.jsx";
 import { Link } from "react-router-dom";
-import "./Navbar.scss";
+import "./NavBar.scss";
 
 class Navbar extends React.Component {
   pages;

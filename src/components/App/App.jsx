@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar.jsx";
+import NavBar from "../NavBar/NavBar.jsx";
 import Footer from "../Footer/Footer.jsx";
 import LandingPage from "../LandingPage/LandingPage.jsx";
 import ScoresPage from "../ScoresPage/ScoresPage.jsx";
@@ -21,27 +21,27 @@ function App() {
 
   return (
     <div className="main-app-container">
-      <Navbar
+      <NavBar
         pages={[
           {
             name: "Live Scores",
-            link: "/live_scores",
+            link: "live_scores",
           },
           {
             name: "Statistics",
-            link: "/statistics",
+            link: "statistics",
           },
           {
             name: "News",
-            link: "/news",
+            link: "news",
           },
           {
             name: "Market Value",
-            link: "/market_value",
+            link: "market_value",
           },
           {
             name: "Coaches Center",
-            link: "/coaches_center",
+            link: "coaches_center",
           },
         ]}
       />
@@ -50,7 +50,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="live_scores" element={<ScoresPage />} />
         <Route path="news" element={<NewsPage />} />
-        <Route path="statistics" element={<StatsPage />} />
+        <Route path="statistics/*" element={<StatsPage />} />
         <Route
           path="terms_of_use"
           element={
@@ -76,19 +76,19 @@ function App() {
         pages={[
           {
             name: "Sitemap",
-            link: "/sitemap",
+            link: "sitemap",
           },
           {
             name: "Terms of Use",
-            link: "/terms_of_use",
+            link: "terms_of_use",
           },
           {
             name: "Privacy Policy",
-            link: "/privacy_policy",
+            link: "privacy_policy",
           },
           {
             name: "Contact Us",
-            link: "/contact_us",
+            link: "contact_us",
           },
         ]}
       />

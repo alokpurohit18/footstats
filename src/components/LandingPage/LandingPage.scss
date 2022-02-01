@@ -4,7 +4,8 @@
 .news-page-main,
 .scores-page-main,
 .document-page-main,
-.contact-page-main {
+.contact-page-main,
+.stats-page-main {
   margin: 0.5%;
   border-radius: 10px;
   padding: 1vw;
@@ -15,6 +16,10 @@
     color: $secondary-text-color;
     font-size: 1.5vw;
   }
+}
+
+.stats-page-main {
+  padding-top: 0;
 }
 
 .news-page-main,

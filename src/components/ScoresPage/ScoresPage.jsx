@@ -127,7 +127,7 @@ class ScoresPage extends React.Component {
           <Menu
             options={this.options}
             placeholder="Select a League"
-            filterScoreCards={this.filterScoreCards}
+            filterCards={this.filterScoreCards}
           />
         </div>
         <div className="ant-row">

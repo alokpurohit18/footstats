@@ -1,0 +1,22 @@
+@import "../../utils/variables.scss";
+
+.subnav-main {
+  text-align: center;
+  background-color: $primary-color;
+  border-radius: 10px;
+  font-size: 1.25vw;
+
+  .nav-element {
+    margin: 0;
+
+    a {
+      display: block;
+      font-weight: bold;
+      color: whitesmoke;
+      height: inherit;
+      padding-bottom: 0.25vw;
+      padding-top: 0.25vw;
+      border-radius: 10px;
+    }
+  }
+}
