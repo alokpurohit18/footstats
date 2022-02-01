@@ -11,30 +11,13 @@ class Subnav extends React.Component {
     this.pages = this.props.pages;
   }
 
-  handleNavElementClick = (selectedElement) => {
-    let pageObject = {};
-    for (let i = 0; i < this.pages.length; i++) {
-      pageObject = this.pages[i];
-      let element = document.querySelector(
-        "#" + CSS.escape(pageObject.name) + " a"
-      );
-      if (pageObject.name === selectedElement.target.innerHTML) {
-        element.style.backgroundColor = "whitesmoke";
-        element.style.color = "black";
-      } else {
-        element.style.backgroundColor = "black";
-        element.style.color = "whitesmoke";
-      }
-    }
-  };
-
   createNavElement = (pageObject) => {
     return (
       <div
         key={pageObject.name}
         id={pageObject.name}
         className="nav-element ant-col-4"
-        onClick={this.handleNavElementClick}
+        onClick={this.props.handleNavElementClick}
       >
         <Link to={pageObject.link}>{pageObject.name}</Link>
       </div>
