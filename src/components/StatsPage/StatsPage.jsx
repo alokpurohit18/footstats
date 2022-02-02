@@ -3,7 +3,12 @@ import { Routes, Route } from "react-router-dom";
 import "antd/dist/antd.css";
 import Menu from "../Menu/Menu.jsx";
 import SubNav from "../SubNav/SubNav.jsx";
-import ScoresSection from "../ScoresSection/ScoresSection.jsx";
+import LeaguesSection from "../LeaguesSection/LeaguesSection.jsx";
+import PlayersSection from "../PlayersSection/PlayersSection.jsx";
+import TransfersSection from "../TransfersSection/TransfersSection.jsx";
+import AwardsSection from "../AwardsSection/AwardsSection.jsx";
+import WorldCupSection from "../WorldCupSection/WordlCupSection.jsx";
+import EuroSection from "../EuroSection/EuroSection.jsx";
 import LoadAPI from "../../utils/LoadAPI";
 
 class StatsPage extends React.Component {
@@ -23,20 +28,20 @@ class StatsPage extends React.Component {
         link: "players",
       },
       {
-        name: "World Cup 2018",
-        link: "world_cup_2018",
-      },
-      {
-        name: "UEFA Euro 2020",
-        link: "euro_2020",
+        name: "Transfers",
+        link: "transfers",
       },
       {
         name: "Awards",
         link: "awards",
       },
       {
-        name: "Transfers",
-        link: "transfers",
+        name: "FIFA World Cup",
+        link: "world_cup_2018",
+      },
+      {
+        name: "UEFA Euro",
+        link: "euro_2020",
       },
     ];
   }
@@ -79,28 +84,74 @@ class StatsPage extends React.Component {
           />
         </div> */}
         <div className="ant-row">
-          <div className="ant-col ant-col-8"></div>
-          <div className="ant-col ant-col-8">
+          <div className="ant-col ant-col-3"></div>
+          <div className="ant-col ant-col-18">
             <Routes>
               <Route
                 path="/"
                 element={
-                  <ScoresSection
-                    sectionHeading="Latest Fixtures"
+                  <LeaguesSection
+                    sectionHeading="Leagues"
                     cardCount="10"
                     cardStart="0"
-                    leagueFilter="all"
                   />
                 }
               />
-              <Route path="players" element={<Menu />} />
-              <Route path="world_cup_2018" element={<Menu />} />
-              <Route path="euro_2020" element={<Menu />} />
-              <Route path="awards" element={<Menu />} />
-              <Route path="transfers" element={<Menu />} />
+              <Route
+                path="players"
+                element={
+                  <PlayersSection
+                    sectionHeading="Players"
+                    cardCount="5"
+                    cardStart="0"
+                    leagueFilter="all"
+                    scoreCardIsLarge={true}
+                  />
+                }
+              />
+              <Route
+                path="transfers"
+                element={
+                  <TransfersSection
+                    sectionHeading="Transfers"
+                    cardCount="10"
+                    cardStart="0"
+                  />
+                }
+              />
+              <Route
+                path="awards"
+                element={
+                  <AwardsSection
+                    sectionHeading="Awards"
+                    cardCount="10"
+                    cardStart="0"
+                  />
+                }
+              />
+              <Route
+                path="world_cup_2018"
+                element={
+                  <WorldCupSection
+                    sectionHeading="FIFA World Cup 2018"
+                    cardCount="10"
+                    cardStart="0"
+                  />
+                }
+              />
+              <Route
+                path="euro_2020"
+                element={
+                  <EuroSection
+                    sectionHeading="UEFA Euro 2020"
+                    cardCount="5"
+                    cardStart="0"
+                  />
+                }
+              />
             </Routes>
           </div>
-          <div className="ant-col ant-col-8"></div>
+          <div className="ant-col ant-col-3"></div>
         </div>
       </div>
     );
