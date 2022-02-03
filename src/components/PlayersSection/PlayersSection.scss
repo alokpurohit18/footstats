@@ -1,7 +1,19 @@
 @import "../../utils/variables.scss";
 
 .players-section-main {
-  .players-card-main {
+  .player-card-main {
     border-radius: 10px;
+    background-color: $primary-color;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    .real-overall-rating {
+      display: block;
+      background: url("https://media.istockphoto.com/vectors/realistic-vertical-football-soccer-field-illustration-vector-id499753566?k=20&m=499753566&s=170667a&w=0&h=DwpHNQxSBQuqvsNKKmb96Y5EOpvhGgiM6IiVNjkJFTk=");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 32.75vw;
+      border-radius: 10px;
+    }
   }
 }

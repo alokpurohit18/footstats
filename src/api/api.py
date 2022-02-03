@@ -251,7 +251,6 @@ def playerDetails():
     os.chdir("F:/Projects/footstats/src/api/data")
     resultingPlayer = {}
     request = flask.request.json
-    request = int(request)
     file = open('playerDetails.json')
     dataArray = json.load(file)
     resultingPlayer = dataArray[request]
