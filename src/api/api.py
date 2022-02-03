@@ -249,8 +249,15 @@ def news_description():
 @app.route("/fifa22", methods=["POST"], strict_slashes=False)
 def fifa22():
     os.chdir("F:/Projects/footstats/src/api/data")
+    result = []
     c = flask.request.json
-    c = int(c)
     f = open('fifa22.json')
     d = json.load(f)
-    return d[c]
+    for ob in d:
+        r = {
+            "value": ob["personal_details"]["name"]["long_name"],
+            "label": ob["personal_details"]["name"]["long_name"],
+        }
+        result.append(r)
+
+    return {"result": "result"}

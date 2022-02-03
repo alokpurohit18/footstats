@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Routes, Route } from "react-router-dom";
 import "antd/dist/antd.css";
-import Menu from "../Menu/Menu.jsx";
 import SubNav from "../SubNav/SubNav.jsx";
 import LeaguesSection from "../LeaguesSection/LeaguesSection.jsx";
 import PlayersSection from "../PlayersSection/PlayersSection.jsx";
@@ -9,7 +8,6 @@ import TransfersSection from "../TransfersSection/TransfersSection.jsx";
 import AwardsSection from "../AwardsSection/AwardsSection.jsx";
 import WorldCupSection from "../WorldCupSection/WordlCupSection.jsx";
 import EuroSection from "../EuroSection/EuroSection.jsx";
-import LoadAPI from "../../utils/LoadAPI";
 
 class StatsPage extends React.Component {
   player;
@@ -76,13 +74,6 @@ class StatsPage extends React.Component {
           pages={this.pages}
           handleNavElementClick={this.handleNavElementClick}
         />
-        {/* <div className="dropdown-menu-container">
-          <LoadAPI
-            url="/fifa22"
-            sourceLink="9"
-            loadPlayerObject={this.loadPlayerObject}
-          />
-        </div> */}
         <div className="ant-row">
           <div className="ant-col ant-col-3"></div>
           <div className="ant-col ant-col-18">
