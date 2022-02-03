@@ -10,12 +10,10 @@ import WorldCupSection from "../WorldCupSection/WordlCupSection.jsx";
 import EuroSection from "../EuroSection/EuroSection.jsx";
 
 class StatsPage extends React.Component {
-  player;
   pages;
 
   constructor(props) {
     super(props);
-    this.player = "";
     this.pages = [
       {
         name: "League Stats",
@@ -61,10 +59,6 @@ class StatsPage extends React.Component {
     }
   };
 
-  loadPlayerObject = (player) => {
-    this.player = player;
-  };
-
   filterCards = () => {};
 
   render() {
@@ -74,76 +68,70 @@ class StatsPage extends React.Component {
           pages={this.pages}
           handleNavElementClick={this.handleNavElementClick}
         />
-        <div className="ant-row">
-          <div className="ant-col ant-col-3"></div>
-          <div className="ant-col ant-col-18">
-            <Routes>
-              <Route
-                path="/"
-                element={
-                  <LeaguesSection
-                    sectionHeading="Leagues"
-                    cardCount="10"
-                    cardStart="0"
-                  />
-                }
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <LeaguesSection
+                sectionHeading="Leagues"
+                cardCount="10"
+                cardStart="0"
               />
-              <Route
-                path="players"
-                element={
-                  <PlayersSection
-                    sectionHeading="Players"
-                    cardCount="5"
-                    cardStart="0"
-                    leagueFilter="all"
-                    scoreCardIsLarge={true}
-                  />
-                }
+            }
+          />
+          <Route
+            path="players"
+            element={
+              <PlayersSection
+                sectionHeading="Players"
+                cardCount="5"
+                cardStart="0"
+                leagueFilter="all"
+                scoreCardIsLarge={true}
               />
-              <Route
-                path="transfers"
-                element={
-                  <TransfersSection
-                    sectionHeading="Transfers"
-                    cardCount="10"
-                    cardStart="0"
-                  />
-                }
+            }
+          />
+          <Route
+            path="transfers"
+            element={
+              <TransfersSection
+                sectionHeading="Transfers"
+                cardCount="10"
+                cardStart="0"
               />
-              <Route
-                path="awards"
-                element={
-                  <AwardsSection
-                    sectionHeading="Awards"
-                    cardCount="10"
-                    cardStart="0"
-                  />
-                }
+            }
+          />
+          <Route
+            path="awards"
+            element={
+              <AwardsSection
+                sectionHeading="Awards"
+                cardCount="10"
+                cardStart="0"
               />
-              <Route
-                path="world_cup_2018"
-                element={
-                  <WorldCupSection
-                    sectionHeading="FIFA World Cup 2018"
-                    cardCount="10"
-                    cardStart="0"
-                  />
-                }
+            }
+          />
+          <Route
+            path="world_cup_2018"
+            element={
+              <WorldCupSection
+                sectionHeading="FIFA World Cup 2018"
+                cardCount="10"
+                cardStart="0"
               />
-              <Route
-                path="euro_2020"
-                element={
-                  <EuroSection
-                    sectionHeading="UEFA Euro 2020"
-                    cardCount="5"
-                    cardStart="0"
-                  />
-                }
+            }
+          />
+          <Route
+            path="euro_2020"
+            element={
+              <EuroSection
+                sectionHeading="UEFA Euro 2020"
+                cardCount="5"
+                cardStart="0"
               />
-            </Routes>
-          </div>
-          <div className="ant-col ant-col-3"></div>
-        </div>
+            }
+          />
+        </Routes>
       </div>
     );
   }

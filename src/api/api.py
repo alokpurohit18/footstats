@@ -246,18 +246,14 @@ def news_description():
             "server-message" : "news description data loaded",
         }
 
-@app.route("/fifa22", methods=["POST"], strict_slashes=False)
-def fifa22():
+@app.route("/playerDetails", methods=["POST"], strict_slashes=False)
+def playerDetails():
     os.chdir("F:/Projects/footstats/src/api/data")
-    result = []
-    c = flask.request.json
-    f = open('fifa22.json')
-    d = json.load(f)
-    for ob in d:
-        r = {
-            "value": ob["personal_details"]["name"]["long_name"],
-            "label": ob["personal_details"]["name"]["long_name"],
-        }
-        result.append(r)
+    resultingPlayer = {}
+    request = flask.request.json
+    request = int(request)
+    file = open('playerDetails.json')
+    dataArray = json.load(file)
+    resultingPlayer = dataArray[request]
 
-    return {"result": "result"}
+    return resultingPlayer

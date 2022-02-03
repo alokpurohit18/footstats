@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
 const LoadAPI = (props) => {
+  let result = {};
   useEffect(() => {
     fetch(props.url, {
       method: "POST",
@@ -10,9 +11,8 @@ const LoadAPI = (props) => {
       body: JSON.stringify(props.sourceLink),
     }).then((response) =>
       response.json().then((data) => {
-        console.log(data);
-        if (props.loadPlayerObject !== undefined) {
-          props.loadPlayerObject(data);
+        if (props.setData !== null) {
+          props.setData(data);
         }
       })
     );
