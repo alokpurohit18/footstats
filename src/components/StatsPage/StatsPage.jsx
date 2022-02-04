@@ -83,7 +83,6 @@ class StatsPage extends React.Component {
             path="players"
             element={
               <PlayersSection
-                sectionHeading="Players"
                 cardCount="5"
                 cardStart="0"
                 leagueFilter="all"

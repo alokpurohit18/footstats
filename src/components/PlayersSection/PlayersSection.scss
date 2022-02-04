@@ -6,14 +6,93 @@
     background-color: $primary-color;
     margin-left: 1vw;
     margin-right: 1vw;
+    padding: 1vw;
+  }
 
-    .real-overall-rating {
-      display: block;
-      background: url("https://media.istockphoto.com/vectors/realistic-vertical-football-soccer-field-illustration-vector-id499753566?k=20&m=499753566&s=170667a&w=0&h=DwpHNQxSBQuqvsNKKmb96Y5EOpvhGgiM6IiVNjkJFTk=");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      height: 32.75vw;
-      border-radius: 10px;
+  .sub-heading {
+    font-size: 1.25vw;
+    text-align: left;
+  }
+
+  .all-overall-rating {
+    display: block;
+    background: url($soccer-field-url);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 32.75vw;
+    border-radius: 10px;
+  }
+
+  .player-details {
+    font-weight: 600;
+    padding-left: 5vw;
+
+    .profile-pic {
+      border-radius: 50%;
+      background-color: $secondary-color;
+      border: 2px solid white;
+    }
+
+    .general-details {
+      margin-left: 0.5vw;
+      font-size: 1vw;
+
+      .card-heading {
+        font-weight: bold;
+        font-size: 1.35vw;
+        margin-bottom: 0;
+      }
+
+      .nation-flag-logo {
+        margin-right: 0.2vw;
+      }
+
+      div {
+        margin-top: 0.2vw;
+      }
+    }
+
+    .overall-ratings {
+      position: relative;
+
+      .overall,
+      .potential {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 1vw;
+        font-size: 1.25vw;
+
+        .span-container {
+          margin-bottom: 0.5vw;
+        }
+
+        span {
+          padding: 0.5vw 0.75vw 0.5vw 0.75vw;
+          border-radius: 5px;
+          background-color: green;
+        }
+      }
+
+      .overall {
+        padding-left: 10vw;
+      }
+
+      .potential {
+        padding-left: 20vw;
+      }
+    }
+
+    .profile,
+    .player-specialities,
+    .club-info,
+    .nation-info {
+      margin-top: 3vw;
+      padding-right: 2vw;
+      font-size: 1vw;
+
+      .label {
+        color: $primary-text-color;
+      }
     }
   }
 }
