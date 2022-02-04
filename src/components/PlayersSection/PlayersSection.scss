@@ -6,7 +6,7 @@
     background-color: $primary-color;
     margin-left: 1vw;
     margin-right: 1vw;
-    padding: 1vw;
+    padding: 2vw;
   }
 
   .sub-heading {
@@ -25,12 +25,17 @@
 
   .player-details {
     font-weight: 600;
-    padding-left: 5vw;
+    padding-left: 3vw;
 
     .profile-pic {
       border-radius: 50%;
       background-color: $secondary-color;
       border: 2px solid white;
+    }
+
+    .nation-flag-logo,
+    .club-flag-logo {
+      margin-right: 0.25vw;
     }
 
     .general-details {
@@ -41,10 +46,6 @@
         font-weight: bold;
         font-size: 1.35vw;
         margin-bottom: 0;
-      }
-
-      .nation-flag-logo {
-        margin-right: 0.2vw;
       }
 
       div {
@@ -87,12 +88,21 @@
     .club-info,
     .nation-info {
       margin-top: 3vw;
-      padding-right: 2vw;
+      padding-right: 3vw;
       font-size: 1vw;
 
       .label {
         color: $primary-text-color;
       }
+
+      .club-logo,
+      .nation-logo {
+        padding: 0.75vw 0.5vw;
+      }
+    }
+
+    .nation-info {
+      padding-right: 0;
     }
   }
 }

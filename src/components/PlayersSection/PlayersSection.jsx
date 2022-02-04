@@ -55,9 +55,9 @@ class PlayersSection extends React.Component {
   render() {
     return (
       <div className="players-section-main">
-        <h2>{this.sectionHeading}</h2>
+        <h2>L. Messi</h2>
         {this.state.apiLoaded ? null : (
-          <LoadAPI url="/playerDetails" sourceLink={0} setData={this.setData} />
+          <LoadAPI url="/playerDetails" sourceLink={2} setData={this.setData} />
         )}
         {Object.keys(this.state.player).length === 0 &&
         this.state.player.constructor === Object ? null : (
@@ -173,20 +173,95 @@ class PlayersSection extends React.Component {
                     {this.state.player.stats.skill.skill_moves_rating + "⭐"}
                   </div>
                   <div>
-                    <span className="label">International Reputation:</span>{" "}
+                    <span className="label">International:</span>{" "}
                     {this.state.player.national_team.international_reputation +
                       "⭐"}
                   </div>
                 </div>
                 <div className="player-specialities ant-col">
-                  <h2 className="sub-heading">PLAYER SPECIALITIES</h2>
+                  <h2 className="sub-heading">SPECIALITIES</h2>
                   {this.loadPlayerSpecialities(
                     this.state.player.stats.generic.tags
                   )}
                   {this.abilityArray.map(this.createPlayerSpecialities)}
                 </div>
-                <div className="club-info ant-col"></div>
-                <div className="nation-info ant-col"></div>
+                <div className="club-info ant-col">
+                  <div className="ant-row">
+                    <div className="ant-col">
+                      <img
+                        className="club-flag-logo"
+                        alt="club flag logo"
+                        src={this.state.player.club.flag_url}
+                      />
+                    </div>
+                    <div className="sub-heading ant-col">
+                      {this.state.player.club.name.toUpperCase()}
+                    </div>
+                  </div>
+                  <div className="ant-row">
+                    <img
+                      className="club-logo"
+                      alt="club logo"
+                      src={this.state.player.club.logo_url}
+                    />
+                  </div>
+                  <div>
+                    <span className="label">Position: </span>
+                    {this.state.player.club.position}
+                  </div>
+                  <div>
+                    <span className="label">Kit Number: </span>
+                    {this.state.player.club.jersey_number}
+                  </div>
+                  {this.state.player.club.loaned_from === "" ? (
+                    <div>
+                      <span className="label">Joined: </span>
+                      {this.state.player.club.joined}
+                    </div>
+                  ) : (
+                    <div>
+                      <span className="label">Loaned From: </span>
+                      {this.state.player.club.loaned_from}
+                    </div>
+                  )}
+                  <div>
+                    <span className="label">Contract Valid Until: </span>
+                    {this.state.player.club.contract_valid_until}
+                  </div>
+                  <div>
+                    <span className="label">League: </span>
+                    {this.state.player.club.league.name}
+                  </div>
+                </div>
+                <div className="nation-info ant-col">
+                  <div className="ant-row">
+                    <div className="ant-col">
+                      <img
+                        className="nation-flag-logo"
+                        alt="nation flag logo"
+                        src={this.state.player.national_team.flag_url}
+                      />
+                    </div>
+                    <div className="sub-heading ant-col">
+                      {this.state.player.national_team.name.toUpperCase()}
+                    </div>
+                  </div>
+                  <div className="ant-row">
+                    <img
+                      className="club-logo"
+                      alt="club logo"
+                      src={this.state.player.national_team.logo_url}
+                    />
+                  </div>
+                  <div>
+                    <span className="label">Position: </span>
+                    {this.state.player.national_team.position}
+                  </div>
+                  <div>
+                    <span className="label">Kit Number: </span>
+                    {this.state.player.national_team.jersey_number}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
