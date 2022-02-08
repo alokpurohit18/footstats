@@ -1,0 +1,95 @@
+@import "../../../utils/variables.scss";
+
+.all-overall-rating {
+  display: block;
+  background: url($soccer-field-url);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 32.75vw;
+  border-radius: 10px;
+
+  .all-overall-container {
+    padding-top: 1.5vw;
+  }
+
+  .row-container {
+    margin-left: auto;
+    margin-right: auto;
+
+    > div {
+      display: block;
+      width: 3.5vw;
+      height: 3.5vw;
+      background-color: red;
+      border: 2px solid white;
+      border-radius: 10px;
+      opacity: 0.9;
+      margin-top: 0.5vw;
+      margin-bottom: 0.4vw;
+
+      > div {
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.ratings-analysis-container {
+  margin-top: 3vw;
+
+  .soccer-ball {
+    border-radius: 50%;
+    width: 14vw;
+    padding: 1vw;
+  }
+
+  .ratings-analysis {
+    position: relative;
+    display: block;
+    height: 14vw;
+    width: 14vw;
+    margin-top: 2vw;
+
+    .base-stat {
+      position: absolute;
+      font-weight: 600;
+      color: $primary-text-color;
+
+      span {
+        color: $secondary-text-color;
+      }
+
+      &.pace {
+        top: 0;
+        left: 0;
+      }
+
+      &.shooting {
+        top: 0;
+        right: 0;
+      }
+
+      &.defending {
+        bottom: 0;
+        left: 0;
+      }
+
+      &.passing {
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+.stat-row {
+  margin-top: 1vw;
+}
+
+.stat-box {
+  font-size: 1vw;
+  padding: 0.25vw 0.5vw;
+  background-color: green;
+  border-radius: 5px;
+}

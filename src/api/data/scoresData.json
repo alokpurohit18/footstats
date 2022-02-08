@@ -203,7 +203,7 @@
         "away_team_name": "Melbourne City FC",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11143.png&h=100&w=100",
         "away_score": "4",
-        "away_scorers": " F Berenguer  (40'),  J Maclaren  (52',\u00a066'),  M Leckie  (56')",
+        "away_scorers": " R Warland  (40'\u00a0OG),  J Maclaren  (52',\u00a066'),  M Leckie  (56')",
         "game_status": "FT",
         "game_result": "",
         "link": "https://www.espn.in/football/match/_/gameId/621158",
@@ -699,7 +699,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11450.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "",
+        "game_status": "36'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=611886",
         "league": "rou.1"
