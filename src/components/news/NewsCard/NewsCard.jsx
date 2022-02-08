@@ -1,7 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import "./NewsCard.scss";
-import LoadAPI from "../../utils/LoadAPI";
+import LoadAPI from "../../../utils/LoadAPI";
 
 class NewsCard extends React.Component {
   cardInfo;

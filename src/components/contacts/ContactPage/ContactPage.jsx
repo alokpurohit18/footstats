@@ -1,7 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import ContactCard from "../ContactCard/ContactCard.jsx";
-import contactsData from "../../api/data/contactsData.json";
+import contactsData from "../../../api/data/contactsData.json";
 
 class ContactPage extends React.Component {
   contactsData1;

@@ -1,9 +1,9 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import newsData from "../../api/data/newsData.json";
+import newsData from "../../../api/data/newsData.json";
 import NewsCard from "../NewsCard/NewsCard.jsx";
 
-class EuroSection extends React.Component {
+class NewsSection extends React.Component {
   cardCount;
   cardDetailsArray;
   sectionHeading;
@@ -41,4 +41,4 @@ class EuroSection extends React.Component {
     );
   }
 }
-export default EuroSection;
+export default NewsSection;

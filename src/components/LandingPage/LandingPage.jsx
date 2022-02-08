@@ -1,7 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import NewsSection from "../NewsSection/NewsSection.jsx";
-import ScoresSection from "../ScoresSection/ScoresSection.jsx";
+import NewsSection from "../news/NewsSection/NewsSection.jsx";
+import ScoresSection from "../scores/ScoresSection/ScoresSection.jsx";
 import "./LandingPage.scss";
 
 class LandingPage extends React.Component {

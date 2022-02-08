@@ -1,8 +1,8 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import LoadAPI from "../../utils/LoadAPI";
+import LoadAPI from "../../../utils/LoadAPI.jsx";
 import "./PlayersSection.scss";
-import { soccerBallUrl } from "../../utils/variables.js";
+import { soccerBallUrl } from "../../../utils/variables.js";
 
 class PlayersSection extends React.Component {
   sectionHeading;
@@ -66,7 +66,7 @@ class PlayersSection extends React.Component {
         {this.state.apiLoaded ? null : (
           <LoadAPI
             url="/playerDetails"
-            sourceLink={6}
+            sourceLink={16}
             setData={this.setData}
           />
         )}

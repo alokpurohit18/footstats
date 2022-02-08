@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Routes, Route } from "react-router-dom";
 import "antd/dist/antd.css";
-import SubNav from "../common/SubNav/SubNav.jsx";
+import SubNav from "../../common/SubNav/SubNav.jsx";
 import LeaguesSection from "../LeaguesSection/LeaguesSection.jsx";
 import PlayersSection from "../PlayersSection/PlayersSection.jsx";
 import TransfersSection from "../TransfersSection/TransfersSection.jsx";

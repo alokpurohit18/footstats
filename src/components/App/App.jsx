@@ -2,12 +2,12 @@ import React from "react";
 import NavBar from "../common/NavBar/NavBar.jsx";
 import Footer from "../common/Footer/Footer.jsx";
 import LandingPage from "../LandingPage/LandingPage.jsx";
-import ScoresPage from "../ScoresPage/ScoresPage.jsx";
-import NewsPage from "../NewsPage/NewsPage.jsx";
+import ScoresPage from "../scores/ScoresPage/ScoresPage.jsx";
+import NewsPage from "../news/NewsPage/NewsPage.jsx";
 import { Routes, Route } from "react-router-dom";
-import DocumentPage from "../DocumentPage/DocumentPage.jsx";
-import ContactPage from "../ContactPage/ContactPage.jsx";
-import StatsPage from "../StatsPage/StatsPage.jsx";
+import DocumentPage from "../common/DocumentPage/DocumentPage.jsx";
+import ContactPage from "../contacts/ContactPage/ContactPage.jsx";
+import StatsPage from "../stats/StatsPage/StatsPage.jsx";
 import { useEffect } from "react";
 
 function App() {

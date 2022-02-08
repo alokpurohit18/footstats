@@ -1,9 +1,9 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import scoresData from "../../api/data/scoresData.json";
+import scoresData from "../../../api/data/scoresData.json";
 import ScoreCard from "../ScoreCard/ScoreCard.jsx";
 import ScoreCardLarge from "../ScoreCardLarge/ScoreCardLarge.jsx";
-import LeagueConversion from "../../api/data/leagueConversion.json";
+import LeagueConversion from "../../../api/data/leagueConversion.json";
 
 class ScoresSection extends React.Component {
   cardCount;
