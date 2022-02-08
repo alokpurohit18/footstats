@@ -1,7 +1,7 @@
 import * as React from "react";
 import Avatar from "@mui/material/Avatar";
 import "antd/dist/antd.css";
-import { appLogo, appName } from "../../utils/variables.js";
+import { appLogo, appName } from "../../../utils/variables.js";
 import Search from "../Search/Search.jsx";
 import { Link } from "react-router-dom";
 import "./NavBar.scss";
