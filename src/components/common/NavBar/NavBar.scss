@@ -50,6 +50,23 @@
   }
 }
 
+.sponsers-container {
+  color: $secondary-text-color;
+  font-size: 1vw;
+  margin-left: 3vw;
+  position: relative;
+
+  .sponsers {
+    position: absolute;
+    top: 20%;
+
+    .espn,
+    .sky-sport {
+      border-radius: 5px;
+    }
+  }
+}
+
 .subnav-main {
   text-align: center;
   background-color: $primary-color;

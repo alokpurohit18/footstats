@@ -37,7 +37,23 @@ class Navbar extends React.Component {
 
         {this.pages.map(this.createNavElement)}
 
-        <Search placeholder="Search" searchIcon="🔍" />
+        <div className="sponsers-container ant-col-5">
+          <div className="sponsers ant-row">
+            <div className="ant-col ant-col-8">Powered By:</div>
+            <span className="ant-col ant-col-2"></span>
+            <img
+              className="espn ant-col ant-col-5"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/2560px-ESPN_wordmark.svg.png"
+              alt="espn logo"
+            />
+            <span className="ant-col ant-col-2"></span>
+            <img
+              className="sky-sport ant-col ant-col-7"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sky_Sports_logo_2017.svg/1280px-Sky_Sports_logo_2017.svg.png"
+              alt="sky logo"
+            />
+          </div>
+        </div>
       </div>
     );
   }

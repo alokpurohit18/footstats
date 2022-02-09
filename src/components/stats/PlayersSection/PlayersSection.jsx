@@ -4,6 +4,7 @@ import LoadAPI from "../../../utils/LoadAPI.jsx";
 import PlayerRatings from "./PlayerRatings.jsx";
 import PlayerBase from "./PlayerBase.jsx";
 import PlayerAttributes from "./PlayerAttributes.jsx";
+import Search from "../../common/Search/Search.jsx";
 import "./PlayersSection.scss";
 
 class PlayersSection extends React.Component {
@@ -59,7 +60,8 @@ class PlayersSection extends React.Component {
   render() {
     return (
       <div className="players-section-main">
-        <h2>
+        <Search placeholder="Search Players" searchIcon="" />
+        <h2 className="">
           {Object.keys(this.state.player).length === 0 &&
           this.state.player.constructor === Object
             ? null
