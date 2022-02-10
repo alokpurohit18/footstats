@@ -1,10 +1,10 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import LoadAPI from "../../../utils/LoadAPI.jsx";
 import PlayerRatings from "./PlayerRatings.jsx";
 import PlayerBase from "./PlayerBase.jsx";
 import PlayerAttributes from "./PlayerAttributes.jsx";
 import Search from "../../common/Search/Search.jsx";
+import playerNames from "../../../api/data/playerNames.json";
 import "./PlayersSection.scss";
 
 class PlayersSection extends React.Component {
@@ -60,16 +60,18 @@ class PlayersSection extends React.Component {
   render() {
     return (
       <div className="players-section-main">
-        <Search placeholder="Search for Players" searchIcon="" />
+        <Search
+          placeholder="Search for Players"
+          searchIcon=""
+          setData={this.setData}
+          playerNames={playerNames}
+        />
         <h2 className="">
           {Object.keys(this.state.player).length === 0 &&
           this.state.player.constructor === Object
             ? null
             : this.state.player.personal_details.name.short_name}
         </h2>
-        {this.state.apiLoaded ? null : (
-          <LoadAPI url="/playerDetails" sourceLink={6} setData={this.setData} />
-        )}
         {Object.keys(this.state.player).length === 0 &&
         this.state.player.constructor === Object ? null : (
           <div className="player-card-main ant-row">
