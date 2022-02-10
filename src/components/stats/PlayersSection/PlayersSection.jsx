@@ -60,7 +60,7 @@ class PlayersSection extends React.Component {
   render() {
     return (
       <div className="players-section-main">
-        <Search placeholder="Search Players" searchIcon="" />
+        <Search placeholder="Search for Players" searchIcon="" />
         <h2 className="">
           {Object.keys(this.state.player).length === 0 &&
           this.state.player.constructor === Object

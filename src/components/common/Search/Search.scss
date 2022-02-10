@@ -3,7 +3,11 @@
 .search-container {
   position: relative;
   font-size: 1.5vw;
-  margin-left: 6vw;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+  margin-bottom: 0.5vw;
 }
 
 @-moz-document url-prefix() {
@@ -13,10 +17,10 @@
 }
 
 .search-bar {
-  font-style: oblique;
   caret-color: transparent;
   border-radius: 1vw;
-  padding-left: 1vw;
+  text-align: center;
+  color: black;
 }
 
 .search-icon {
