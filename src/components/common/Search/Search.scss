@@ -24,7 +24,30 @@
 }
 
 .search-results {
+  width: 100%;
   .search-result {
-    color: $secondary-text-color;
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 0.5vw auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+    .button {
+      background-color: black;
+      display: block;
+      width: 100%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
   }
 }

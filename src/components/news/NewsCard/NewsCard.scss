@@ -16,6 +16,7 @@
 .score-card-large-main {
   outline: none;
   border: none;
+  transition: all 0.2s ease-in-out;
 
   &:active {
     border-style: outset;
@@ -24,7 +25,7 @@
 
   &:hover {
     cursor: pointer;
-    transform: scale(1.01);
+    transform: scale(1.05);
   }
 }
 

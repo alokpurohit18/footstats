@@ -12,6 +12,7 @@ class Search extends React.Component {
     this.state = {
       searchResults: [],
       searchBoxValue: "",
+      sourceLink: 1,
     };
   }
 
@@ -23,7 +24,7 @@ class Search extends React.Component {
     if (searchBar.value.length >= 3) {
       for (let i = 0; i < playerNames.length; i++) {
         if (playerNames[i].value.includes(searchString)) {
-          searchResults[searchResults.length] = playerNames[i].label;
+          searchResults[searchResults.length] = playerNames[i];
         }
       }
 
@@ -35,8 +36,10 @@ class Search extends React.Component {
 
   displaySearchResults = (searchResult) => {
     return (
-      <div key={searchResult} className="search-result">
-        {searchResult}
+      <div className="search-result">
+        <button key={searchResult.value} className="button">
+          {searchResult.label}
+        </button>
       </div>
     );
   };
@@ -47,7 +50,7 @@ class Search extends React.Component {
         {this.state.apiLoaded ? null : (
           <LoadAPI
             url="/playerDetails"
-            sourceLink={1}
+            sourceLink={this.state.sourceLink}
             setData={this.props.setData}
           />
         )}
