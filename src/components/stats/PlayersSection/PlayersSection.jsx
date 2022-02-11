@@ -62,7 +62,6 @@ class PlayersSection extends React.Component {
       <div className="players-section-main">
         <Search
           placeholder="Search for Players"
-          searchIcon=""
           setData={this.setData}
           playerNames={playerNames}
         />
