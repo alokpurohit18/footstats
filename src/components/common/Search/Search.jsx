@@ -23,7 +23,11 @@ class Search extends React.Component {
     let searchBar = document.getElementsByClassName("search-bar")[0];
     if (searchBar.value.length >= 3) {
       for (let i = 0; i < playerNames.length; i++) {
-        if (playerNames[i].value.includes(searchString)) {
+        if (
+          playerNames[i].value
+            .toLowerCase()
+            .includes(searchString.toLowerCase())
+        ) {
           searchResults[searchResults.length] = playerNames[i];
         }
       }
