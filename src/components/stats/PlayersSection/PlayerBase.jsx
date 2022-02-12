@@ -3,13 +3,6 @@ import "antd/dist/antd.css";
 import { soccerBallUrl } from "../../../utils/variables.js";
 
 class PlayerBase extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      player: this.props.player,
-    };
-  }
-
   render() {
     return (
       <div className="player-base ant-col ant-col-6">
@@ -21,29 +14,29 @@ class PlayerBase extends React.Component {
               src={soccerBallUrl}
               alt="football img"
             />
-            {this.state.player.personal_details.positions === "GK" ? (
+            {this.props.player.personal_details.positions === "GK" ? (
               <div>
                 <div className="base-stat pace">
                   <span className="stat-box">
-                    {this.state.player.stats.goalkeeping.diving}
+                    {this.props.player.stats.goalkeeping.diving}
                   </span>{" "}
                   DIV
                 </div>
                 <div className="base-stat shooting">
                   HAN{" "}
                   <span className="stat-box">
-                    {this.state.player.stats.goalkeeping.handling}
+                    {this.props.player.stats.goalkeeping.handling}
                   </span>
                 </div>
                 <div className="base-stat passing">
                   KIC{" "}
                   <span className="stat-box">
-                    {this.state.player.stats.goalkeeping.kicking}
+                    {this.props.player.stats.goalkeeping.kicking}
                   </span>
                 </div>
                 <div className="base-stat defending">
                   <span className="stat-box">
-                    {this.state.player.stats.goalkeeping.reflexes}
+                    {this.props.player.stats.goalkeeping.reflexes}
                   </span>{" "}
                   REF
                 </div>
@@ -52,25 +45,25 @@ class PlayerBase extends React.Component {
               <div>
                 <div className="base-stat pace">
                   <span className="stat-box">
-                    {this.state.player.stats.generic.pace}
+                    {this.props.player.stats.generic.pace}
                   </span>{" "}
                   PAC
                 </div>
                 <div className="base-stat shooting">
                   SHO{" "}
                   <span className="stat-box">
-                    {this.state.player.stats.generic.shooting}
+                    {this.props.player.stats.generic.shooting}
                   </span>
                 </div>
                 <div className="base-stat passing">
                   PAS{" "}
                   <span className="stat-box">
-                    {this.state.player.stats.generic.passing}
+                    {this.props.player.stats.generic.passing}
                   </span>
                 </div>
                 <div className="base-stat defending">
                   <span className="stat-box">
-                    {this.state.player.stats.generic.defending}
+                    {this.props.player.stats.generic.defending}
                   </span>{" "}
                   DEF
                 </div>

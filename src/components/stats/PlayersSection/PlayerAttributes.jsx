@@ -2,13 +2,6 @@ import * as React from "react";
 import "antd/dist/antd.css";
 
 class PlayerAttributes extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      player: this.props.player,
-    };
-  }
-
   render() {
     return (
       <div className="player-details ant-col ant-col-18">
@@ -17,13 +10,13 @@ class PlayerAttributes extends React.Component {
             <h2 className="sub-heading">PACE</h2>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.movement.sprint_speed}
+                {this.props.player.stats.movement.sprint_speed}
               </span>
               <span className="label"> Sprint Speed</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.movement.acceleration}
+                {this.props.player.stats.movement.acceleration}
               </span>
               <span className="label"> Acceleration</span>
             </div>
@@ -32,37 +25,37 @@ class PlayerAttributes extends React.Component {
             <h2 className="sub-heading">SHOOTING</h2>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.attacking.finishing}
+                {this.props.player.stats.attacking.finishing}
               </span>
               <span className="label"> Finishing</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.defending.positioning}
+                {this.props.player.stats.defending.positioning}
               </span>
               <span className="label"> Positioning</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.attacking.shot_power}
+                {this.props.player.stats.attacking.shot_power}
               </span>
               <span className="label"> Shot Power</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.attacking.long_shots}
+                {this.props.player.stats.attacking.long_shots}
               </span>
               <span className="label"> Long Shots</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.skill.penalties}
+                {this.props.player.stats.skill.penalties}
               </span>
               <span className="label"> Penalties</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.attacking.volleys}
+                {this.props.player.stats.attacking.volleys}
               </span>
               <span className="label"> Volleys</span>
             </div>
@@ -71,37 +64,37 @@ class PlayerAttributes extends React.Component {
             <h2 className="sub-heading">PASSING</h2>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.attacking.finishing}
+                {this.props.player.stats.attacking.finishing}
               </span>
               <span className="label"> Vision</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.attacking.crossing}
+                {this.props.player.stats.attacking.crossing}
               </span>
               <span className="label"> Crossing</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.skill.fk_accuracy}
+                {this.props.player.stats.skill.fk_accuracy}
               </span>
               <span className="label"> FK Accuracy</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.attacking.long_passing}
+                {this.props.player.stats.attacking.long_passing}
               </span>
               <span className="label"> Long Passing</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.attacking.short_passing}
+                {this.props.player.stats.attacking.short_passing}
               </span>
               <span className="label"> Short Passing</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.skill.fk_curve}
+                {this.props.player.stats.skill.fk_curve}
               </span>
               <span className="label"> Curve</span>
             </div>
@@ -110,37 +103,37 @@ class PlayerAttributes extends React.Component {
             <h2 className="sub-heading">DRIBBLING</h2>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.movement.agility}
+                {this.props.player.stats.movement.agility}
               </span>
               <span className="label"> Agility</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.movement.balance}
+                {this.props.player.stats.movement.balance}
               </span>
               <span className="label"> Balance</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.movement.reactions}
+                {this.props.player.stats.movement.reactions}
               </span>
               <span className="label"> Reactions</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.skill.composure}
+                {this.props.player.stats.skill.composure}
               </span>
               <span className="label"> Composure</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.skill.ball_control}
+                {this.props.player.stats.skill.ball_control}
               </span>
               <span className="label"> Ball Control</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.skill.dribbling}
+                {this.props.player.stats.skill.dribbling}
               </span>
               <span className="label"> Dribbling</span>
             </div>
@@ -151,31 +144,31 @@ class PlayerAttributes extends React.Component {
             <h2 className="sub-heading">DEFENDING</h2>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.defending.interceptions}
+                {this.props.player.stats.defending.interceptions}
               </span>
               <span className="label"> Interceptions</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.attacking.heading_accuracy}
+                {this.props.player.stats.attacking.heading_accuracy}
               </span>
               <span className="label"> Heading Accuracy</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.defending.marking_awareness}
+                {this.props.player.stats.defending.marking_awareness}
               </span>
               <span className="label"> Defensive Awareness</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.defending.standing_tackle}
+                {this.props.player.stats.defending.standing_tackle}
               </span>
               <span className="label"> Standing Tackle</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.defending.sliding_tackle}
+                {this.props.player.stats.defending.sliding_tackle}
               </span>
               <span className="label"> Sliding Tackle</span>
             </div>
@@ -184,25 +177,25 @@ class PlayerAttributes extends React.Component {
             <h2 className="sub-heading">PHYSICAL</h2>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.generic.jumping}
+                {this.props.player.stats.generic.jumping}
               </span>
               <span className="label"> Jumping</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.generic.stamina}
+                {this.props.player.stats.generic.stamina}
               </span>
               <span className="label"> Stamina</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.generic.strength}
+                {this.props.player.stats.generic.strength}
               </span>
               <span className="label"> Strength</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.defending.aggression}
+                {this.props.player.stats.defending.aggression}
               </span>
               <span className="label"> Aggression</span>
             </div>
@@ -211,31 +204,31 @@ class PlayerAttributes extends React.Component {
             <h2 className="sub-heading">GOALKEEPING</h2>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.goalkeeping.diving}
+                {this.props.player.stats.goalkeeping.diving}
               </span>
               <span className="label"> GK Diving</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.goalkeeping.handling}
+                {this.props.player.stats.goalkeeping.handling}
               </span>
               <span className="label"> GK Handling</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.goalkeeping.kicking}
+                {this.props.player.stats.goalkeeping.kicking}
               </span>
               <span className="label"> GK Kicking</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.goalkeeping.positioning}
+                {this.props.player.stats.goalkeeping.positioning}
               </span>
               <span className="label"> GK Positioning</span>
             </div>
             <div className="stat-row">
               <span className="stat-box">
-                {this.state.player.stats.goalkeeping.reflexes}
+                {this.props.player.stats.goalkeeping.reflexes}
               </span>
               <span className="label"> GK Reflexes</span>
             </div>
@@ -243,7 +236,7 @@ class PlayerAttributes extends React.Component {
           <div className="traits ant-col ant-col-6">
             <h2 className="sub-heading">TRAITS</h2>
             {this.props.loadPlayerSpecialities(
-              this.state.player.stats.generic.traits
+              this.props.player.stats.generic.traits
             )}
             {this.props.abilityArray.map(this.props.createPlayerSpecialities)}
           </div>
