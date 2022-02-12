@@ -10,8 +10,6 @@ class Search extends React.Component {
     this.placeholder = this.props.placeholder;
     this.state = {
       searchResults: [],
-      searchBoxValue: "",
-      sourceLink: 0,
     };
   }
 
@@ -41,7 +39,7 @@ class Search extends React.Component {
     return (
       <div key={searchResult.key} className="search-result">
         <button
-          onClick={() => this.setState({ sourceLink: searchResult.key })}
+          onClick={() => this.props.setSourceLink(searchResult.key)}
           className="button"
         >
           {searchResult.label}

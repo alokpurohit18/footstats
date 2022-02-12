@@ -19,6 +19,7 @@ class PlayersSection extends React.Component {
     this.state = {
       player: {},
       apiLoaded: false,
+      sourceLink: 0,
     };
   }
 
@@ -26,6 +27,13 @@ class PlayersSection extends React.Component {
     this.setState({
       player: player,
       apiLoaded: true,
+    });
+  };
+
+  setSourceLink = (link) => {
+    this.setState({
+      sourceLink: link,
+      apiLoaded: false,
     });
   };
 
@@ -62,12 +70,16 @@ class PlayersSection extends React.Component {
     return (
       <div className="players-section-main">
         {this.state.apiLoaded ? null : (
-          <LoadAPI url="/playerDetails" sourceLink={0} setData={this.setData} />
+          <LoadAPI
+            url="/playerDetails"
+            sourceLink={this.state.sourceLink}
+            setData={this.setData}
+          />
         )}
         <Search
           placeholder="Search for Players"
-          setData={this.setData}
           playerNames={playerNames}
+          setSourceLink={this.setSourceLink}
         />
         <h2 className="">
           {Object.keys(this.state.player).length === 0 &&

@@ -18,13 +18,13 @@
         "key": 1,
         "home_team_name": "Chelsea",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&h=100&w=100",
-        "home_score": "0",
-        "home_scorers": "",
+        "home_score": "1",
+        "home_scorers": "R Lukaku  (55') ",
         "away_team_name": "Palmeiras",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2029.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "HT",
+        "game_status": "59'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=622401",
         "league": "fifa.cwc"
@@ -46,6 +46,21 @@
     },
     {
         "key": 3,
+        "home_team_name": "Norwich City",
+        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/381.png&h=100&w=100",
+        "home_score": "0",
+        "home_scorers": "",
+        "away_team_name": "Manchester City",
+        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&h=100&w=100",
+        "away_score": "0",
+        "away_scorers": "",
+        "game_status": "17'",
+        "game_result": "",
+        "link": "https://www.espn.in/football/match?gameId=605795",
+        "league": "eng.1"
+    },
+    {
+        "key": 4,
         "home_team_name": "Manchester United",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/360.png&h=100&w=100",
         "home_score": "1",
@@ -60,7 +75,7 @@
         "league": "eng.1"
     },
     {
-        "key": 4,
+        "key": 5,
         "home_team_name": "Brentford",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/337.png&h=100&w=100",
         "home_score": "0",
@@ -75,7 +90,7 @@
         "league": "eng.1"
     },
     {
-        "key": 5,
+        "key": 6,
         "home_team_name": "Everton",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/368.png&h=100&w=100",
         "home_score": "3",
@@ -90,7 +105,7 @@
         "league": "eng.1"
     },
     {
-        "key": 6,
+        "key": 7,
         "home_team_name": "Watford",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/395.png&h=100&w=100",
         "home_score": "0",
@@ -102,21 +117,6 @@
         "game_status": "FT",
         "game_result": "",
         "link": "https://www.espn.in/football/match/_/gameId/605791",
-        "league": "eng.1"
-    },
-    {
-        "key": 7,
-        "home_team_name": "Norwich City",
-        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/381.png&h=100&w=100",
-        "home_score": "",
-        "home_scorers": "",
-        "away_team_name": "Manchester City",
-        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&h=100&w=100",
-        "away_score": "",
-        "away_scorers": "",
-        "game_status": "12/2\n11:00 PM",
-        "game_result": "",
-        "link": "https://www.espn.in/football/match/_/gameId/605795",
         "league": "eng.1"
     },
     {
@@ -136,6 +136,21 @@
     },
     {
         "key": 9,
+        "home_team_name": "Rayo Vallecano",
+        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/101.png&h=100&w=100",
+        "home_score": "0",
+        "home_scorers": "",
+        "away_team_name": "Osasuna",
+        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/97.png&h=100&w=100",
+        "away_score": "1",
+        "away_scorers": " J Moncayola  (8')",
+        "game_status": "16'",
+        "game_result": "",
+        "link": "https://www.espn.in/football/match?gameId=610536",
+        "league": "esp.1"
+    },
+    {
+        "key": 10,
         "home_team_name": "C\u00e1diz",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3842.png&h=100&w=100",
         "home_score": "0",
@@ -150,7 +165,7 @@
         "league": "esp.1"
     },
     {
-        "key": 10,
+        "key": 11,
         "home_team_name": "Villarreal",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/102.png&h=100&w=100",
         "home_score": "0",
@@ -162,21 +177,6 @@
         "game_status": "FT",
         "game_result": "",
         "link": "https://www.espn.in/football/match/_/gameId/610538",
-        "league": "esp.1"
-    },
-    {
-        "key": 11,
-        "home_team_name": "Rayo Vallecano",
-        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/101.png&h=100&w=100",
-        "home_score": "",
-        "home_scorers": "",
-        "away_team_name": "Osasuna",
-        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/97.png&h=100&w=100",
-        "away_score": "",
-        "away_scorers": "",
-        "game_status": "12/2\n11:00 PM",
-        "game_result": "",
-        "link": "https://www.espn.in/football/match/_/gameId/610536",
         "league": "esp.1"
     },
     {
@@ -204,7 +204,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/110.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "27'",
+        "game_status": "45'+1'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=614679",
         "league": "ita.1"
@@ -241,6 +241,21 @@
     },
     {
         "key": 16,
+        "home_team_name": "Bayer Leverkusen",
+        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/131.png&h=100&w=100",
+        "home_score": "0",
+        "home_scorers": "",
+        "away_team_name": "VfB Stuttgart",
+        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/134.png&h=100&w=100",
+        "away_score": "0",
+        "away_scorers": "",
+        "game_status": "16'",
+        "game_result": "",
+        "link": "https://www.espn.in/football/match?gameId=608734",
+        "league": "ger.1"
+    },
+    {
+        "key": 17,
         "home_team_name": "Borussia Monchengladbach",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/268.png&h=100&w=100",
         "home_score": "3",
@@ -255,7 +270,7 @@
         "league": "ger.1"
     },
     {
-        "key": 17,
+        "key": 18,
         "home_team_name": "Eintracht Frankfurt",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/125.png&h=100&w=100",
         "home_score": "0",
@@ -270,7 +285,7 @@
         "league": "ger.1"
     },
     {
-        "key": 18,
+        "key": 19,
         "home_team_name": "SC Freiburg",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/126.png&h=100&w=100",
         "home_score": "1",
@@ -285,7 +300,7 @@
         "league": "ger.1"
     },
     {
-        "key": 19,
+        "key": 20,
         "home_team_name": "SpVgg Greuther Furth",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3070.png&h=100&w=100",
         "home_score": "2",
@@ -300,7 +315,7 @@
         "league": "ger.1"
     },
     {
-        "key": 20,
+        "key": 21,
         "home_team_name": "VfL Bochum",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/121.png&h=100&w=100",
         "home_score": "4",
@@ -315,21 +330,6 @@
         "league": "ger.1"
     },
     {
-        "key": 21,
-        "home_team_name": "Bayer Leverkusen",
-        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/131.png&h=100&w=100",
-        "home_score": "",
-        "home_scorers": "",
-        "away_team_name": "VfB Stuttgart",
-        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/134.png&h=100&w=100",
-        "away_score": "",
-        "away_scorers": "",
-        "game_status": "12/2\n11:00 PM",
-        "game_result": "",
-        "link": "https://www.espn.in/football/match/_/gameId/608734",
-        "league": "ger.1"
-    },
-    {
         "key": 22,
         "home_team_name": "Montpellier",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/274.png&h=100&w=100",
@@ -337,9 +337,9 @@
         "home_scorers": "",
         "away_team_name": "Lille",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/166.png&h=100&w=100",
-        "away_score": "0",
-        "away_scorers": "",
-        "game_status": "72'",
+        "away_score": "1",
+        "away_scorers": " Xeka  (77')",
+        "game_status": "90'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=609292",
         "league": "fra.1"
@@ -571,6 +571,21 @@
     },
     {
         "key": 38,
+        "home_team_name": "SC Cambuur",
+        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3736.png&h=100&w=100",
+        "home_score": "0",
+        "home_scorers": "",
+        "away_team_name": "PEC Zwolle",
+        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2565.png&h=100&w=100",
+        "away_score": "0",
+        "away_scorers": "",
+        "game_status": "1'",
+        "game_result": "",
+        "link": "https://www.espn.in/football/match?gameId=603637",
+        "league": "ned.1"
+    },
+    {
+        "key": 39,
         "home_team_name": "FC Groningen",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/145.png&h=100&w=100",
         "home_score": "",
@@ -582,21 +597,6 @@
         "game_status": "12/2\n11:15 PM",
         "game_result": "",
         "link": "https://www.espn.in/football/match/_/gameId/603635",
-        "league": "ned.1"
-    },
-    {
-        "key": 39,
-        "home_team_name": "SC Cambuur",
-        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3736.png&h=100&w=100",
-        "home_score": "",
-        "home_scorers": "",
-        "away_team_name": "PEC Zwolle",
-        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2565.png&h=100&w=100",
-        "away_score": "",
-        "away_scorers": "",
-        "game_status": "12/2\n11:15 PM",
-        "game_result": "",
-        "link": "https://www.espn.in/football/match/_/gameId/603637",
         "league": "ned.1"
     },
     {
@@ -661,6 +661,36 @@
     },
     {
         "key": 44,
+        "home_team_name": "KV Mechelen",
+        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7879.png&h=100&w=100",
+        "home_score": "0",
+        "home_scorers": "",
+        "away_team_name": "KV Oostende",
+        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3612.png&h=100&w=100",
+        "away_score": "0",
+        "away_scorers": "",
+        "game_status": "17'",
+        "game_result": "",
+        "link": "https://www.espn.in/football/match?gameId=603445",
+        "league": "bel.1"
+    },
+    {
+        "key": 45,
+        "home_team_name": "Oud-Heverlee Leuven",
+        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5579.png&h=100&w=100",
+        "home_score": "0",
+        "home_scorers": "",
+        "away_team_name": "Cercle Brugge KSV",
+        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3610.png&h=100&w=100",
+        "away_score": "0",
+        "away_scorers": "",
+        "game_status": "16'",
+        "game_result": "",
+        "link": "https://www.espn.in/football/match?gameId=603449",
+        "league": "bel.1"
+    },
+    {
+        "key": 46,
         "home_team_name": "Eupen",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4689.png&h=100&w=100",
         "home_score": "0",
@@ -672,36 +702,6 @@
         "game_status": "FT",
         "game_result": "",
         "link": "https://www.espn.in/football/match/_/gameId/603442",
-        "league": "bel.1"
-    },
-    {
-        "key": 45,
-        "home_team_name": "KV Mechelen",
-        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7879.png&h=100&w=100",
-        "home_score": "",
-        "home_scorers": "",
-        "away_team_name": "KV Oostende",
-        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3612.png&h=100&w=100",
-        "away_score": "",
-        "away_scorers": "",
-        "game_status": "12/2\n11:00 PM",
-        "game_result": "",
-        "link": "https://www.espn.in/football/match/_/gameId/603445",
-        "league": "bel.1"
-    },
-    {
-        "key": 46,
-        "home_team_name": "Oud-Heverlee Leuven",
-        "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5579.png&h=100&w=100",
-        "home_score": "",
-        "home_scorers": "",
-        "away_team_name": "Cercle Brugge KSV",
-        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3610.png&h=100&w=100",
-        "away_score": "",
-        "away_scorers": "",
-        "game_status": "12/2\n11:00 PM",
-        "game_result": "",
-        "link": "https://www.espn.in/football/match/_/gameId/603449",
         "league": "bel.1"
     },
     {
@@ -723,13 +723,13 @@
         "key": 48,
         "home_team_name": "Galatasaray",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/432.png&h=100&w=100",
-        "home_score": "0",
-        "home_scorers": "",
+        "home_score": "1",
+        "home_scorers": "M Fathi  (85') ",
         "away_team_name": "Kayserispor",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3643.png&h=100&w=100",
-        "away_score": "0",
-        "away_scorers": "",
-        "game_status": "67'",
+        "away_score": "1",
+        "away_scorers": " M Cardoso  (69')",
+        "game_status": "85'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=614299",
         "league": "tur.1"
@@ -774,7 +774,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1382.png&h=100&w=100",
         "away_score": "2",
         "away_scorers": " M Fischer  (16'),  N Ohio  (19')",
-        "game_status": "70'",
+        "game_status": "88'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=606525",
         "league": "aut.1"
@@ -789,7 +789,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3759.png&h=100&w=100",
         "away_score": "1",
         "away_scorers": " A Bajic  (39')",
-        "game_status": "72'",
+        "game_status": "90'+1'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=606529",
         "league": "aut.1"
@@ -798,13 +798,13 @@
         "key": 53,
         "home_team_name": "WSG Swarovski Tirol",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18794.png&h=100&w=100",
-        "home_score": "1",
-        "home_scorers": "R Behounek  (5') ",
+        "home_score": "2",
+        "home_scorers": "R Behounek  (5'),  S Skrbo  (81') ",
         "away_team_name": "SK Sturm Graz",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3746.png&h=100&w=100",
-        "away_score": "1",
-        "away_scorers": " R H\u00f6jlund  (38')",
-        "game_status": "71'",
+        "away_score": "2",
+        "away_scorers": " R H\u00f6jlund  (38',\u00a074')",
+        "game_status": "90'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=606528",
         "league": "aut.1"
@@ -813,30 +813,30 @@
         "key": 54,
         "home_team_name": "Apollon Smyrni",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15722.png&h=100&w=100",
-        "home_score": "",
+        "home_score": "0",
         "home_scorers": "",
         "away_team_name": "Panetolikos",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11431.png&h=100&w=100",
-        "away_score": "",
+        "away_score": "0",
         "away_scorers": "",
-        "game_status": "12/2\n11:00 PM",
+        "game_status": "15'",
         "game_result": "",
-        "link": "https://www.espn.in/football/match/_/gameId/616641",
+        "link": "https://www.espn.in/football/match?gameId=616641",
         "league": "gre.1"
     },
     {
         "key": 55,
         "home_team_name": "Asteras Tripoli",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8354.png&h=100&w=100",
-        "home_score": "",
-        "home_scorers": "",
+        "home_score": "1",
+        "home_scorers": "E Capilla  (6') ",
         "away_team_name": "Ionikos FC",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21093.png&h=100&w=100",
-        "away_score": "",
+        "away_score": "0",
         "away_scorers": "",
-        "game_status": "12/2\n11:00 PM",
+        "game_status": "17'",
         "game_result": "",
-        "link": "https://www.espn.in/football/match/_/gameId/616639",
+        "link": "https://www.espn.in/football/match?gameId=616639",
         "league": "gre.1"
     },
     {
@@ -849,7 +849,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/492.png&h=100&w=100",
         "away_score": "1",
         "away_scorers": " F Momoh  (28')",
-        "game_status": "28'",
+        "game_status": "45'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=608398",
         "league": "sui.1"
@@ -871,6 +871,21 @@
     },
     {
         "key": 58,
+        "home_team_name": "Annan Athletic",
+        "home_team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100",
+        "home_score": "0",
+        "home_scorers": "",
+        "away_team_name": "Rangers",
+        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/257.png&h=100&w=100",
+        "away_score": "1",
+        "away_scorers": " F Helander  (7')",
+        "game_status": "17'",
+        "game_result": "",
+        "link": "https://www.espn.in/football/match?gameId=629203",
+        "league": "sco.tennents"
+    },
+    {
+        "key": 59,
         "home_team_name": "Heart of Midlothian",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/262.png&h=100&w=100",
         "home_score": "0",
@@ -879,13 +894,13 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/259.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "119'",
-        "game_result": "",
-        "link": "https://www.espn.in/football/match?gameId=629201",
+        "game_status": "FT-Pens",
+        "game_result": "Heart of Midlothian advance 4-3 on penalties",
+        "link": "https://www.espn.in/football/match/_/gameId/629201",
         "league": "sco.tennents"
     },
     {
-        "key": 59,
+        "key": 60,
         "home_team_name": "Motherwell",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/266.png&h=100&w=100",
         "home_score": "2",
@@ -900,7 +915,7 @@
         "league": "sco.tennents"
     },
     {
-        "key": 60,
+        "key": 61,
         "home_team_name": "Partick Thistle",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/247.png&h=100&w=100",
         "home_score": "0",
@@ -915,7 +930,7 @@
         "league": "sco.tennents"
     },
     {
-        "key": 61,
+        "key": 62,
         "home_team_name": "St Mirren",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/250.png&h=100&w=100",
         "home_score": "4",
@@ -930,21 +945,6 @@
         "league": "sco.tennents"
     },
     {
-        "key": 62,
-        "home_team_name": "Annan Athletic",
-        "home_team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100",
-        "home_score": "",
-        "home_scorers": "",
-        "away_team_name": "Rangers",
-        "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/257.png&h=100&w=100",
-        "away_score": "",
-        "away_scorers": "",
-        "game_status": "12/2\n11:00 PM",
-        "game_result": "",
-        "link": "https://www.espn.in/football/match/_/gameId/629203",
-        "league": "sco.tennents"
-    },
-    {
         "key": 63,
         "home_team_name": "Real Valladolid",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/95.png&h=100&w=100",
@@ -954,7 +954,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9812.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "12'",
+        "game_status": "31'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=610940",
         "league": "esp.2"
@@ -963,13 +963,13 @@
         "key": 64,
         "home_team_name": "UD Ibiza",
         "home_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20229.png&h=100&w=100",
-        "home_score": "0",
-        "home_scorers": "",
+        "home_score": "1",
+        "home_scorers": "M Guerrero  (23'\u00a0PEN) ",
         "away_team_name": "FC Cartagena",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5419.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "12'",
+        "game_status": "31'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=610938",
         "league": "esp.2"
@@ -1554,7 +1554,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/285.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "HT",
+        "game_status": "61'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=607946",
         "league": "eng.4"
@@ -1732,9 +1732,9 @@
         "home_scorers": "",
         "away_team_name": "Southend United",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/310.png&h=100&w=100",
-        "away_score": "0",
-        "away_scorers": "",
-        "game_status": "",
+        "away_score": "2",
+        "away_scorers": " J Demetriou  (8'),  C Powell  (11')",
+        "game_status": "11'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=612730",
         "league": "eng.5"
@@ -2092,9 +2092,9 @@
         "home_scorers": "",
         "away_team_name": "Bala Town",
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10496.png&h=100&w=100",
-        "away_score": "0",
-        "away_scorers": "",
-        "game_status": "",
+        "away_score": "1",
+        "away_scorers": " D Ebbe  (14')",
+        "game_status": "14'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=612103",
         "league": "wal.1"
