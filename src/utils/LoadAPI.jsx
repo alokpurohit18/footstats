@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 const LoadAPI = (props) => {
-  let result = {};
   useEffect(() => {
     fetch(props.url, {
       method: "POST",

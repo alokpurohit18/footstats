@@ -81,7 +81,7 @@ class PlayersSection extends React.Component {
           playerNames={playerNames}
           setSourceLink={this.setSourceLink}
         />
-        <h2 className="">
+        <h2 className="player-card-heading">
           {Object.keys(this.state.player).length === 0 &&
           this.state.player.constructor === Object
             ? null
