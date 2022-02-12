@@ -5,6 +5,7 @@ import PlayerBase from "./PlayerBase.jsx";
 import PlayerAttributes from "./PlayerAttributes.jsx";
 import Search from "../../common/Search/Search.jsx";
 import playerNames from "../../../api/data/playerNames.json";
+import LoadAPI from "../../../utils/LoadAPI.jsx";
 import "./PlayersSection.scss";
 
 class PlayersSection extends React.Component {
@@ -60,6 +61,9 @@ class PlayersSection extends React.Component {
   render() {
     return (
       <div className="players-section-main">
+        {this.state.apiLoaded ? null : (
+          <LoadAPI url="/playerDetails" sourceLink={0} setData={this.setData} />
+        )}
         <Search
           placeholder="Search for Players"
           setData={this.setData}
