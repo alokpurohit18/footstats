@@ -19,6 +19,8 @@ class Search extends React.Component {
     var searchResults = [];
     let searchBar = document.getElementsByClassName("search-bar")[0];
     if (searchBar.value.length >= 3) {
+      document.getElementsByClassName("search-results")[0].style.height =
+        "20vw";
       for (let i = 0; i < playerNames.length; i++) {
         if (
           playerNames[i].value
@@ -27,6 +29,15 @@ class Search extends React.Component {
         ) {
           searchResults[searchResults.length] = playerNames[i];
         }
+      }
+
+      if (searchResults.length === 0) {
+        searchResults[searchResults.length] = {
+          key: "None",
+          label: "No Search Results",
+          value: "No Search Results",
+        };
+        console.log(searchResults);
       }
 
       this.setState({
@@ -39,7 +50,15 @@ class Search extends React.Component {
     return (
       <div key={searchResult.key} className="search-result">
         <button
-          onClick={() => this.props.setSourceLink(searchResult.key)}
+          onClick={() => {
+            if (searchResult.key !== "None") {
+              this.props.setSourceLink(searchResult.key);
+              this.setState({ searchResults: [] });
+              document.getElementsByClassName(
+                "search-results"
+              )[0].style.height = "0";
+            }
+          }}
           className="button"
         >
           {searchResult.label}
