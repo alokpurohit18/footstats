@@ -297,7 +297,6 @@ class PlayersSection extends React.Component {
             <PlayerAttributes
               player={this.state.player}
               loadPlayerSpecialities={this.loadPlayerSpecialities}
-              abilityArray={this.abilityArray}
               createPlayerSpecialities={this.createPlayerSpecialities}
             />
           </div>

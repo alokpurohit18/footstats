@@ -2,6 +2,15 @@ import * as React from "react";
 import "antd/dist/antd.css";
 
 class PlayerAttributes extends React.Component {
+  constructor(props) {
+    super(props);
+    this.abilityArray = [];
+  }
+
+  loadPlayerSpecialities = (specialities) => {
+    this.abilityArray = specialities.split(",");
+  };
+
   render() {
     return (
       <div className="player-details ant-col ant-col-18">
@@ -235,10 +244,10 @@ class PlayerAttributes extends React.Component {
           </div>
           <div className="traits ant-col ant-col-6">
             <h2 className="sub-heading">TRAITS</h2>
-            {this.props.loadPlayerSpecialities(
+            {this.loadPlayerSpecialities(
               this.props.player.stats.generic.traits
             )}
-            {this.props.abilityArray.map(this.props.createPlayerSpecialities)}
+            {this.abilityArray.map(this.props.createPlayerSpecialities)}
           </div>
         </div>
       </div>
