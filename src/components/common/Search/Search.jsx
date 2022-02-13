@@ -37,7 +37,38 @@ class Search extends React.Component {
           label: "No Search Results",
           value: "No Search Results",
         };
-        console.log(searchResults);
+        document.getElementsByClassName("search-results")[0].style.height =
+          "4vw";
+      }
+
+      if (searchResults.length === 6) {
+        document.getElementsByClassName("search-results")[0].style.height =
+          "18vw";
+      }
+
+      if (searchResults.length === 5) {
+        document.getElementsByClassName("search-results")[0].style.height =
+          "16vw";
+      }
+
+      if (searchResults.length === 4) {
+        document.getElementsByClassName("search-results")[0].style.height =
+          "12vw";
+      }
+
+      if (searchResults.length === 3) {
+        document.getElementsByClassName("search-results")[0].style.height =
+          "10vw";
+      }
+
+      if (searchResults.length === 2) {
+        document.getElementsByClassName("search-results")[0].style.height =
+          "6vw";
+      }
+
+      if (searchResults.length === 1) {
+        document.getElementsByClassName("search-results")[0].style.height =
+          "4vw";
       }
 
       this.setState({

@@ -144,7 +144,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2734.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "42'",
+        "game_status": "HT",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=614683",
         "league": "ita.1"
@@ -264,7 +264,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/273.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "13'",
+        "game_status": "28'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=609293",
         "league": "fra.1"
@@ -429,7 +429,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/140.png&h=100&w=100",
         "away_score": "3",
         "away_scorers": " S Beukema  (28'),  V Pavlidis  (33',\u00a042')",
-        "game_status": "HT",
+        "game_status": "54'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=603631",
         "league": "ned.1"
@@ -444,7 +444,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/156.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "HT",
+        "game_status": "54'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=603639",
         "league": "ned.1"
@@ -594,7 +594,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18790.png&h=100&w=100",
         "away_score": "1",
         "away_scorers": " K Ozer  (31')",
-        "game_status": "80'",
+        "game_status": "90'+5'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=614301",
         "league": "tur.1"
@@ -1044,7 +1044,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/402.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "11'",
+        "game_status": "24'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=607380",
         "league": "eng.3"
@@ -1134,7 +1134,7 @@
         "away_team_logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/271.png&h=100&w=100",
         "away_score": "0",
         "away_scorers": "",
-        "game_status": "HT",
+        "game_status": "53'",
         "game_result": "",
         "link": "https://www.espn.in/football/match?gameId=603951",
         "league": "ned.2"
