@@ -1,1 +1,5 @@
-start venv and flask server: (Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process) ; (./venv/Scripts/Activate.ps1) ; (cd api) ; (flask run)
+1. start venv and flask server: (Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process) ; (./venv/Scripts/Activate.ps1) ; (cd api) ; (flask run)
+
+2. npm run build
+
+3. npm start
