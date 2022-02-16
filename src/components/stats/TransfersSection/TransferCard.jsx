@@ -38,7 +38,12 @@ class TrasnferCard extends React.Component {
     if (x.includes("End of loan")) {
       return x.substring(0, 11) + ":\xa0" + x.substring(11, x.length);
     } else if (x.includes("Loan fee")) {
+      if (x.includes("Th.")) {
+        x = x.slice(0, -3) + "K";
+      }
       return x.substring(0, 9) + "\xa0" + x.substring(9, x.length);
+    } else if (x.includes("Th.")) {
+      return x.slice(0, -3) + "K";
     } else {
       return x;
     }
