@@ -3,6 +3,7 @@ import "antd/dist/antd.css";
 import Menu from "../../common/Menu/Menu.jsx";
 import TrasnfersContainer from "./TransfersContainer.jsx";
 import transferData from "../../../api/data/transfersData.json";
+import "./TransfersSection.scss";
 
 class TrasnfersSection extends React.Component {
   teamNames;
@@ -23,7 +24,7 @@ class TrasnfersSection extends React.Component {
       "ligue_1",
     ];
     this.state = {
-      teamFilter: "11",
+      teamFilter: "",
     };
   }
 
@@ -80,7 +81,7 @@ class TrasnfersSection extends React.Component {
 
   filterTeamCards = (selectedObject) => {
     this.setState({
-      teamFilter: selectedObject.value,
+      teamFilter: selectedObject.label,
     });
   };
 
@@ -89,7 +90,7 @@ class TrasnfersSection extends React.Component {
       <div className="transfers-section-main">
         {this.leagues.map(this.setTeams)}
         {this.reduceTeamNames()}
-        <h2>Football Transfers</h2>
+        <h2>Football Transfers (2021-2022)</h2>
         <div className="menu-container">
           <Menu
             options={this.options}

@@ -21,6 +21,7 @@ class TrasnfersContainer extends React.Component {
         key={cardInfo.transfer_id}
         cardInfo={cardInfo}
         cardType="in"
+        homeTeam={this.props.teamFilter}
       />
     );
   };
@@ -31,6 +32,7 @@ class TrasnfersContainer extends React.Component {
         key={cardInfo.transfer_id}
         cardInfo={cardInfo}
         cardType="out"
+        homeTeam={this.props.teamFilter}
       />
     );
   };
@@ -38,7 +40,7 @@ class TrasnfersContainer extends React.Component {
   choseScoreItems2 = (teamFilter, teamsArray) => {
     let flag = false;
     for (let i = 0; i < teamsArray.length; i++) {
-      if (teamFilter === teamsArray[i].team.team_id) {
+      if (teamFilter === teamsArray[i].team.team_name) {
         this.transferCardsIn = this.transferCardsIn.concat(teamsArray[i].in);
         this.transferCardsOut = this.transferCardsOut.concat(
           teamsArray[i].left
@@ -108,15 +110,14 @@ class TrasnfersContainer extends React.Component {
     return (
       <div className="transfers-container-main ant-row">
         {this.choseScoreItems1(this.props.teamFilter)}
-        <div className="ant-col ant-col-3"></div>
-        <div className="ant-col ant-col-8">
+        <div className="ant-col ant-col-2"></div>
+        <div className="ant-col ant-col-10">
           {this.transferCardsIn.map(this.createTransferCardIn)}
         </div>
-        <div className="ant-col ant-col-2"></div>
-        <div className="ant-col ant-col-8">
+        <div className="ant-col ant-col-10">
           {this.transferCardsOut.map(this.createTransferCardOut)}
         </div>
-        <div className="ant-col ant-col-3"></div>
+        <div className="ant-col ant-col-2"></div>
       </div>
     );
   }
