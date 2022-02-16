@@ -1,6 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import Menu from "../../common/Menu/Menu.jsx";
+import TrasnfersContainer from "./TransfersContainer.jsx";
 import transferData from "../../../api/data/transfersData.json";
 
 class TrasnfersSection extends React.Component {
@@ -22,7 +23,7 @@ class TrasnfersSection extends React.Component {
       "ligue_1",
     ];
     this.state = {
-      teamFilter: "all",
+      teamFilter: "11",
     };
   }
 
@@ -83,33 +84,6 @@ class TrasnfersSection extends React.Component {
     });
   };
 
-  loadTransferCard = () => {
-    return (
-      <div>
-        <h3>Ben White</h3>
-      </div>
-    );
-  };
-
-  /*choseScoreItems = (leagueFilter) => {
-    let counter = 0;
-    let start = this.cardStart;
-    this.cardDetailsArray = [];
-    if (leagueFilter === "all") {
-      while (counter < this.cardCount) {
-        this.cardDetailsArray.push(scoresData[start]);
-        counter++;
-        start++;
-      }
-    } else {
-      for (let i = 0; i < scoresData.length; i++) {
-        if (scoresData[i].league === leagueFilter) {
-          this.cardDetailsArray.push(scoresData[i]);
-        }
-      }
-    }
-  };*/
-
   render() {
     return (
       <div className="transfers-section-main">
@@ -123,11 +97,7 @@ class TrasnfersSection extends React.Component {
             filterCards={this.filterTeamCards}
           />
         </div>
-        <div className="ant-row">
-          <div className="ant-col ant-col-2"></div>
-          <div className="ant-col ant-col-20"></div>
-          <div className="ant-col ant-col-2"></div>
-        </div>
+        <TrasnfersContainer teamFilter={this.state.teamFilter} />
       </div>
     );
   }
