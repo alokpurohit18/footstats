@@ -1,0 +1,35 @@
+@import "../../../utils/variables.scss";
+
+.world-cup-section-main {
+  margin-top: 1vw;
+
+  .world-cup-section-container {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: $primary-color;
+    border-radius: 10px;
+    padding: 2vw;
+
+    .top-container {
+      position: relative;
+
+      .world-cup-logo {
+        position: absolute;
+        top: 1vw;
+        right: 5vw;
+        width: 6vw;
+      }
+    }
+
+    .world-cup-scorers,
+    .world-cup-awards {
+      margin-top: 1vw;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+}
