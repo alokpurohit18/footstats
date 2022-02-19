@@ -24,7 +24,7 @@ class TrasnfersSection extends React.Component {
       "ligue_1",
     ];
     this.state = {
-      teamFilter: "",
+      teamFilter: "Arsenal FC",
     };
   }
 
