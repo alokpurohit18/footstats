@@ -89,6 +89,8 @@ class AwardsSection extends React.Component {
         label: this.yearsArray[i],
       });
     }
+
+    this.options = this.options.reverse();
   };
 
   setDataArray = () => {

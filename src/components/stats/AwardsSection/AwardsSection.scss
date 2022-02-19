@@ -1,0 +1,25 @@
+@import "../../../utils/variables.scss";
+
+.award-card-main {
+  background-color: $primary-color;
+  margin-top: 1.5vw;
+  padding: 1vw;
+  border-radius: 10px;
+  margin-right: 15vw;
+  margin-left: 15vw;
+
+  .standings {
+    font-weight: 600;
+    font-size: 1vw;
+    color: $secondary-text-color;
+    text-align: center;
+
+    .player-name {
+      font-size: 1.1vw;
+    }
+
+    span {
+      color: $primary-text-color;
+    }
+  }
+}
