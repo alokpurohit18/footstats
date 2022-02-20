@@ -90,7 +90,7 @@ class TrasnfersSection extends React.Component {
       <div className="transfers-section-main">
         {this.leagues.map(this.setTeams)}
         {this.reduceTeamNames()}
-        <h2>Football Transfers (2021-2022)</h2>
+        <h2>{this.props.sectionHeading}</h2>
         <div className="menu-container">
           <Menu
             options={this.options}

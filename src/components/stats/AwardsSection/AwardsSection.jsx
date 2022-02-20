@@ -123,7 +123,7 @@ class AwardsSection extends React.Component {
         {this.setYears()}
         {this.reduceYears()}
         {this.setDataArray()}
-        <h2>Ballon d'Or Awards</h2>
+        <h2>{this.props.sectionHeading}</h2>
         <div className="menu-container">
           <Menu
             options={this.options}
