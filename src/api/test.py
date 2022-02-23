@@ -1,4 +1,5 @@
 #!C:\Python39\python.exe
+from ast import Constant
 import imp
 import flask
 import json
@@ -26,15 +27,33 @@ def create_selenium_driver(url):
 create_selenium_driver(url)
 soup = BeautifulSoup(driver.page_source, "html.parser")
 table_main = soup.find("div", {"class": "ResponsiveTable"})
+final_league_tables = []
+
+stats = []
+stat_cells = table_main.find_all("span", {"class": "stat-cell"})
+for stat_cell in stat_cells:
+    stats.append(stat_cell.text)
 
 team_names = table_main.find_all("span", {"class": "hide-mobile"})
 team_positions = table_main.find_all("span", {"class": "team-position"})
 team_logos = table_main.find_all("img", {"class": "Logo"})
 
-for (team_name, team_position, team_logo) in zip(team_names, team_positions, team_logos) :
-    print(team_position.text + ". " + team_name.text)
-    print(team_logo["src"])
+start_index = 0
+for (team_name, team_position, team_logo) in zip(team_names, team_positions, team_logos):
+    final_leagues_object = {
+        "key": team_position.text,
+        "team_logo": team_logo["src"],
+        "team_name": team_name.text,
+        "played": stats[start_index],
+        "won": stats[start_index + 1],
+        "drawn": stats[start_index + 2],
+        "lost": stats[start_index + 3],
+        "goals_for": stats[start_index + 4],
+        "goals_away": stats[start_index + 5],
+        "goal_difference": stats[start_index + 6],
+        "points": stats[start_index + 7],
+    }
+    start_index = start_index + 8
+    final_league_tables.append(final_leagues_object)
 
-table_rows = table_main.find_all("span", {"class": "stat-cell"})
-for table_row in table_rows:
-    print(table_row.text)
+print(final_league_tables)

@@ -37,7 +37,6 @@ def data_scraping():
 
     final_news_data = []
     final_scores_data = []
-    final_stats_data = []
 
 
     def create_news_data(url):
