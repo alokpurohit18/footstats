@@ -34,7 +34,6 @@ def data_scraping():
 
     news_url = "https://www.skysports.com/football/news"
     scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
-    stats_url = ""
 
     final_news_data = []
     final_scores_data = []
