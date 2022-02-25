@@ -34,11 +34,14 @@ def data_scraping():
 
     news_url = "https://www.skysports.com/football/news"
     scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
-    base_url = "https://www.espn.com/soccer/standings/_/league/" 
+    tables_url = "https://www.espn.com/soccer/standings/_/league/" 
+    stats_url = "https://www.espn.in/soccer/stats/_/league/"
+    urls = ["eng.1", "ger.1", "esp.1", "ita.1", "fra.1"]
 
     final_news_data = []
     final_scores_data = []
     final_league_tables = []
+    leagues_stats = {}
 
 
     def create_news_data(url):
@@ -213,11 +216,10 @@ def data_scraping():
         create_json_data("scoresData.json", final_scores_data)
 
 
-    def create_stats_data(url):
-        urls = ["eng.1", "ger.1", "esp.1", "ita.1", "fra.1"]
+    def create_league_tables():
 
         for i in range(0,5):
-            url = base_url + urls[i]
+            url = tables_url + urls[i]
             create_selenium_driver(url)
             soup = BeautifulSoup(driver.page_source, "html.parser")
             table_main = soup.find("div", {"class": "ResponsiveTable"})
@@ -255,10 +257,66 @@ def data_scraping():
 
         create_json_data("leagueTables.json", final_league_tables)
 
+
+    def create_league_stats(class_name):
+        for i in range(0,5):
+            url = stats_url + urls[i]
+            create_selenium_driver(url)
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+            table_main = soup.find("div", {"class": class_name})
+
+            stats = []
+            final_league_stats = []
+
+            stat_cells = table_main.find_all("td", {"class": "Table__TD"})
+            for stat_cell in stat_cells:
+                stats.append(stat_cell.text)
+
+            start_index = 0
+            counter = 1
+            while ((start_index < len(stats)) and (counter<=10)):
+                leagues_stats_object = {
+                    "rank": counter,
+                    "name": stats[start_index + 1],
+                    "club": stats[start_index + 2],
+                    "matches": stats[start_index + 3],
+                    "value": stats[start_index + 4],
+                }
+                counter = counter + 1
+                start_index = start_index + 5
+                final_league_stats.append(leagues_stats_object)
+
+            if class_name=="top-score-table":
+                if i==0:
+                    leagues_stats["premier_league_scorers"] = final_league_stats
+                elif i==1:
+                    leagues_stats["bundesliga_scorers"] = final_league_stats
+                elif i==2:
+                    leagues_stats["la_liga_scorers"] = final_league_stats
+                elif i==3:
+                    leagues_stats["serie_a_scorers"] = final_league_stats
+                else:
+                    leagues_stats["ligue_1_scorers"] = final_league_stats
+            else:
+                if i==0:
+                    leagues_stats["premier_league_assists"] = final_league_stats
+                elif i==1:
+                    leagues_stats["bundesliga_assists"] = final_league_stats
+                elif i==2:
+                    leagues_stats["la_liga_assists"] = final_league_stats
+                elif i==3:
+                    leagues_stats["serie_a_assists"] = final_league_stats
+                else:
+                    leagues_stats["ligue_1_assists"] = final_league_stats
+
+        create_json_data("leagueStats.json", leagues_stats)
+
         
     create_news_data(news_url)
     create_scores_data(scores_url)
-    create_stats_data(base_url)
+    create_league_tables()
+    create_league_stats("top-score-table")
+    create_league_stats("top-assists-table")
 
     return {
             "key": 200,

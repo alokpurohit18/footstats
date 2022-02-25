@@ -1,0 +1,722 @@
+{
+    "premier_league_scorers": [
+        {
+            "rank": 1,
+            "name": "Mohamed Salah",
+            "club": "Liverpool",
+            "matches": "24",
+            "value": "19"
+        },
+        {
+            "rank": 2,
+            "name": "Diogo Jota",
+            "club": "Liverpool",
+            "matches": "23",
+            "value": "12"
+        },
+        {
+            "rank": 3,
+            "name": "Sadio Man\u00e9",
+            "club": "Liverpool",
+            "matches": "23",
+            "value": "11"
+        },
+        {
+            "rank": 4,
+            "name": "Raheem Sterling",
+            "club": "Manchester City",
+            "matches": "22",
+            "value": "10"
+        },
+        {
+            "rank": 5,
+            "name": "Bruno Fernandes",
+            "club": "Manchester United",
+            "matches": "25",
+            "value": "9"
+        },
+        {
+            "rank": 6,
+            "name": "Raphinha",
+            "club": "Leeds United",
+            "matches": "23",
+            "value": "9"
+        },
+        {
+            "rank": 7,
+            "name": "Emmanuel Dennis",
+            "club": "Watford",
+            "matches": "23",
+            "value": "9"
+        },
+        {
+            "rank": 8,
+            "name": "Cristiano Ronaldo",
+            "club": "Manchester United",
+            "matches": "22",
+            "value": "9"
+        },
+        {
+            "rank": 9,
+            "name": "Son Heung-Min",
+            "club": "Tottenham Hotspur",
+            "matches": "21",
+            "value": "9"
+        },
+        {
+            "rank": 10,
+            "name": "Emile Smith Rowe",
+            "club": "Arsenal",
+            "matches": "21",
+            "value": "9"
+        }
+    ],
+    "bundesliga_scorers": [
+        {
+            "rank": 1,
+            "name": "Robert Lewandowski",
+            "club": "Bayern Munich",
+            "matches": "23",
+            "value": "28"
+        },
+        {
+            "rank": 2,
+            "name": "Patrik Schick",
+            "club": "Bayer Leverkusen",
+            "matches": "20",
+            "value": "20"
+        },
+        {
+            "rank": 3,
+            "name": "Erling Haaland",
+            "club": "Borussia Dortmund",
+            "matches": "14",
+            "value": "16"
+        },
+        {
+            "rank": 4,
+            "name": "Anthony Modeste",
+            "club": "FC Cologne",
+            "matches": "22",
+            "value": "15"
+        },
+        {
+            "rank": 5,
+            "name": "Christopher Nkunku",
+            "club": "RB Leipzig",
+            "matches": "23",
+            "value": "13"
+        },
+        {
+            "rank": 6,
+            "name": "Serge Gnabry",
+            "club": "Bayern Munich",
+            "matches": "23",
+            "value": "10"
+        },
+        {
+            "rank": 7,
+            "name": "Moussa Diaby",
+            "club": "Bayer Leverkusen",
+            "matches": "21",
+            "value": "10"
+        },
+        {
+            "rank": 8,
+            "name": "Andr\u00e9 Silva",
+            "club": "RB Leipzig",
+            "matches": "23",
+            "value": "9"
+        },
+        {
+            "rank": 9,
+            "name": "Marco Reus",
+            "club": "Borussia Dortmund",
+            "matches": "22",
+            "value": "9"
+        },
+        {
+            "rank": 10,
+            "name": "Taiwo Awoniyi",
+            "club": "1. FC Union Berlin",
+            "matches": "20",
+            "value": "9"
+        }
+    ],
+    "la_liga_scorers": [
+        {
+            "rank": 1,
+            "name": "Karim Benzema",
+            "club": "Real Madrid",
+            "matches": "22",
+            "value": "18"
+        },
+        {
+            "rank": 2,
+            "name": "Ra\u00fal de Tom\u00e1s",
+            "club": "Espanyol",
+            "matches": "23",
+            "value": "14"
+        },
+        {
+            "rank": 3,
+            "name": "Vin\u00edcius J\u00fanior",
+            "club": "Real Madrid",
+            "matches": "23",
+            "value": "13"
+        },
+        {
+            "rank": 4,
+            "name": "Joselu",
+            "club": "Alav\u00e9s",
+            "matches": "25",
+            "value": "12"
+        },
+        {
+            "rank": 5,
+            "name": "Juanmi",
+            "club": "Real Betis",
+            "matches": "21",
+            "value": "12"
+        },
+        {
+            "rank": 6,
+            "name": "\u00c1ngel Correa",
+            "club": "Atletico Madrid",
+            "matches": "25",
+            "value": "11"
+        },
+        {
+            "rank": 7,
+            "name": "Iago Aspas",
+            "club": "Celta Vigo",
+            "matches": "24",
+            "value": "11"
+        },
+        {
+            "rank": 8,
+            "name": "Enes \u00dcnal",
+            "club": "Getafe",
+            "matches": "24",
+            "value": "11"
+        },
+        {
+            "rank": 9,
+            "name": "Goncalo Guedes",
+            "club": "Valencia",
+            "matches": "25",
+            "value": "9"
+        },
+        {
+            "rank": 10,
+            "name": "Luis Su\u00e1rez",
+            "club": "Atletico Madrid",
+            "matches": "24",
+            "value": "9"
+        }
+    ],
+    "serie_a_scorers": [
+        {
+            "rank": 1,
+            "name": "Ciro Immobile",
+            "club": "Lazio",
+            "matches": "21",
+            "value": "19"
+        },
+        {
+            "rank": 2,
+            "name": "Dusan Vlahovic",
+            "club": "Juventus",
+            "matches": "25",
+            "value": "18"
+        },
+        {
+            "rank": 3,
+            "name": "Giovanni Simeone",
+            "club": "Hellas Verona",
+            "matches": "24",
+            "value": "12"
+        },
+        {
+            "rank": 4,
+            "name": "Tammy Abraham",
+            "club": "AS Roma",
+            "matches": "25",
+            "value": "11"
+        },
+        {
+            "rank": 5,
+            "name": "Lautaro Mart\u00ednez",
+            "club": "Internazionale",
+            "matches": "23",
+            "value": "11"
+        },
+        {
+            "rank": 6,
+            "name": "Jo\u00e3o Pedro",
+            "club": "Cagliari",
+            "matches": "25",
+            "value": "10"
+        },
+        {
+            "rank": 7,
+            "name": "Edin Dzeko",
+            "club": "Internazionale",
+            "matches": "24",
+            "value": "10"
+        },
+        {
+            "rank": 8,
+            "name": "Gianluca Scamacca",
+            "club": "Sassuolo",
+            "matches": "24",
+            "value": "10"
+        },
+        {
+            "rank": 9,
+            "name": "Domenico Berardi",
+            "club": "Sassuolo",
+            "matches": "23",
+            "value": "10"
+        },
+        {
+            "rank": 10,
+            "name": "Anton\u00edn Bar\u00e1k",
+            "club": "Hellas Verona",
+            "matches": "22",
+            "value": "10"
+        }
+    ],
+    "ligue_1_scorers": [
+        {
+            "rank": 1,
+            "name": "Wissam Ben Yedder",
+            "club": "AS Monaco",
+            "matches": "24",
+            "value": "14"
+        },
+        {
+            "rank": 2,
+            "name": "Ga\u00ebtan Laborde",
+            "club": "Stade Rennais",
+            "matches": "25",
+            "value": "12"
+        },
+        {
+            "rank": 3,
+            "name": "Jonathan David",
+            "club": "Lille",
+            "matches": "25",
+            "value": "12"
+        },
+        {
+            "rank": 4,
+            "name": "Martin Terrier",
+            "club": "Stade Rennais",
+            "matches": "24",
+            "value": "12"
+        },
+        {
+            "rank": 5,
+            "name": "Kylian Mbapp\u00e9",
+            "club": "Paris Saint-Germain ",
+            "matches": "23",
+            "value": "12"
+        },
+        {
+            "rank": 6,
+            "name": "Amine Gouiri",
+            "club": "Nice",
+            "matches": "25",
+            "value": "10"
+        },
+        {
+            "rank": 7,
+            "name": "Ludovic Ajorque",
+            "club": "Strasbourg",
+            "matches": "23",
+            "value": "10"
+        },
+        {
+            "rank": 8,
+            "name": "Hwang Ui-Jo",
+            "club": "Bordeaux",
+            "matches": "20",
+            "value": "10"
+        },
+        {
+            "rank": 9,
+            "name": "Mohamed Bayo",
+            "club": "Clermont Foot",
+            "matches": "20",
+            "value": "10"
+        },
+        {
+            "rank": 10,
+            "name": "Randal Kolo Muani",
+            "club": "Nantes",
+            "matches": "24",
+            "value": "9"
+        }
+    ],
+    "premier_league_assists": [
+        {
+            "rank": 1,
+            "name": "Mohamed Salah",
+            "club": "Liverpool",
+            "matches": "24",
+            "value": "10"
+        },
+        {
+            "rank": 2,
+            "name": "Trent Alexander-Arnold",
+            "club": "Liverpool",
+            "matches": "23",
+            "value": "10"
+        },
+        {
+            "rank": 3,
+            "name": "Andy Robertson",
+            "club": "Liverpool",
+            "matches": "19",
+            "value": "9"
+        },
+        {
+            "rank": 4,
+            "name": "Jarrod Bowen",
+            "club": "West Ham United",
+            "matches": "26",
+            "value": "8"
+        },
+        {
+            "rank": 5,
+            "name": "Paul Pogba",
+            "club": "Manchester United",
+            "matches": "13",
+            "value": "8"
+        },
+        {
+            "rank": 6,
+            "name": "Gabriel Jesus",
+            "club": "Manchester City",
+            "matches": "19",
+            "value": "7"
+        },
+        {
+            "rank": 7,
+            "name": "Michail Antonio",
+            "club": "West Ham United",
+            "matches": "25",
+            "value": "6"
+        },
+        {
+            "rank": 8,
+            "name": "Bruno Fernandes",
+            "club": "Manchester United",
+            "matches": "25",
+            "value": "6"
+        },
+        {
+            "rank": 9,
+            "name": "Son Heung-Min",
+            "club": "Tottenham Hotspur",
+            "matches": "21",
+            "value": "6"
+        },
+        {
+            "rank": 10,
+            "name": "Mason Mount",
+            "club": "Chelsea",
+            "matches": "21",
+            "value": "6"
+        }
+    ],
+    "bundesliga_assists": [
+        {
+            "rank": 1,
+            "name": "Thomas M\u00fcller",
+            "club": "Bayern Munich",
+            "matches": "23",
+            "value": "16"
+        },
+        {
+            "rank": 2,
+            "name": "Florian Wirtz",
+            "club": "Bayer Leverkusen",
+            "matches": "21",
+            "value": "10"
+        },
+        {
+            "rank": 3,
+            "name": "Marco Reus",
+            "club": "Borussia Dortmund",
+            "matches": "22",
+            "value": "9"
+        },
+        {
+            "rank": 4,
+            "name": "Christopher Nkunku",
+            "club": "RB Leipzig",
+            "matches": "23",
+            "value": "7"
+        },
+        {
+            "rank": 5,
+            "name": "Leroy San\u00e9",
+            "club": "Bayern Munich",
+            "matches": "22",
+            "value": "7"
+        },
+        {
+            "rank": 6,
+            "name": "Moussa Diaby",
+            "club": "Bayer Leverkusen",
+            "matches": "21",
+            "value": "7"
+        },
+        {
+            "rank": 7,
+            "name": "Andrej Kramaric",
+            "club": "TSG Hoffenheim",
+            "matches": "21",
+            "value": "7"
+        },
+        {
+            "rank": 8,
+            "name": "Karim Onisiwo",
+            "club": "Mainz",
+            "matches": "21",
+            "value": "7"
+        },
+        {
+            "rank": 9,
+            "name": "Filip Kostic",
+            "club": "Eintracht Frankfurt",
+            "matches": "20",
+            "value": "7"
+        },
+        {
+            "rank": 10,
+            "name": "Christian G\u00fcnter",
+            "club": "SC Freiburg",
+            "matches": "23",
+            "value": "6"
+        }
+    ],
+    "la_liga_assists": [
+        {
+            "rank": 1,
+            "name": "Karim Benzema",
+            "club": "Real Madrid",
+            "matches": "22",
+            "value": "9"
+        },
+        {
+            "rank": 2,
+            "name": "\u00d3scar Trejo",
+            "club": "Rayo Vallecano",
+            "matches": "22",
+            "value": "9"
+        },
+        {
+            "rank": 3,
+            "name": "Nabil Fekir",
+            "club": "Real Betis",
+            "matches": "23",
+            "value": "7"
+        },
+        {
+            "rank": 4,
+            "name": "Iker Muniain",
+            "club": "Athletic Club",
+            "matches": "23",
+            "value": "7"
+        },
+        {
+            "rank": 5,
+            "name": "Sergio Canales",
+            "club": "Real Betis",
+            "matches": "23",
+            "value": "6"
+        },
+        {
+            "rank": 6,
+            "name": "Jorge de Frutos",
+            "club": "Levante",
+            "matches": "22",
+            "value": "6"
+        },
+        {
+            "rank": 7,
+            "name": "Dani Parejo",
+            "club": "Villarreal",
+            "matches": "21",
+            "value": "6"
+        },
+        {
+            "rank": 8,
+            "name": "Jordi Alba",
+            "club": "Barcelona",
+            "matches": "18",
+            "value": "6"
+        },
+        {
+            "rank": 9,
+            "name": "Goncalo Guedes",
+            "club": "Valencia",
+            "matches": "25",
+            "value": "5"
+        },
+        {
+            "rank": 10,
+            "name": "Yeremi Pino",
+            "club": "Villarreal",
+            "matches": "24",
+            "value": "5"
+        }
+    ],
+    "serie_a_assists": [
+        {
+            "rank": 1,
+            "name": "Domenico Berardi",
+            "club": "Sassuolo",
+            "matches": "23",
+            "value": "11"
+        },
+        {
+            "rank": 2,
+            "name": "Antonio Candreva",
+            "club": "Sampdoria",
+            "matches": "25",
+            "value": "8"
+        },
+        {
+            "rank": 3,
+            "name": "Sergej Milinkovic-Savic",
+            "club": "Lazio",
+            "matches": "25",
+            "value": "8"
+        },
+        {
+            "rank": 4,
+            "name": "Hakan Calhanoglu",
+            "club": "Internazionale",
+            "matches": "22",
+            "value": "8"
+        },
+        {
+            "rank": 5,
+            "name": "Jordan Veretout",
+            "club": "AS Roma",
+            "matches": "25",
+            "value": "7"
+        },
+        {
+            "rank": 6,
+            "name": "Nicol\u00f2 Barella",
+            "club": "Internazionale",
+            "matches": "23",
+            "value": "7"
+        },
+        {
+            "rank": 7,
+            "name": "Gianluca Caprari",
+            "club": "Hellas Verona",
+            "matches": "23",
+            "value": "7"
+        },
+        {
+            "rank": 8,
+            "name": "Luis Alberto",
+            "club": "Lazio",
+            "matches": "23",
+            "value": "7"
+        },
+        {
+            "rank": 9,
+            "name": "Felipe Anderson",
+            "club": "Lazio",
+            "matches": "26",
+            "value": "6"
+        },
+        {
+            "rank": 10,
+            "name": "Theo Hern\u00e1ndez",
+            "club": "AC Milan",
+            "matches": "21",
+            "value": "6"
+        }
+    ],
+    "ligue_1_assists": [
+        {
+            "rank": 1,
+            "name": "Dimitri Payet",
+            "club": "Marseille",
+            "matches": "22",
+            "value": "10"
+        },
+        {
+            "rank": 2,
+            "name": "Jonathan Clauss",
+            "club": "Lens",
+            "matches": "24",
+            "value": "9"
+        },
+        {
+            "rank": 3,
+            "name": "Kylian Mbapp\u00e9",
+            "club": "Paris Saint-Germain ",
+            "matches": "23",
+            "value": "9"
+        },
+        {
+            "rank": 4,
+            "name": "Lionel Messi",
+            "club": "Paris Saint-Germain ",
+            "matches": "15",
+            "value": "8"
+        },
+        {
+            "rank": 5,
+            "name": "Amine Gouiri",
+            "club": "Nice",
+            "matches": "25",
+            "value": "7"
+        },
+        {
+            "rank": 6,
+            "name": "Ludovic Ajorque",
+            "club": "Strasbourg",
+            "matches": "23",
+            "value": "7"
+        },
+        {
+            "rank": 7,
+            "name": "Moses Simon",
+            "club": "Nantes",
+            "matches": "21",
+            "value": "7"
+        },
+        {
+            "rank": 8,
+            "name": "Yacine Adli",
+            "club": "Bordeaux",
+            "matches": "25",
+            "value": "6"
+        },
+        {
+            "rank": 9,
+            "name": "T\u00e9ji Savanier",
+            "club": "Montpellier",
+            "matches": "20",
+            "value": "6"
+        },
+        {
+            "rank": 10,
+            "name": "Lovro Majer",
+            "club": "Stade Rennais",
+            "matches": "17",
+            "value": "6"
+        }
+    ]
+}
