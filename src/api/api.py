@@ -34,9 +34,11 @@ def data_scraping():
 
     news_url = "https://www.skysports.com/football/news"
     scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
+    base_url = "https://www.espn.com/soccer/standings/_/league/" 
 
     final_news_data = []
     final_scores_data = []
+    final_league_tables = []
 
 
     def create_news_data(url):
@@ -209,10 +211,54 @@ def data_scraping():
             final_scores_data.append(final_score_object)
     
         create_json_data("scoresData.json", final_scores_data)
-    
+
+
+    def create_stats_data(url):
+        urls = ["eng.1", "ger.1", "esp.1", "ita.1", "fra.1"]
+
+        for i in range(0,5):
+            url = base_url + urls[i]
+            create_selenium_driver(url)
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+            table_main = soup.find("div", {"class": "ResponsiveTable"})
+
+            final_league_table = []
+            stats = []
+
+            stat_cells = table_main.find_all("span", {"class": "stat-cell"})
+            for stat_cell in stat_cells:
+                stats.append(stat_cell.text)
+
+            team_names = table_main.find_all("span", {"class": "hide-mobile"})
+            team_positions = table_main.find_all("span", {"class": "team-position"})
+            team_logos = table_main.find_all("img", {"class": "Logo"})
+
+            start_index = 0
+            for (team_name, team_position, team_logo) in zip(team_names, team_positions, team_logos):
+                final_leagues_object = {
+                    "key": team_position.text,
+                    "team_logo": team_logo["src"],
+                    "team_name": team_name.text,
+                    "played": stats[start_index],
+                    "won": stats[start_index + 1],
+                    "drawn": stats[start_index + 2],
+                    "lost": stats[start_index + 3],
+                    "goals_for": stats[start_index + 4],
+                    "goals_away": stats[start_index + 5],
+                    "goal_difference": stats[start_index + 6],
+                    "points": stats[start_index + 7],
+                }
+                start_index = start_index + 8
+                final_league_table.append(final_leagues_object)
+
+            final_league_tables.append(final_league_table)
+
+        create_json_data("leagueTables.json", final_league_tables)
+
         
     create_news_data(news_url)
     create_scores_data(scores_url)
+    create_stats_data(base_url)
 
     return {
             "key": 200,
@@ -244,7 +290,7 @@ def news_description():
             "server-message" : "news description data loaded",
         }
 
-@app.route("/playerDetails", methods=["POST"], strict_slashes=False)
+@app.route("/player_details", methods=["POST"], strict_slashes=False)
 def playerDetails():
     os.chdir("F:/Projects/footstats/src/api/data")
     resultingPlayer = {}
@@ -254,3 +300,5 @@ def playerDetails():
     resultingPlayer = dataArray[request]
 
     return resultingPlayer
+
+  

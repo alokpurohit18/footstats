@@ -17,43 +17,35 @@ options.headless = True
 driver = webdriver.Chrome(chrome_options=options)
 
 os.chdir("F:/Projects/footstats/src/api/data")
-url = "https://www.espn.com/soccer/standings/_/league/eng.1"
+base_url = "https://www.espn.in/soccer/stats/_/league/"
 
 def create_selenium_driver(url):    
     driver.get(url)
     driver.maximize_window()
     driver.minimize_window()
 
-create_selenium_driver(url)
-soup = BeautifulSoup(driver.page_source, "html.parser")
-table_main = soup.find("div", {"class": "ResponsiveTable"})
+def create_json_data(file_name, data_array):    
+    sys.stdout = open(file_name, 'w')
+    jsonobj = json.dumps(data_array, indent=4)
+    print("{}".format(jsonobj))
+    sys.stdout = sys.__stdout__
+
 final_league_tables = []
+urls = ["eng.1", "ger.1", "esp.1", "ita.1", "fra.1"]
 
-stats = []
-stat_cells = table_main.find_all("span", {"class": "stat-cell"})
-for stat_cell in stat_cells:
-    stats.append(stat_cell.text)
+for i in range(0,5):
+    url = base_url + urls[i]
+    create_selenium_driver(url)
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    table_main = soup.find("div", {"class": "top-score-table"})
 
-team_names = table_main.find_all("span", {"class": "hide-mobile"})
-team_positions = table_main.find_all("span", {"class": "team-position"})
-team_logos = table_main.find_all("img", {"class": "Logo"})
+    final_league_table = []
+    stats = []
 
-start_index = 0
-for (team_name, team_position, team_logo) in zip(team_names, team_positions, team_logos):
-    final_leagues_object = {
-        "key": team_position.text,
-        "team_logo": team_logo["src"],
-        "team_name": team_name.text,
-        "played": stats[start_index],
-        "won": stats[start_index + 1],
-        "drawn": stats[start_index + 2],
-        "lost": stats[start_index + 3],
-        "goals_for": stats[start_index + 4],
-        "goals_away": stats[start_index + 5],
-        "goal_difference": stats[start_index + 6],
-        "points": stats[start_index + 7],
-    }
-    start_index = start_index + 8
-    final_league_tables.append(final_leagues_object)
+    stat_cells = table_main.find_all("td", {"class": "Table__TD"})
+    for stat_cell in stat_cells:
+        stats.append(stat_cell.text)
 
-print(final_league_tables)
+    print(stats)
+
+    

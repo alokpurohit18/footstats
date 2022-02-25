@@ -71,7 +71,7 @@ class PlayersSection extends React.Component {
       <div className="players-section-main">
         {this.state.apiLoaded ? null : (
           <LoadAPI
-            url="/playerDetails"
+            url="/player_details"
             sourceLink={this.state.sourceLink}
             setData={this.setData}
           />
