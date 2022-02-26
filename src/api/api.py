@@ -34,14 +34,9 @@ def data_scraping():
 
     news_url = "https://www.skysports.com/football/news"
     scores_url = "https://www.espn.in/football/scoreboard/_/league/all"
-    tables_url = "https://www.espn.com/soccer/standings/_/league/" 
-    stats_url = "https://www.espn.in/soccer/stats/_/league/"
-    urls = ["eng.1", "ger.1", "esp.1", "ita.1", "fra.1"]
 
     final_news_data = []
     final_scores_data = []
-    final_league_tables = []
-    leagues_stats = {}
 
 
     def create_news_data(url):
@@ -216,6 +211,61 @@ def data_scraping():
         create_json_data("scoresData.json", final_scores_data)
 
 
+        
+    create_news_data(news_url)
+    create_scores_data(scores_url)
+
+    return {
+            "key": 200,
+            "server-message" : "data scraping successfull and data files manually created",
+        }
+
+@app.route("/news_description", methods=["POST"], strict_slashes=False)
+def news_description():
+    print(flask.request.json)
+    # for news_object in final_news_data:
+        #     create_selenium_driver(news_object['link'])
+        #     soup = BeautifulSoup(driver.page_source, "html.parser")
+        #     news_description_container = soup.find("div", {"class": "sdc-article-body"})
+    
+        #     if (news_description_container is None):
+        #         continue
+    
+        #     news_description_source = news_description_container.find_all("p")
+    
+        #     news_description = ""
+    
+        #     for news_paragraph in news_description_source:
+        #         news_description = news_description + " LINEBREAK " + (news_paragraph.text)
+    
+        #     news_object['longDescription'] = news_description
+
+    return {
+            "key": 1,
+            "server-message" : "news description data loaded",
+        }
+
+@app.route("/player_details", methods=["POST"], strict_slashes=False)
+def player_details():
+    os.chdir("F:/Projects/footstats/src/api/data")
+    resultingPlayer = {}
+    request = flask.request.json
+    file = open('playerDetails.json')
+    dataArray = json.load(file)
+    resultingPlayer = dataArray[request]
+
+    return resultingPlayer
+
+@app.route("/league_details", methods=["POST"], strict_slashes=False)
+def league_details():
+    os.chdir("F:/Projects/footstats/src/api/data")
+    tables_url = "https://www.espn.com/soccer/standings/_/league/" 
+    stats_url = "https://www.espn.in/soccer/stats/_/league/"
+    urls = ["eng.1", "ger.1", "esp.1", "ita.1", "fra.1"]
+    final_league_tables = []
+    leagues_stats = {}
+
+    
     def create_league_tables():
 
         for i in range(0,5):
@@ -311,52 +361,12 @@ def data_scraping():
 
         create_json_data("leagueStats.json", leagues_stats)
 
-        
-    create_news_data(news_url)
-    create_scores_data(scores_url)
     create_league_tables()
     create_league_stats("top-score-table")
     create_league_stats("top-assists-table")
 
     return {
-            "key": 200,
-            "server-message" : "data scraping successfull and data files manually created",
+            "key": 0,
+            "server-message" : "league stats data loaded",
         }
-
-@app.route("/news_description", methods=["POST"], strict_slashes=False)
-def news_description():
-    print(flask.request.json)
-    # for news_object in final_news_data:
-        #     create_selenium_driver(news_object['link'])
-        #     soup = BeautifulSoup(driver.page_source, "html.parser")
-        #     news_description_container = soup.find("div", {"class": "sdc-article-body"})
-    
-        #     if (news_description_container is None):
-        #         continue
-    
-        #     news_description_source = news_description_container.find_all("p")
-    
-        #     news_description = ""
-    
-        #     for news_paragraph in news_description_source:
-        #         news_description = news_description + " LINEBREAK " + (news_paragraph.text)
-    
-        #     news_object['longDescription'] = news_description
-
-    return {
-            "key": 1,
-            "server-message" : "news description data loaded",
-        }
-
-@app.route("/player_details", methods=["POST"], strict_slashes=False)
-def playerDetails():
-    os.chdir("F:/Projects/footstats/src/api/data")
-    resultingPlayer = {}
-    request = flask.request.json
-    file = open('playerDetails.json')
-    dataArray = json.load(file)
-    resultingPlayer = dataArray[request]
-
-    return resultingPlayer
-
   

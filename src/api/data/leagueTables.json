@@ -106,6 +106,19 @@
         },
         {
             "key": "9",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/376.png&h=40&w=40",
+            "team_name": "Southampton",
+            "played": "26",
+            "won": "8",
+            "drawn": "11",
+            "lost": "7",
+            "goals_for": "34",
+            "goals_away": "37",
+            "goal_difference": "-3",
+            "points": "35"
+        },
+        {
+            "key": "10",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/331.png&h=40&w=40",
             "team_name": "Brighton & Hove Albion",
             "played": "25",
@@ -116,19 +129,6 @@
             "goals_away": "28",
             "goal_difference": "-3",
             "points": "33"
-        },
-        {
-            "key": "10",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/376.png&h=40&w=40",
-            "team_name": "Southampton",
-            "played": "25",
-            "won": "7",
-            "drawn": "11",
-            "lost": "7",
-            "goals_for": "32",
-            "goals_away": "37",
-            "goal_difference": "-5",
-            "points": "32"
         },
         {
             "key": "11",
@@ -251,13 +251,13 @@
             "key": "20",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/381.png&h=40&w=40",
             "team_name": "Norwich City",
-            "played": "25",
+            "played": "26",
             "won": "4",
             "drawn": "5",
-            "lost": "16",
+            "lost": "17",
             "goals_for": "15",
-            "goals_away": "53",
-            "goal_difference": "-38",
+            "goals_away": "55",
+            "goal_difference": "-40",
             "points": "17"
         }
     ],
@@ -303,6 +303,19 @@
         },
         {
             "key": "4",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7911.png&h=40&w=40",
+            "team_name": "TSG Hoffenheim",
+            "played": "24",
+            "won": "12",
+            "drawn": "4",
+            "lost": "8",
+            "goals_for": "47",
+            "goals_away": "36",
+            "goal_difference": "+11",
+            "points": "40"
+        },
+        {
+            "key": "5",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11420.png&h=40&w=40",
             "team_name": "RB Leipzig",
             "played": "23",
@@ -312,19 +325,6 @@
             "goals_for": "49",
             "goals_away": "28",
             "goal_difference": "+21",
-            "points": "37"
-        },
-        {
-            "key": "5",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7911.png&h=40&w=40",
-            "team_name": "TSG Hoffenheim",
-            "played": "23",
-            "won": "11",
-            "drawn": "4",
-            "lost": "8",
-            "goals_for": "45",
-            "goals_away": "35",
-            "goal_difference": "+10",
             "points": "37"
         },
         {
@@ -474,13 +474,13 @@
             "key": "17",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/134.png&h=40&w=40",
             "team_name": "VfB Stuttgart",
-            "played": "23",
+            "played": "24",
             "won": "4",
             "drawn": "7",
-            "lost": "12",
-            "goals_for": "27",
-            "goals_away": "43",
-            "goal_difference": "-16",
+            "lost": "13",
+            "goals_for": "28",
+            "goals_away": "45",
+            "goal_difference": "-17",
             "points": "19"
         },
         {
@@ -658,13 +658,13 @@
             "key": "13",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3751.png&h=40&w=40",
             "team_name": "Elche",
-            "played": "25",
+            "played": "26",
             "won": "7",
             "drawn": "8",
-            "lost": "10",
+            "lost": "11",
             "goals_for": "28",
-            "goals_away": "34",
-            "goal_difference": "-6",
+            "goals_away": "37",
+            "goal_difference": "-9",
             "points": "29"
         },
         {
@@ -749,14 +749,14 @@
             "key": "20",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1538.png&h=40&w=40",
             "team_name": "Levante",
-            "played": "25",
-            "won": "2",
+            "played": "26",
+            "won": "3",
             "drawn": "9",
             "lost": "14",
-            "goals_for": "25",
+            "goals_for": "28",
             "goals_away": "51",
-            "goal_difference": "-26",
-            "points": "15"
+            "goal_difference": "-23",
+            "points": "18"
         }
     ],
     [
@@ -764,27 +764,27 @@
             "key": "1",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/103.png&h=40&w=40",
             "team_name": "AC Milan",
-            "played": "26",
+            "played": "27",
             "won": "17",
-            "drawn": "5",
+            "drawn": "6",
             "lost": "4",
-            "goals_for": "52",
-            "goals_away": "28",
+            "goals_for": "53",
+            "goals_away": "29",
             "goal_difference": "+24",
-            "points": "56"
+            "points": "57"
         },
         {
             "key": "2",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/110.png&h=40&w=40",
             "team_name": "Internazionale",
-            "played": "25",
+            "played": "26",
             "won": "16",
-            "drawn": "6",
+            "drawn": "7",
             "lost": "3",
             "goals_for": "55",
             "goals_away": "22",
             "goal_difference": "+33",
-            "points": "54"
+            "points": "55"
         },
         {
             "key": "3",
@@ -931,6 +931,19 @@
         },
         {
             "key": "14",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/118.png&h=40&w=40",
+            "team_name": "Udinese",
+            "played": "25",
+            "won": "5",
+            "drawn": "11",
+            "lost": "9",
+            "goals_for": "32",
+            "goals_away": "42",
+            "goal_difference": "-10",
+            "points": "26"
+        },
+        {
+            "key": "15",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2734.png&h=40&w=40",
             "team_name": "Sampdoria",
             "played": "26",
@@ -943,7 +956,7 @@
             "points": "26"
         },
         {
-            "key": "15",
+            "key": "16",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4056.png&h=40&w=40",
             "team_name": "Spezia",
             "played": "26",
@@ -954,19 +967,6 @@
             "goals_away": "48",
             "goal_difference": "-20",
             "points": "26"
-        },
-        {
-            "key": "16",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/118.png&h=40&w=40",
-            "team_name": "Udinese",
-            "played": "24",
-            "won": "5",
-            "drawn": "10",
-            "lost": "9",
-            "goals_for": "31",
-            "goals_away": "41",
-            "goal_difference": "-10",
-            "points": "25"
         },
         {
             "key": "17",
@@ -998,14 +998,14 @@
             "key": "19",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3263.png&h=40&w=40",
             "team_name": "Genoa",
-            "played": "26",
+            "played": "27",
             "won": "1",
-            "drawn": "13",
+            "drawn": "14",
             "lost": "12",
             "goals_for": "22",
             "goals_away": "47",
             "goal_difference": "-25",
-            "points": "16"
+            "points": "17"
         },
         {
             "key": "20",
@@ -1063,6 +1063,19 @@
         },
         {
             "key": "4",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/169.png&h=40&w=40",
+            "team_name": "Stade Rennais",
+            "played": "26",
+            "won": "13",
+            "drawn": "4",
+            "lost": "9",
+            "goals_for": "51",
+            "goals_away": "25",
+            "goal_difference": "+26",
+            "points": "43"
+        },
+        {
+            "key": "5",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/180.png&h=40&w=40",
             "team_name": "Strasbourg",
             "played": "25",
@@ -1073,19 +1086,6 @@
             "goals_away": "31",
             "goal_difference": "+17",
             "points": "42"
-        },
-        {
-            "key": "5",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/169.png&h=40&w=40",
-            "team_name": "Stade Rennais",
-            "played": "25",
-            "won": "12",
-            "drawn": "4",
-            "lost": "9",
-            "goals_for": "47",
-            "goals_away": "23",
-            "goal_difference": "+24",
-            "points": "40"
         },
         {
             "key": "6",
@@ -1128,19 +1128,6 @@
         },
         {
             "key": "9",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/274.png&h=40&w=40",
-            "team_name": "Montpellier",
-            "played": "25",
-            "won": "11",
-            "drawn": "4",
-            "lost": "10",
-            "goals_for": "39",
-            "goals_away": "34",
-            "goal_difference": "+5",
-            "points": "37"
-        },
-        {
-            "key": "10",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/175.png&h=40&w=40",
             "team_name": "Lens",
             "played": "25",
@@ -1150,6 +1137,19 @@
             "goals_for": "40",
             "goals_away": "36",
             "goal_difference": "+4",
+            "points": "37"
+        },
+        {
+            "key": "10",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/274.png&h=40&w=40",
+            "team_name": "Montpellier",
+            "played": "26",
+            "won": "11",
+            "drawn": "4",
+            "lost": "11",
+            "goals_for": "41",
+            "goals_away": "38",
+            "goal_difference": "+3",
             "points": "37"
         },
         {
