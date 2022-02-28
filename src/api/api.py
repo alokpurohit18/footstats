@@ -211,7 +211,6 @@ def data_scraping():
         create_json_data("scoresData.json", final_scores_data)
 
 
-        
     create_news_data(news_url)
     create_scores_data(scores_url)
 
@@ -288,7 +287,7 @@ def league_details():
             start_index = 0
             for (team_name, team_position, team_logo) in zip(team_names, team_positions, team_logos):
                 final_leagues_object = {
-                    "key": team_position.text,
+                    "rank": team_position.text,
                     "team_logo": team_logo["src"],
                     "team_name": team_name.text,
                     "played": stats[start_index],

@@ -1,7 +1,7 @@
 [
     [
         {
-            "key": "1",
+            "rank": "1",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&h=40&w=40",
             "team_name": "Manchester City",
             "played": "26",
@@ -14,7 +14,7 @@
             "points": "63"
         },
         {
-            "key": "2",
+            "rank": "2",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/364.png&h=40&w=40",
             "team_name": "Liverpool",
             "played": "26",
@@ -27,7 +27,7 @@
             "points": "60"
         },
         {
-            "key": "3",
+            "rank": "3",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&h=40&w=40",
             "team_name": "Chelsea",
             "played": "25",
@@ -40,7 +40,7 @@
             "points": "50"
         },
         {
-            "key": "4",
+            "rank": "4",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/360.png&h=40&w=40",
             "team_name": "Manchester United",
             "played": "26",
@@ -53,7 +53,7 @@
             "points": "46"
         },
         {
-            "key": "5",
+            "rank": "5",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&h=40&w=40",
             "team_name": "Arsenal",
             "played": "24",
@@ -66,7 +66,7 @@
             "points": "45"
         },
         {
-            "key": "6",
+            "rank": "6",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/371.png&h=40&w=40",
             "team_name": "West Ham United",
             "played": "26",
@@ -79,7 +79,20 @@
             "points": "42"
         },
         {
-            "key": "7",
+            "rank": "7",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/367.png&h=40&w=40",
+            "team_name": "Tottenham Hotspur",
+            "played": "25",
+            "won": "13",
+            "drawn": "3",
+            "lost": "9",
+            "goals_for": "35",
+            "goals_away": "32",
+            "goal_difference": "+3",
+            "points": "42"
+        },
+        {
+            "rank": "8",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/380.png&h=40&w=40",
             "team_name": "Wolverhampton Wanderers",
             "played": "25",
@@ -92,20 +105,7 @@
             "points": "40"
         },
         {
-            "key": "8",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/367.png&h=40&w=40",
-            "team_name": "Tottenham Hotspur",
-            "played": "24",
-            "won": "12",
-            "drawn": "3",
-            "lost": "9",
-            "goals_for": "31",
-            "goals_away": "32",
-            "goal_difference": "-1",
-            "points": "39"
-        },
-        {
-            "key": "9",
+            "rank": "9",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/376.png&h=40&w=40",
             "team_name": "Southampton",
             "played": "26",
@@ -118,7 +118,7 @@
             "points": "35"
         },
         {
-            "key": "10",
+            "rank": "10",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/331.png&h=40&w=40",
             "team_name": "Brighton & Hove Albion",
             "played": "25",
@@ -131,7 +131,7 @@
             "points": "33"
         },
         {
-            "key": "11",
+            "rank": "11",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/384.png&h=40&w=40",
             "team_name": "Crystal Palace",
             "played": "26",
@@ -144,7 +144,7 @@
             "points": "29"
         },
         {
-            "key": "12",
+            "rank": "12",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/375.png&h=40&w=40",
             "team_name": "Leicester City",
             "played": "23",
@@ -157,7 +157,7 @@
             "points": "27"
         },
         {
-            "key": "13",
+            "rank": "13",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/362.png&h=40&w=40",
             "team_name": "Aston Villa",
             "played": "24",
@@ -170,7 +170,7 @@
             "points": "27"
         },
         {
-            "key": "14",
+            "rank": "14",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/337.png&h=40&w=40",
             "team_name": "Brentford",
             "played": "26",
@@ -183,20 +183,20 @@
             "points": "24"
         },
         {
-            "key": "15",
+            "rank": "15",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/357.png&h=40&w=40",
             "team_name": "Leeds United",
-            "played": "25",
+            "played": "26",
             "won": "5",
             "drawn": "8",
-            "lost": "12",
+            "lost": "13",
             "goals_for": "29",
-            "goals_away": "56",
-            "goal_difference": "-27",
+            "goals_away": "60",
+            "goal_difference": "-31",
             "points": "23"
         },
         {
-            "key": "16",
+            "rank": "16",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/368.png&h=40&w=40",
             "team_name": "Everton",
             "played": "23",
@@ -209,7 +209,7 @@
             "points": "22"
         },
         {
-            "key": "17",
+            "rank": "17",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/361.png&h=40&w=40",
             "team_name": "Newcastle United",
             "played": "24",
@@ -222,7 +222,7 @@
             "points": "22"
         },
         {
-            "key": "18",
+            "rank": "18",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/379.png&h=40&w=40",
             "team_name": "Burnley",
             "played": "23",
@@ -235,7 +235,7 @@
             "points": "20"
         },
         {
-            "key": "19",
+            "rank": "19",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/395.png&h=40&w=40",
             "team_name": "Watford",
             "played": "25",
@@ -248,7 +248,7 @@
             "points": "18"
         },
         {
-            "key": "20",
+            "rank": "20",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/381.png&h=40&w=40",
             "team_name": "Norwich City",
             "played": "26",
@@ -263,7 +263,7 @@
     ],
     [
         {
-            "key": "1",
+            "rank": "1",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/132.png&h=40&w=40",
             "team_name": "Bayern Munich",
             "played": "23",
@@ -276,7 +276,7 @@
             "points": "55"
         },
         {
-            "key": "2",
+            "rank": "2",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/124.png&h=40&w=40",
             "team_name": "Borussia Dortmund",
             "played": "23",
@@ -289,20 +289,33 @@
             "points": "49"
         },
         {
-            "key": "3",
+            "rank": "3",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/131.png&h=40&w=40",
             "team_name": "Bayer Leverkusen",
-            "played": "23",
-            "won": "12",
+            "played": "24",
+            "won": "13",
             "drawn": "5",
             "lost": "6",
-            "goals_for": "60",
+            "goals_for": "63",
             "goals_away": "39",
-            "goal_difference": "+21",
-            "points": "41"
+            "goal_difference": "+24",
+            "points": "44"
         },
         {
-            "key": "4",
+            "rank": "4",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/126.png&h=40&w=40",
+            "team_name": "SC Freiburg",
+            "played": "24",
+            "won": "11",
+            "drawn": "7",
+            "lost": "6",
+            "goals_for": "39",
+            "goals_away": "26",
+            "goal_difference": "+13",
+            "points": "40"
+        },
+        {
+            "rank": "5",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7911.png&h=40&w=40",
             "team_name": "TSG Hoffenheim",
             "played": "24",
@@ -315,7 +328,7 @@
             "points": "40"
         },
         {
-            "key": "5",
+            "rank": "6",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11420.png&h=40&w=40",
             "team_name": "RB Leipzig",
             "played": "23",
@@ -328,59 +341,46 @@
             "points": "37"
         },
         {
-            "key": "6",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/126.png&h=40&w=40",
-            "team_name": "SC Freiburg",
-            "played": "23",
+            "rank": "7",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/598.png&h=40&w=40",
+            "team_name": "1. FC Union Berlin",
+            "played": "24",
             "won": "10",
             "drawn": "7",
-            "lost": "6",
-            "goals_for": "36",
-            "goals_away": "26",
-            "goal_difference": "+10",
+            "lost": "7",
+            "goals_for": "32",
+            "goals_away": "32",
+            "goal_difference": "0",
             "points": "37"
         },
         {
-            "key": "7",
+            "rank": "8",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/122.png&h=40&w=40",
             "team_name": "FC Cologne",
-            "played": "23",
+            "played": "24",
             "won": "9",
-            "drawn": "8",
+            "drawn": "9",
             "lost": "6",
-            "goals_for": "35",
-            "goals_away": "37",
+            "goals_for": "36",
+            "goals_away": "38",
             "goal_difference": "-2",
-            "points": "35"
+            "points": "36"
         },
         {
-            "key": "8",
+            "rank": "9",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2950.png&h=40&w=40",
             "team_name": "Mainz",
-            "played": "23",
+            "played": "24",
             "won": "10",
             "drawn": "4",
-            "lost": "9",
-            "goals_for": "34",
-            "goals_away": "26",
-            "goal_difference": "+8",
+            "lost": "10",
+            "goals_for": "35",
+            "goals_away": "29",
+            "goal_difference": "+6",
             "points": "34"
         },
         {
-            "key": "9",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/598.png&h=40&w=40",
-            "team_name": "1. FC Union Berlin",
-            "played": "23",
-            "won": "9",
-            "drawn": "7",
-            "lost": "7",
-            "goals_for": "29",
-            "goals_away": "31",
-            "goal_difference": "-2",
-            "points": "34"
-        },
-        {
-            "key": "10",
+            "rank": "10",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/125.png&h=40&w=40",
             "team_name": "Eintracht Frankfurt",
             "played": "23",
@@ -393,7 +393,7 @@
             "points": "31"
         },
         {
-            "key": "11",
+            "rank": "11",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/121.png&h=40&w=40",
             "team_name": "VfL Bochum",
             "played": "23",
@@ -406,59 +406,59 @@
             "points": "29"
         },
         {
-            "key": "12",
+            "rank": "12",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/138.png&h=40&w=40",
             "team_name": "VfL Wolfsburg",
-            "played": "23",
+            "played": "24",
             "won": "8",
-            "drawn": "3",
+            "drawn": "4",
             "lost": "12",
-            "goals_for": "24",
-            "goals_away": "35",
+            "goals_for": "26",
+            "goals_away": "37",
             "goal_difference": "-11",
+            "points": "28"
+        },
+        {
+            "rank": "13",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/268.png&h=40&w=40",
+            "team_name": "Borussia Monchengladbach",
+            "played": "24",
+            "won": "7",
+            "drawn": "6",
+            "lost": "11",
+            "goals_for": "32",
+            "goals_away": "48",
+            "goal_difference": "-16",
             "points": "27"
         },
         {
-            "key": "13",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/268.png&h=40&w=40",
-            "team_name": "Borussia Monchengladbach",
-            "played": "23",
-            "won": "7",
-            "drawn": "5",
-            "lost": "11",
-            "goals_for": "30",
-            "goals_away": "46",
-            "goal_difference": "-16",
-            "points": "26"
-        },
-        {
-            "key": "14",
+            "rank": "14",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2506.png&h=40&w=40",
             "team_name": "Arminia Bielefeld",
-            "played": "23",
+            "played": "24",
             "won": "5",
             "drawn": "10",
-            "lost": "8",
+            "lost": "9",
             "goals_for": "22",
-            "goals_away": "29",
-            "goal_difference": "-7",
+            "goals_away": "32",
+            "goal_difference": "-10",
             "points": "25"
         },
         {
-            "key": "15",
+            "rank": "15",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/129.png&h=40&w=40",
             "team_name": "Hertha Berlin",
-            "played": "23",
+            "played": "24",
             "won": "6",
             "drawn": "5",
-            "lost": "12",
+            "lost": "13",
             "goals_for": "25",
-            "goals_away": "51",
-            "goal_difference": "-26",
+            "goals_away": "54",
+            "goal_difference": "-29",
             "points": "23"
         },
         {
-            "key": "16",
+            "rank": "16",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3841.png&h=40&w=40",
             "team_name": "FC Augsburg",
             "played": "23",
@@ -471,7 +471,7 @@
             "points": "22"
         },
         {
-            "key": "17",
+            "rank": "17",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/134.png&h=40&w=40",
             "team_name": "VfB Stuttgart",
             "played": "24",
@@ -484,22 +484,22 @@
             "points": "19"
         },
         {
-            "key": "18",
+            "rank": "18",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3070.png&h=40&w=40",
             "team_name": "SpVgg Greuther Furth",
-            "played": "23",
+            "played": "24",
             "won": "3",
-            "drawn": "4",
+            "drawn": "5",
             "lost": "16",
-            "goals_for": "21",
-            "goals_away": "61",
+            "goals_for": "22",
+            "goals_away": "62",
             "goal_difference": "-40",
-            "points": "13"
+            "points": "14"
         }
     ],
     [
         {
-            "key": "1",
+            "rank": "1",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/86.png&h=40&w=40",
             "team_name": "Real Madrid",
             "played": "25",
@@ -512,7 +512,7 @@
             "points": "57"
         },
         {
-            "key": "2",
+            "rank": "2",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/243.png&h=40&w=40",
             "team_name": "Sevilla",
             "played": "25",
@@ -525,7 +525,7 @@
             "points": "51"
         },
         {
-            "key": "3",
+            "rank": "3",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/244.png&h=40&w=40",
             "team_name": "Real Betis",
             "played": "25",
@@ -538,7 +538,7 @@
             "points": "46"
         },
         {
-            "key": "4",
+            "rank": "4",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/83.png&h=40&w=40",
             "team_name": "Barcelona",
             "played": "24",
@@ -551,7 +551,7 @@
             "points": "42"
         },
         {
-            "key": "5",
+            "rank": "5",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1068.png&h=40&w=40",
             "team_name": "Atletico Madrid",
             "played": "25",
@@ -564,7 +564,7 @@
             "points": "42"
         },
         {
-            "key": "6",
+            "rank": "6",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/102.png&h=40&w=40",
             "team_name": "Villarreal",
             "played": "25",
@@ -577,7 +577,7 @@
             "points": "39"
         },
         {
-            "key": "7",
+            "rank": "7",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/89.png&h=40&w=40",
             "team_name": "Real Sociedad",
             "played": "24",
@@ -590,7 +590,7 @@
             "points": "38"
         },
         {
-            "key": "8",
+            "rank": "8",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/93.png&h=40&w=40",
             "team_name": "Athletic Club",
             "played": "25",
@@ -603,7 +603,20 @@
             "points": "37"
         },
         {
-            "key": "9",
+            "rank": "9",
+            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/94.png&h=40&w=40",
+            "team_name": "Valencia",
+            "played": "26",
+            "won": "8",
+            "drawn": "9",
+            "lost": "9",
+            "goals_for": "38",
+            "goals_away": "42",
+            "goal_difference": "-4",
+            "points": "33"
+        },
+        {
+            "rank": "10",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/85.png&h=40&w=40",
             "team_name": "Celta Vigo",
             "played": "25",
@@ -616,7 +629,7 @@
             "points": "32"
         },
         {
-            "key": "10",
+            "rank": "11",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/97.png&h=40&w=40",
             "team_name": "Osasuna",
             "played": "25",
@@ -629,7 +642,7 @@
             "points": "32"
         },
         {
-            "key": "11",
+            "rank": "12",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/101.png&h=40&w=40",
             "team_name": "Rayo Vallecano",
             "played": "24",
@@ -642,20 +655,7 @@
             "points": "31"
         },
         {
-            "key": "12",
-            "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/94.png&h=40&w=40",
-            "team_name": "Valencia",
-            "played": "25",
-            "won": "7",
-            "drawn": "9",
-            "lost": "9",
-            "goals_for": "37",
-            "goals_away": "42",
-            "goal_difference": "-5",
-            "points": "30"
-        },
-        {
-            "key": "13",
+            "rank": "13",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3751.png&h=40&w=40",
             "team_name": "Elche",
             "played": "26",
@@ -668,7 +668,7 @@
             "points": "29"
         },
         {
-            "key": "14",
+            "rank": "14",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/88.png&h=40&w=40",
             "team_name": "Espanyol",
             "played": "25",
@@ -681,7 +681,7 @@
             "points": "29"
         },
         {
-            "key": "15",
+            "rank": "15",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2922.png&h=40&w=40",
             "team_name": "Getafe",
             "played": "25",
@@ -694,20 +694,20 @@
             "points": "26"
         },
         {
-            "key": "16",
+            "rank": "16",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/84.png&h=40&w=40",
             "team_name": "Mallorca",
-            "played": "24",
+            "played": "25",
             "won": "6",
             "drawn": "8",
-            "lost": "10",
+            "lost": "11",
             "goals_for": "23",
-            "goals_away": "38",
-            "goal_difference": "-15",
+            "goals_away": "39",
+            "goal_difference": "-16",
             "points": "26"
         },
         {
-            "key": "17",
+            "rank": "17",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3747.png&h=40&w=40",
             "team_name": "Granada",
             "played": "25",
@@ -720,7 +720,7 @@
             "points": "24"
         },
         {
-            "key": "18",
+            "rank": "18",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3842.png&h=40&w=40",
             "team_name": "C\u00e1diz",
             "played": "25",
@@ -733,7 +733,7 @@
             "points": "20"
         },
         {
-            "key": "19",
+            "rank": "19",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/96.png&h=40&w=40",
             "team_name": "Alav\u00e9s",
             "played": "25",
@@ -746,7 +746,7 @@
             "points": "20"
         },
         {
-            "key": "20",
+            "rank": "20",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1538.png&h=40&w=40",
             "team_name": "Levante",
             "played": "26",
@@ -761,7 +761,7 @@
     ],
     [
         {
-            "key": "1",
+            "rank": "1",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/103.png&h=40&w=40",
             "team_name": "AC Milan",
             "played": "27",
@@ -774,7 +774,7 @@
             "points": "57"
         },
         {
-            "key": "2",
+            "rank": "2",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/110.png&h=40&w=40",
             "team_name": "Internazionale",
             "played": "26",
@@ -787,7 +787,7 @@
             "points": "55"
         },
         {
-            "key": "3",
+            "rank": "3",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/114.png&h=40&w=40",
             "team_name": "Napoli",
             "played": "26",
@@ -800,7 +800,7 @@
             "points": "54"
         },
         {
-            "key": "4",
+            "rank": "4",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/111.png&h=40&w=40",
             "team_name": "Juventus",
             "played": "26",
@@ -813,7 +813,7 @@
             "points": "47"
         },
         {
-            "key": "5",
+            "rank": "5",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/105.png&h=40&w=40",
             "team_name": "Atalanta",
             "played": "25",
@@ -826,7 +826,7 @@
             "points": "44"
         },
         {
-            "key": "6",
+            "rank": "6",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/112.png&h=40&w=40",
             "team_name": "Lazio",
             "played": "26",
@@ -839,7 +839,7 @@
             "points": "43"
         },
         {
-            "key": "7",
+            "rank": "7",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/109.png&h=40&w=40",
             "team_name": "Fiorentina",
             "played": "25",
@@ -852,7 +852,7 @@
             "points": "42"
         },
         {
-            "key": "8",
+            "rank": "8",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/104.png&h=40&w=40",
             "team_name": "AS Roma",
             "played": "26",
@@ -865,7 +865,7 @@
             "points": "41"
         },
         {
-            "key": "9",
+            "rank": "9",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/119.png&h=40&w=40",
             "team_name": "Hellas Verona",
             "played": "26",
@@ -878,7 +878,7 @@
             "points": "37"
         },
         {
-            "key": "10",
+            "rank": "10",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/239.png&h=40&w=40",
             "team_name": "Torino",
             "played": "25",
@@ -891,7 +891,7 @@
             "points": "33"
         },
         {
-            "key": "11",
+            "rank": "11",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3997.png&h=40&w=40",
             "team_name": "Sassuolo",
             "played": "26",
@@ -904,20 +904,20 @@
             "points": "33"
         },
         {
-            "key": "12",
+            "rank": "12",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/107.png&h=40&w=40",
             "team_name": "Bologna",
-            "played": "25",
+            "played": "26",
             "won": "9",
-            "drawn": "4",
+            "drawn": "5",
             "lost": "12",
-            "goals_for": "31",
-            "goals_away": "41",
+            "goals_for": "32",
+            "goals_away": "42",
             "goal_difference": "-10",
-            "points": "31"
+            "points": "32"
         },
         {
-            "key": "13",
+            "rank": "13",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2574.png&h=40&w=40",
             "team_name": "Empoli",
             "played": "26",
@@ -930,7 +930,7 @@
             "points": "31"
         },
         {
-            "key": "14",
+            "rank": "14",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/118.png&h=40&w=40",
             "team_name": "Udinese",
             "played": "25",
@@ -943,7 +943,7 @@
             "points": "26"
         },
         {
-            "key": "15",
+            "rank": "15",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2734.png&h=40&w=40",
             "team_name": "Sampdoria",
             "played": "26",
@@ -956,7 +956,7 @@
             "points": "26"
         },
         {
-            "key": "16",
+            "rank": "16",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4056.png&h=40&w=40",
             "team_name": "Spezia",
             "played": "26",
@@ -969,7 +969,7 @@
             "points": "26"
         },
         {
-            "key": "17",
+            "rank": "17",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17530.png&h=40&w=40",
             "team_name": "Venezia",
             "played": "25",
@@ -982,7 +982,7 @@
             "points": "22"
         },
         {
-            "key": "18",
+            "rank": "18",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2925.png&h=40&w=40",
             "team_name": "Cagliari",
             "played": "26",
@@ -995,7 +995,7 @@
             "points": "22"
         },
         {
-            "key": "19",
+            "rank": "19",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3263.png&h=40&w=40",
             "team_name": "Genoa",
             "played": "27",
@@ -1008,22 +1008,22 @@
             "points": "17"
         },
         {
-            "key": "20",
+            "rank": "20",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3240.png&h=40&w=40",
             "team_name": "Salernitana",
-            "played": "24",
+            "played": "25",
             "won": "3",
-            "drawn": "5",
+            "drawn": "6",
             "lost": "16",
-            "goals_for": "19",
-            "goals_away": "55",
+            "goals_for": "20",
+            "goals_away": "56",
             "goal_difference": "-36",
-            "points": "14"
+            "points": "15"
         }
     ],
     [
         {
-            "key": "1",
+            "rank": "1",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png&h=40&w=40",
             "team_name": "Paris Saint-Germain ",
             "played": "25",
@@ -1036,7 +1036,7 @@
             "points": "59"
         },
         {
-            "key": "2",
+            "rank": "2",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/176.png&h=40&w=40",
             "team_name": "Marseille",
             "played": "25",
@@ -1049,7 +1049,7 @@
             "points": "46"
         },
         {
-            "key": "3",
+            "rank": "3",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2502.png&h=40&w=40",
             "team_name": "Nice",
             "played": "25",
@@ -1062,7 +1062,7 @@
             "points": "45"
         },
         {
-            "key": "4",
+            "rank": "4",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/169.png&h=40&w=40",
             "team_name": "Stade Rennais",
             "played": "26",
@@ -1075,7 +1075,7 @@
             "points": "43"
         },
         {
-            "key": "5",
+            "rank": "5",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/180.png&h=40&w=40",
             "team_name": "Strasbourg",
             "played": "25",
@@ -1088,7 +1088,7 @@
             "points": "42"
         },
         {
-            "key": "6",
+            "rank": "6",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/174.png&h=40&w=40",
             "team_name": "AS Monaco",
             "played": "25",
@@ -1101,7 +1101,7 @@
             "points": "38"
         },
         {
-            "key": "7",
+            "rank": "7",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/165.png&h=40&w=40",
             "team_name": "Nantes",
             "played": "25",
@@ -1114,7 +1114,7 @@
             "points": "38"
         },
         {
-            "key": "8",
+            "rank": "8",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/167.png&h=40&w=40",
             "team_name": "Lyon",
             "played": "25",
@@ -1127,7 +1127,7 @@
             "points": "38"
         },
         {
-            "key": "9",
+            "rank": "9",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/175.png&h=40&w=40",
             "team_name": "Lens",
             "played": "25",
@@ -1140,7 +1140,7 @@
             "points": "37"
         },
         {
-            "key": "10",
+            "rank": "10",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/274.png&h=40&w=40",
             "team_name": "Montpellier",
             "played": "26",
@@ -1153,7 +1153,7 @@
             "points": "37"
         },
         {
-            "key": "11",
+            "rank": "11",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/166.png&h=40&w=40",
             "team_name": "Lille",
             "played": "25",
@@ -1166,7 +1166,7 @@
             "points": "36"
         },
         {
-            "key": "12",
+            "rank": "12",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6997.png&h=40&w=40",
             "team_name": "Brest",
             "played": "25",
@@ -1179,7 +1179,7 @@
             "points": "32"
         },
         {
-            "key": "13",
+            "rank": "13",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7868.png&h=40&w=40",
             "team_name": "Angers",
             "played": "25",
@@ -1192,7 +1192,7 @@
             "points": "29"
         },
         {
-            "key": "14",
+            "rank": "14",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3243.png&h=40&w=40",
             "team_name": "Stade de Reims",
             "played": "25",
@@ -1205,7 +1205,7 @@
             "points": "28"
         },
         {
-            "key": "15",
+            "rank": "15",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3171.png&h=40&w=40",
             "team_name": "Clermont Foot",
             "played": "25",
@@ -1218,7 +1218,7 @@
             "points": "27"
         },
         {
-            "key": "16",
+            "rank": "16",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/178.png&h=40&w=40",
             "team_name": "Saint-Etienne",
             "played": "25",
@@ -1231,7 +1231,7 @@
             "points": "22"
         },
         {
-            "key": "17",
+            "rank": "17",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/170.png&h=40&w=40",
             "team_name": "Troyes",
             "played": "25",
@@ -1244,7 +1244,7 @@
             "points": "21"
         },
         {
-            "key": "18",
+            "rank": "18",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/273.png&h=40&w=40",
             "team_name": "Lorient",
             "played": "25",
@@ -1257,7 +1257,7 @@
             "points": "21"
         },
         {
-            "key": "19",
+            "rank": "19",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/177.png&h=40&w=40",
             "team_name": "Metz",
             "played": "25",
@@ -1270,7 +1270,7 @@
             "points": "21"
         },
         {
-            "key": "20",
+            "rank": "20",
             "team_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/159.png&h=40&w=40",
             "team_name": "Bordeaux",
             "played": "25",

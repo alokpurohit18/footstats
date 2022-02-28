@@ -72,7 +72,7 @@ class StatsPage extends React.Component {
             path="/"
             element={
               <LeaguesSection
-                sectionHeading="Leagues"
+                sectionHeading="Football Leagues"
                 cardCount="10"
                 cardStart="0"
               />
