@@ -76,7 +76,7 @@
             "rank": 1,
             "name": "Robert Lewandowski",
             "club": "Bayern Munich",
-            "matches": "24",
+            "matches": "25",
             "value": "28"
         },
         {
@@ -104,28 +104,28 @@
             "rank": 5,
             "name": "Christopher Nkunku",
             "club": "RB Leipzig",
-            "matches": "24",
+            "matches": "25",
             "value": "14"
         },
         {
             "rank": 6,
             "name": "Moussa Diaby",
             "club": "Bayer Leverkusen",
-            "matches": "22",
+            "matches": "23",
             "value": "12"
         },
         {
             "rank": 7,
             "name": "Serge Gnabry",
             "club": "Bayern Munich",
-            "matches": "24",
+            "matches": "25",
             "value": "10"
         },
         {
             "rank": 8,
             "name": "Taiwo Awoniyi",
             "club": "1. FC Union Berlin",
-            "matches": "21",
+            "matches": "22",
             "value": "10"
         },
         {
@@ -148,35 +148,35 @@
             "rank": 1,
             "name": "Karim Benzema",
             "club": "Real Madrid",
-            "matches": "23",
-            "value": "19"
+            "matches": "24",
+            "value": "20"
         },
         {
             "rank": 2,
             "name": "Ra\u00fal de Tom\u00e1s",
             "club": "Espanyol",
-            "matches": "24",
+            "matches": "25",
             "value": "14"
         },
         {
             "rank": 3,
             "name": "Enes \u00dcnal",
             "club": "Getafe",
-            "matches": "25",
+            "matches": "26",
             "value": "13"
         },
         {
             "rank": 4,
             "name": "Vin\u00edcius J\u00fanior",
             "club": "Real Madrid",
-            "matches": "24",
+            "matches": "25",
             "value": "13"
         },
         {
             "rank": 5,
             "name": "Joselu",
             "club": "Alav\u00e9s",
-            "matches": "26",
+            "matches": "27",
             "value": "12"
         },
         {
@@ -204,8 +204,8 @@
             "rank": 9,
             "name": "Goncalo Guedes",
             "club": "Valencia",
-            "matches": "25",
-            "value": "9"
+            "matches": "26",
+            "value": "10"
         },
         {
             "rank": 10,
@@ -227,8 +227,8 @@
             "rank": 2,
             "name": "Ciro Immobile",
             "club": "Lazio",
-            "matches": "22",
-            "value": "19"
+            "matches": "23",
+            "value": "20"
         },
         {
             "rank": 3,
@@ -239,30 +239,30 @@
         },
         {
             "rank": 4,
+            "name": "Lautaro Mart\u00ednez",
+            "club": "Internazionale",
+            "matches": "25",
+            "value": "14"
+        },
+        {
+            "rank": 5,
             "name": "Tammy Abraham",
             "club": "AS Roma",
+            "matches": "27",
+            "value": "13"
+        },
+        {
+            "rank": 6,
+            "name": "Edin Dzeko",
+            "club": "Internazionale",
             "matches": "26",
             "value": "12"
         },
         {
-            "rank": 5,
-            "name": "Lautaro Mart\u00ednez",
-            "club": "Internazionale",
-            "matches": "24",
-            "value": "11"
-        },
-        {
-            "rank": 6,
+            "rank": 7,
             "name": "Jo\u00e3o Pedro",
             "club": "Cagliari",
-            "matches": "26",
-            "value": "10"
-        },
-        {
-            "rank": 7,
-            "name": "Edin Dzeko",
-            "club": "Internazionale",
-            "matches": "25",
+            "matches": "27",
             "value": "10"
         },
         {
@@ -327,7 +327,7 @@
             "rank": 6,
             "name": "Amine Gouiri",
             "club": "Nice",
-            "matches": "26",
+            "matches": "27",
             "value": "10"
         },
         {
@@ -436,14 +436,14 @@
             "rank": 1,
             "name": "Thomas M\u00fcller",
             "club": "Bayern Munich",
-            "matches": "23",
+            "matches": "24",
             "value": "16"
         },
         {
             "rank": 2,
             "name": "Florian Wirtz",
             "club": "Bayer Leverkusen",
-            "matches": "22",
+            "matches": "23",
             "value": "10"
         },
         {
@@ -457,21 +457,21 @@
             "rank": 4,
             "name": "Christopher Nkunku",
             "club": "RB Leipzig",
-            "matches": "24",
+            "matches": "25",
             "value": "7"
         },
         {
             "rank": 5,
             "name": "Leroy San\u00e9",
             "club": "Bayern Munich",
-            "matches": "23",
+            "matches": "24",
             "value": "7"
         },
         {
             "rank": 6,
             "name": "Moussa Diaby",
             "club": "Bayer Leverkusen",
-            "matches": "22",
+            "matches": "23",
             "value": "7"
         },
         {
@@ -492,14 +492,14 @@
             "rank": 9,
             "name": "Filip Kostic",
             "club": "Eintracht Frankfurt",
-            "matches": "21",
-            "value": "7"
+            "matches": "22",
+            "value": "8"
         },
         {
             "rank": 10,
             "name": "Christian G\u00fcnter",
             "club": "SC Freiburg",
-            "matches": "24",
+            "matches": "25",
             "value": "6"
         }
     ],
@@ -508,8 +508,8 @@
             "rank": 1,
             "name": "Karim Benzema",
             "club": "Real Madrid",
-            "matches": "23",
-            "value": "9"
+            "matches": "24",
+            "value": "10"
         },
         {
             "rank": 2,
@@ -543,7 +543,7 @@
             "rank": 6,
             "name": "Vin\u00edcius J\u00fanior",
             "club": "Real Madrid",
-            "matches": "24",
+            "matches": "25",
             "value": "6"
         },
         {
@@ -557,7 +557,7 @@
             "rank": 8,
             "name": "Dani Parejo",
             "club": "Villarreal",
-            "matches": "22",
+            "matches": "23",
             "value": "6"
         },
         {
@@ -571,7 +571,7 @@
             "rank": 10,
             "name": "Goncalo Guedes",
             "club": "Valencia",
-            "matches": "25",
+            "matches": "26",
             "value": "5"
         }
     ],
@@ -587,57 +587,57 @@
             "rank": 2,
             "name": "Sergej Milinkovic-Savic",
             "club": "Lazio",
-            "matches": "26",
-            "value": "8"
+            "matches": "27",
+            "value": "9"
         },
         {
             "rank": 3,
-            "name": "Antonio Candreva",
-            "club": "Sampdoria",
+            "name": "Nicol\u00f2 Barella",
+            "club": "Internazionale",
             "matches": "25",
-            "value": "8"
+            "value": "9"
         },
         {
             "rank": 4,
-            "name": "Hakan Calhanoglu",
-            "club": "Internazionale",
-            "matches": "23",
+            "name": "Antonio Candreva",
+            "club": "Sampdoria",
+            "matches": "26",
             "value": "8"
         },
         {
             "rank": 5,
-            "name": "Jordan Veretout",
-            "club": "AS Roma",
-            "matches": "26",
-            "value": "7"
+            "name": "Hakan Calhanoglu",
+            "club": "Internazionale",
+            "matches": "24",
+            "value": "8"
         },
         {
             "rank": 6,
-            "name": "Nicol\u00f2 Barella",
-            "club": "Internazionale",
-            "matches": "24",
+            "name": "Felipe Anderson",
+            "club": "Lazio",
+            "matches": "28",
             "value": "7"
         },
         {
             "rank": 7,
-            "name": "Gianluca Caprari",
-            "club": "Hellas Verona",
-            "matches": "24",
+            "name": "Jordan Veretout",
+            "club": "AS Roma",
+            "matches": "27",
             "value": "7"
         },
         {
             "rank": 8,
             "name": "Luis Alberto",
             "club": "Lazio",
-            "matches": "24",
+            "matches": "25",
             "value": "7"
         },
         {
             "rank": 9,
-            "name": "Felipe Anderson",
-            "club": "Lazio",
-            "matches": "27",
-            "value": "6"
+            "name": "Gianluca Caprari",
+            "club": "Hellas Verona",
+            "matches": "24",
+            "value": "7"
         },
         {
             "rank": 10,
@@ -673,14 +673,14 @@
             "rank": 4,
             "name": "Jonathan Clauss",
             "club": "Lens",
-            "matches": "25",
+            "matches": "26",
             "value": "9"
         },
         {
             "rank": 5,
             "name": "Amine Gouiri",
             "club": "Nice",
-            "matches": "26",
+            "matches": "27",
             "value": "7"
         },
         {

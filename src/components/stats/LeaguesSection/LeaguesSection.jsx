@@ -3,19 +3,20 @@ import "antd/dist/antd.css";
 import LoadAPI from "../../../utils/LoadAPI.jsx";
 import Menu from "../../common/Menu/Menu.jsx";
 import LeagueCard from "./LeagueCard.jsx";
+import "./LeagueSection.scss";
 
 class LeaguesSection extends React.Component {
   constructor(props) {
     super(props);
     this.options = [
-      {label: "Premier League", value: "premier_league"},
-      {label: "Bundesliga", value: "bundesliga"},
-      {label: "La Liga", value: "la_liga"},
-      {label: "Serie A", value: "serie_a"},
-      {label: "Ligue 1", value: "ligue_1"},
+      { label: "Premier League", value: "Premier League" },
+      { label: "Bundesliga", value: "Bundesliga" },
+      { label: "La Liga", value: "La Liga" },
+      { label: "Serie A", value: "Serie A" },
+      { label: "Ligue 1", value: "Ligue 1" },
     ];
     this.state = {
-      leagueFilter: "premier_league",
+      leagueFilter: "Premier League",
     };
   }
 

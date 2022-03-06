@@ -219,6 +219,7 @@ def data_scraping():
             "server-message" : "data scraping successfull and data files manually created",
         }
 
+
 @app.route("/news_description", methods=["POST"], strict_slashes=False)
 def news_description():
     print(flask.request.json)
@@ -244,6 +245,7 @@ def news_description():
             "server-message" : "news description data loaded",
         }
 
+
 @app.route("/player_details", methods=["POST"], strict_slashes=False)
 def player_details():
     os.chdir("F:/Projects/footstats/src/api/data")
@@ -254,6 +256,7 @@ def player_details():
     resultingPlayer = dataArray[request]
 
     return resultingPlayer
+
 
 @app.route("/league_details", methods=["POST"], strict_slashes=False)
 def league_details():
@@ -295,7 +298,7 @@ def league_details():
                     "drawn": stats[start_index + 2],
                     "lost": stats[start_index + 3],
                     "goals_for": stats[start_index + 4],
-                    "goals_away": stats[start_index + 5],
+                    "goals_against": stats[start_index + 5],
                     "goal_difference": stats[start_index + 6],
                     "points": stats[start_index + 7],
                 }

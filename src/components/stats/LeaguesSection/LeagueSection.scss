@@ -1,0 +1,57 @@
+@import "../../../utils/variables.scss";
+
+.leagues-section-main {
+  padding: 1vw;
+
+  .league-card-main {
+    background-color: $primary-color;
+    padding: 1vw;
+    border-radius: 10px;
+
+    .team-name {
+      text-align: left;
+      .team-logo {
+        background-color: white;
+        border-radius: 50%;
+        padding: 0.35vw;
+        margin-right: 0.5vw;
+      }
+
+      .team-name-container {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  th,
+  td {
+    border: 2px solid black;
+    padding: 0.5vw 1vw;
+    text-align: center;
+    font-size: 1.25vw;
+    font-weight: 600;
+    background-color: #7a0bc0;
+  }
+
+  .league-table {
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+
+    tr:first-child td:first-child {
+      border-top-left-radius: 10px;
+    }
+
+    tr:first-child td:last-child {
+      border-top-right-radius: 10px;
+    }
+
+    tr:last-child td:first-child {
+      border-bottom-left-radius: 10px;
+    }
+
+    tr:last-child td:last-child {
+      border-bottom-right-radius: 10px;
+    }
+  }
+}

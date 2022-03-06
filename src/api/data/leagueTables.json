@@ -9,7 +9,7 @@
             "drawn": "3",
             "lost": "3",
             "goals_for": "64",
-            "goals_away": "17",
+            "goals_against": "17",
             "goal_difference": "+47",
             "points": "66"
         },
@@ -22,7 +22,7 @@
             "drawn": "6",
             "lost": "2",
             "goals_for": "71",
-            "goals_away": "20",
+            "goals_against": "20",
             "goal_difference": "+51",
             "points": "63"
         },
@@ -35,7 +35,7 @@
             "drawn": "8",
             "lost": "3",
             "goals_for": "53",
-            "goals_away": "18",
+            "goals_against": "18",
             "goal_difference": "+35",
             "points": "53"
         },
@@ -48,7 +48,7 @@
             "drawn": "8",
             "lost": "6",
             "goals_for": "44",
-            "goals_away": "34",
+            "goals_against": "34",
             "goal_difference": "+10",
             "points": "47"
         },
@@ -61,7 +61,7 @@
             "drawn": "6",
             "lost": "9",
             "goals_for": "46",
-            "goals_away": "35",
+            "goals_against": "35",
             "goal_difference": "+11",
             "points": "45"
         },
@@ -74,7 +74,7 @@
             "drawn": "3",
             "lost": "7",
             "goals_for": "38",
-            "goals_away": "27",
+            "goals_against": "27",
             "goal_difference": "+11",
             "points": "45"
         },
@@ -87,7 +87,7 @@
             "drawn": "3",
             "lost": "9",
             "goals_for": "35",
-            "goals_away": "32",
+            "goals_against": "32",
             "goal_difference": "+3",
             "points": "42"
         },
@@ -100,7 +100,7 @@
             "drawn": "4",
             "lost": "11",
             "goals_for": "24",
-            "goals_away": "23",
+            "goals_against": "23",
             "goal_difference": "+1",
             "points": "40"
         },
@@ -113,7 +113,7 @@
             "drawn": "11",
             "lost": "8",
             "goals_for": "34",
-            "goals_away": "41",
+            "goals_against": "41",
             "goal_difference": "-7",
             "points": "35"
         },
@@ -126,7 +126,7 @@
             "drawn": "12",
             "lost": "9",
             "goals_for": "39",
-            "goals_away": "38",
+            "goals_against": "38",
             "goal_difference": "+1",
             "points": "33"
         },
@@ -139,7 +139,7 @@
             "drawn": "3",
             "lost": "13",
             "goals_for": "37",
-            "goals_away": "37",
+            "goals_against": "37",
             "goal_difference": "0",
             "points": "33"
         },
@@ -152,7 +152,7 @@
             "drawn": "6",
             "lost": "10",
             "goals_for": "40",
-            "goals_away": "43",
+            "goals_against": "43",
             "goal_difference": "-3",
             "points": "33"
         },
@@ -165,7 +165,7 @@
             "drawn": "12",
             "lost": "8",
             "goals_for": "26",
-            "goals_away": "32",
+            "goals_against": "32",
             "goal_difference": "-6",
             "points": "33"
         },
@@ -178,7 +178,7 @@
             "drawn": "10",
             "lost": "10",
             "goals_for": "30",
-            "goals_away": "46",
+            "goals_against": "46",
             "goal_difference": "-16",
             "points": "28"
         },
@@ -191,7 +191,7 @@
             "drawn": "6",
             "lost": "15",
             "goals_for": "30",
-            "goals_away": "45",
+            "goals_against": "45",
             "goal_difference": "-15",
             "points": "27"
         },
@@ -204,7 +204,7 @@
             "drawn": "8",
             "lost": "14",
             "goals_for": "29",
-            "goals_away": "61",
+            "goals_against": "61",
             "goal_difference": "-32",
             "points": "23"
         },
@@ -217,7 +217,7 @@
             "drawn": "4",
             "lost": "14",
             "goals_for": "28",
-            "goals_away": "41",
+            "goals_against": "41",
             "goal_difference": "-13",
             "points": "22"
         },
@@ -230,7 +230,7 @@
             "drawn": "12",
             "lost": "11",
             "goals_for": "22",
-            "goals_away": "36",
+            "goals_against": "36",
             "goal_difference": "-14",
             "points": "21"
         },
@@ -243,7 +243,7 @@
             "drawn": "4",
             "lost": "17",
             "goals_for": "25",
-            "goals_away": "47",
+            "goals_against": "47",
             "goal_difference": "-22",
             "points": "19"
         },
@@ -256,7 +256,7 @@
             "drawn": "5",
             "lost": "18",
             "goals_for": "16",
-            "goals_away": "58",
+            "goals_against": "58",
             "goal_difference": "-42",
             "points": "17"
         }
@@ -271,7 +271,7 @@
             "drawn": "2",
             "lost": "4",
             "goals_for": "76",
-            "goals_away": "27",
+            "goals_against": "27",
             "goal_difference": "+49",
             "points": "59"
         },
@@ -284,7 +284,7 @@
             "drawn": "2",
             "lost": "6",
             "goals_for": "64",
-            "goals_away": "37",
+            "goals_against": "37",
             "goal_difference": "+27",
             "points": "50"
         },
@@ -297,7 +297,7 @@
             "drawn": "6",
             "lost": "6",
             "goals_for": "64",
-            "goals_away": "40",
+            "goals_against": "40",
             "goal_difference": "+24",
             "points": "45"
         },
@@ -310,7 +310,7 @@
             "drawn": "5",
             "lost": "8",
             "goals_for": "51",
-            "goals_away": "29",
+            "goals_against": "29",
             "goal_difference": "+22",
             "points": "41"
         },
@@ -323,7 +323,7 @@
             "drawn": "8",
             "lost": "6",
             "goals_for": "40",
-            "goals_away": "27",
+            "goals_against": "27",
             "goal_difference": "+13",
             "points": "41"
         },
@@ -336,7 +336,7 @@
             "drawn": "4",
             "lost": "8",
             "goals_for": "47",
-            "goals_away": "36",
+            "goals_against": "36",
             "goal_difference": "+11",
             "points": "40"
         },
@@ -349,7 +349,7 @@
             "drawn": "7",
             "lost": "8",
             "goals_for": "32",
-            "goals_away": "33",
+            "goals_against": "33",
             "goal_difference": "-1",
             "points": "37"
         },
@@ -362,7 +362,7 @@
             "drawn": "9",
             "lost": "6",
             "goals_for": "36",
-            "goals_away": "38",
+            "goals_against": "38",
             "goal_difference": "-2",
             "points": "36"
         },
@@ -375,7 +375,7 @@
             "drawn": "4",
             "lost": "10",
             "goals_for": "35",
-            "goals_away": "29",
+            "goals_against": "29",
             "goal_difference": "+6",
             "points": "34"
         },
@@ -388,7 +388,7 @@
             "drawn": "7",
             "lost": "9",
             "goals_for": "37",
-            "goals_away": "37",
+            "goals_against": "37",
             "goal_difference": "0",
             "points": "34"
         },
@@ -401,7 +401,7 @@
             "drawn": "5",
             "lost": "11",
             "goals_for": "27",
-            "goals_away": "35",
+            "goals_against": "35",
             "goal_difference": "-8",
             "points": "32"
         },
@@ -414,7 +414,7 @@
             "drawn": "4",
             "lost": "12",
             "goals_for": "27",
-            "goals_away": "37",
+            "goals_against": "37",
             "goal_difference": "-10",
             "points": "31"
         },
@@ -427,7 +427,7 @@
             "drawn": "6",
             "lost": "12",
             "goals_for": "34",
-            "goals_away": "51",
+            "goals_against": "51",
             "goal_difference": "-17",
             "points": "27"
         },
@@ -440,7 +440,7 @@
             "drawn": "8",
             "lost": "11",
             "goals_for": "27",
-            "goals_away": "41",
+            "goals_against": "41",
             "goal_difference": "-14",
             "points": "26"
         },
@@ -453,7 +453,7 @@
             "drawn": "10",
             "lost": "10",
             "goals_for": "22",
-            "goals_away": "33",
+            "goals_against": "33",
             "goal_difference": "-11",
             "points": "25"
         },
@@ -466,7 +466,7 @@
             "drawn": "5",
             "lost": "14",
             "goals_for": "26",
-            "goals_away": "58",
+            "goals_against": "58",
             "goal_difference": "-32",
             "points": "23"
         },
@@ -479,7 +479,7 @@
             "drawn": "7",
             "lost": "13",
             "goals_for": "31",
-            "goals_away": "47",
+            "goals_against": "47",
             "goal_difference": "-16",
             "points": "22"
         },
@@ -492,7 +492,7 @@
             "drawn": "5",
             "lost": "17",
             "goals_for": "23",
-            "goals_away": "64",
+            "goals_against": "64",
             "goal_difference": "-41",
             "points": "14"
         }
@@ -507,7 +507,7 @@
             "drawn": "6",
             "lost": "2",
             "goals_for": "56",
-            "goals_away": "21",
+            "goals_against": "21",
             "goal_difference": "+35",
             "points": "63"
         },
@@ -520,7 +520,7 @@
             "drawn": "10",
             "lost": "2",
             "goals_for": "39",
-            "goals_away": "18",
+            "goals_against": "18",
             "goal_difference": "+21",
             "points": "55"
         },
@@ -533,7 +533,7 @@
             "drawn": "4",
             "lost": "8",
             "goals_for": "48",
-            "goals_away": "32",
+            "goals_against": "32",
             "goal_difference": "+16",
             "points": "46"
         },
@@ -546,7 +546,7 @@
             "drawn": "9",
             "lost": "4",
             "goals_for": "46",
-            "goals_away": "28",
+            "goals_against": "28",
             "goal_difference": "+18",
             "points": "45"
         },
@@ -559,7 +559,7 @@
             "drawn": "6",
             "lost": "7",
             "goals_for": "47",
-            "goals_away": "34",
+            "goals_against": "34",
             "goal_difference": "+13",
             "points": "45"
         },
@@ -572,7 +572,7 @@
             "drawn": "8",
             "lost": "7",
             "goals_for": "28",
-            "goals_away": "29",
+            "goals_against": "29",
             "goal_difference": "-1",
             "points": "44"
         },
@@ -585,7 +585,7 @@
             "drawn": "9",
             "lost": "7",
             "goals_for": "47",
-            "goals_away": "26",
+            "goals_against": "26",
             "goal_difference": "+21",
             "points": "42"
         },
@@ -598,7 +598,7 @@
             "drawn": "10",
             "lost": "7",
             "goals_for": "29",
-            "goals_away": "25",
+            "goals_against": "25",
             "goal_difference": "+4",
             "points": "37"
         },
@@ -611,7 +611,7 @@
             "drawn": "9",
             "lost": "9",
             "goals_for": "41",
-            "goals_away": "43",
+            "goals_against": "43",
             "goal_difference": "-2",
             "points": "36"
         },
@@ -624,7 +624,7 @@
             "drawn": "8",
             "lost": "10",
             "goals_for": "26",
-            "goals_away": "31",
+            "goals_against": "31",
             "goal_difference": "-5",
             "points": "35"
         },
@@ -637,7 +637,7 @@
             "drawn": "8",
             "lost": "10",
             "goals_for": "29",
-            "goals_away": "28",
+            "goals_against": "28",
             "goal_difference": "+1",
             "points": "32"
         },
@@ -650,7 +650,7 @@
             "drawn": "8",
             "lost": "11",
             "goals_for": "33",
-            "goals_away": "40",
+            "goals_against": "40",
             "goal_difference": "-7",
             "points": "32"
         },
@@ -663,7 +663,7 @@
             "drawn": "4",
             "lost": "12",
             "goals_for": "28",
-            "goals_away": "30",
+            "goals_against": "30",
             "goal_difference": "-2",
             "points": "31"
         },
@@ -676,7 +676,7 @@
             "drawn": "8",
             "lost": "11",
             "goals_for": "28",
-            "goals_away": "37",
+            "goals_against": "37",
             "goal_difference": "-9",
             "points": "29"
         },
@@ -689,7 +689,7 @@
             "drawn": "9",
             "lost": "12",
             "goals_for": "26",
-            "goals_away": "32",
+            "goals_against": "32",
             "goal_difference": "-6",
             "points": "27"
         },
@@ -702,7 +702,7 @@
             "drawn": "8",
             "lost": "12",
             "goals_for": "23",
-            "goals_away": "41",
+            "goals_against": "41",
             "goal_difference": "-18",
             "points": "26"
         },
@@ -715,7 +715,7 @@
             "drawn": "10",
             "lost": "12",
             "goals_for": "28",
-            "goals_away": "43",
+            "goals_against": "43",
             "goal_difference": "-15",
             "points": "25"
         },
@@ -728,7 +728,7 @@
             "drawn": "7",
             "lost": "15",
             "goals_for": "21",
-            "goals_away": "44",
+            "goals_against": "44",
             "goal_difference": "-23",
             "points": "22"
         },
@@ -741,7 +741,7 @@
             "drawn": "12",
             "lost": "11",
             "goals_for": "21",
-            "goals_away": "39",
+            "goals_against": "39",
             "goal_difference": "-18",
             "points": "21"
         },
@@ -754,7 +754,7 @@
             "drawn": "9",
             "lost": "14",
             "goals_for": "28",
-            "goals_away": "51",
+            "goals_against": "51",
             "goal_difference": "-23",
             "points": "18"
         }
@@ -769,7 +769,7 @@
             "drawn": "7",
             "lost": "3",
             "goals_for": "60",
-            "goals_away": "22",
+            "goals_against": "22",
             "goal_difference": "+38",
             "points": "58"
         },
@@ -782,7 +782,7 @@
             "drawn": "6",
             "lost": "4",
             "goals_for": "49",
-            "goals_away": "19",
+            "goals_against": "19",
             "goal_difference": "+30",
             "points": "57"
         },
@@ -795,7 +795,7 @@
             "drawn": "6",
             "lost": "4",
             "goals_for": "53",
-            "goals_away": "29",
+            "goals_against": "29",
             "goal_difference": "+24",
             "points": "57"
         },
@@ -808,7 +808,7 @@
             "drawn": "8",
             "lost": "5",
             "goals_for": "41",
-            "goals_away": "25",
+            "goals_against": "25",
             "goal_difference": "+16",
             "points": "50"
         },
@@ -821,7 +821,7 @@
             "drawn": "8",
             "lost": "6",
             "goals_for": "50",
-            "goals_away": "31",
+            "goals_against": "31",
             "goal_difference": "+19",
             "points": "47"
         },
@@ -834,7 +834,7 @@
             "drawn": "5",
             "lost": "9",
             "goals_for": "46",
-            "goals_away": "34",
+            "goals_against": "34",
             "goal_difference": "+12",
             "points": "47"
         },
@@ -847,7 +847,7 @@
             "drawn": "7",
             "lost": "8",
             "goals_for": "57",
-            "goals_away": "42",
+            "goals_against": "42",
             "goal_difference": "+15",
             "points": "46"
         },
@@ -860,7 +860,7 @@
             "drawn": "3",
             "lost": "10",
             "goals_for": "45",
-            "goals_away": "36",
+            "goals_against": "36",
             "goal_difference": "+9",
             "points": "42"
         },
@@ -873,7 +873,7 @@
             "drawn": "7",
             "lost": "9",
             "goals_for": "52",
-            "goals_away": "43",
+            "goals_against": "43",
             "goal_difference": "+9",
             "points": "40"
         },
@@ -886,7 +886,7 @@
             "drawn": "9",
             "lost": "9",
             "goals_for": "45",
-            "goals_away": "45",
+            "goals_against": "45",
             "goal_difference": "0",
             "points": "36"
         },
@@ -899,7 +899,7 @@
             "drawn": "6",
             "lost": "11",
             "goals_for": "33",
-            "goals_away": "28",
+            "goals_against": "28",
             "goal_difference": "+5",
             "points": "33"
         },
@@ -912,7 +912,7 @@
             "drawn": "5",
             "lost": "12",
             "goals_for": "32",
-            "goals_away": "42",
+            "goals_against": "42",
             "goal_difference": "-10",
             "points": "32"
         },
@@ -925,7 +925,7 @@
             "drawn": "7",
             "lost": "12",
             "goals_for": "40",
-            "goals_away": "53",
+            "goals_against": "53",
             "goal_difference": "-13",
             "points": "31"
         },
@@ -938,7 +938,7 @@
             "drawn": "11",
             "lost": "9",
             "goals_for": "34",
-            "goals_away": "43",
+            "goals_against": "43",
             "goal_difference": "-9",
             "points": "29"
         },
@@ -951,7 +951,7 @@
             "drawn": "5",
             "lost": "15",
             "goals_for": "28",
-            "goals_away": "49",
+            "goals_against": "49",
             "goal_difference": "-21",
             "points": "26"
         },
@@ -964,7 +964,7 @@
             "drawn": "5",
             "lost": "16",
             "goals_for": "36",
-            "goals_away": "48",
+            "goals_against": "48",
             "goal_difference": "-12",
             "points": "26"
         },
@@ -977,7 +977,7 @@
             "drawn": "10",
             "lost": "13",
             "goals_for": "28",
-            "goals_away": "51",
+            "goals_against": "51",
             "goal_difference": "-23",
             "points": "25"
         },
@@ -990,7 +990,7 @@
             "drawn": "7",
             "lost": "14",
             "goals_for": "24",
-            "goals_away": "47",
+            "goals_against": "47",
             "goal_difference": "-23",
             "points": "22"
         },
@@ -1003,7 +1003,7 @@
             "drawn": "14",
             "lost": "12",
             "goals_for": "22",
-            "goals_away": "47",
+            "goals_against": "47",
             "goal_difference": "-25",
             "points": "17"
         },
@@ -1016,7 +1016,7 @@
             "drawn": "6",
             "lost": "17",
             "goals_for": "20",
-            "goals_away": "61",
+            "goals_against": "61",
             "goal_difference": "-41",
             "points": "15"
         }
@@ -1031,7 +1031,7 @@
             "drawn": "5",
             "lost": "3",
             "goals_for": "56",
-            "goals_away": "24",
+            "goals_against": "24",
             "goal_difference": "+32",
             "points": "62"
         },
@@ -1044,7 +1044,7 @@
             "drawn": "5",
             "lost": "7",
             "goals_for": "38",
-            "goals_away": "21",
+            "goals_against": "21",
             "goal_difference": "+17",
             "points": "49"
         },
@@ -1057,7 +1057,7 @@
             "drawn": "8",
             "lost": "5",
             "goals_for": "39",
-            "goals_away": "24",
+            "goals_against": "24",
             "goal_difference": "+15",
             "points": "47"
         },
@@ -1070,7 +1070,7 @@
             "drawn": "4",
             "lost": "9",
             "goals_for": "51",
-            "goals_away": "25",
+            "goals_against": "25",
             "goal_difference": "+26",
             "points": "43"
         },
@@ -1083,7 +1083,7 @@
             "drawn": "7",
             "lost": "7",
             "goals_for": "48",
-            "goals_away": "31",
+            "goals_against": "31",
             "goal_difference": "+17",
             "points": "43"
         },
@@ -1096,7 +1096,7 @@
             "drawn": "9",
             "lost": "7",
             "goals_for": "38",
-            "goals_away": "33",
+            "goals_against": "33",
             "goal_difference": "+5",
             "points": "41"
         },
@@ -1109,7 +1109,7 @@
             "drawn": "7",
             "lost": "9",
             "goals_for": "42",
-            "goals_away": "38",
+            "goals_against": "38",
             "goal_difference": "+4",
             "points": "40"
         },
@@ -1122,7 +1122,7 @@
             "drawn": "6",
             "lost": "9",
             "goals_for": "34",
-            "goals_away": "29",
+            "goals_against": "29",
             "goal_difference": "+5",
             "points": "39"
         },
@@ -1135,7 +1135,7 @@
             "drawn": "9",
             "lost": "7",
             "goals_for": "33",
-            "goals_away": "35",
+            "goals_against": "35",
             "goal_difference": "-2",
             "points": "39"
         },
@@ -1148,7 +1148,7 @@
             "drawn": "8",
             "lost": "8",
             "goals_for": "39",
-            "goals_away": "29",
+            "goals_against": "29",
             "goal_difference": "+10",
             "points": "38"
         },
@@ -1161,7 +1161,7 @@
             "drawn": "4",
             "lost": "11",
             "goals_for": "41",
-            "goals_away": "38",
+            "goals_against": "38",
             "goal_difference": "+3",
             "points": "37"
         },
@@ -1174,7 +1174,7 @@
             "drawn": "8",
             "lost": "10",
             "goals_for": "35",
-            "goals_away": "38",
+            "goals_against": "38",
             "goal_difference": "-3",
             "points": "35"
         },
@@ -1187,7 +1187,7 @@
             "drawn": "10",
             "lost": "9",
             "goals_for": "30",
-            "goals_away": "30",
+            "goals_against": "30",
             "goal_difference": "0",
             "points": "31"
         },
@@ -1200,7 +1200,7 @@
             "drawn": "8",
             "lost": "11",
             "goals_for": "31",
-            "goals_away": "38",
+            "goals_against": "38",
             "goal_difference": "-7",
             "points": "29"
         },
@@ -1213,7 +1213,7 @@
             "drawn": "7",
             "lost": "12",
             "goals_for": "27",
-            "goals_away": "42",
+            "goals_against": "42",
             "goal_difference": "-15",
             "points": "28"
         },
@@ -1226,7 +1226,7 @@
             "drawn": "9",
             "lost": "13",
             "goals_for": "22",
-            "goals_away": "43",
+            "goals_against": "43",
             "goal_difference": "-21",
             "points": "24"
         },
@@ -1239,7 +1239,7 @@
             "drawn": "7",
             "lost": "14",
             "goals_for": "23",
-            "goals_away": "41",
+            "goals_against": "41",
             "goal_difference": "-18",
             "points": "22"
         },
@@ -1252,7 +1252,7 @@
             "drawn": "10",
             "lost": "12",
             "goals_for": "25",
-            "goals_away": "45",
+            "goals_against": "45",
             "goal_difference": "-20",
             "points": "22"
         },
@@ -1265,7 +1265,7 @@
             "drawn": "7",
             "lost": "14",
             "goals_for": "27",
-            "goals_away": "50",
+            "goals_against": "50",
             "goal_difference": "-23",
             "points": "22"
         },
@@ -1278,7 +1278,7 @@
             "drawn": "10",
             "lost": "12",
             "goals_for": "38",
-            "goals_away": "63",
+            "goals_against": "63",
             "goal_difference": "-25",
             "points": "22"
         }
