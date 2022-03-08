@@ -1,7 +1,7 @@
 @import "../../../utils/variables.scss";
 
 .leagues-section-main {
-  padding: 1vw;
+  padding: 1vw 2vw;
 
   .league-card-main {
     background-color: $primary-color;
@@ -30,13 +30,37 @@
     text-align: center;
     font-size: 1.25vw;
     font-weight: 600;
-    background-color: #7a0bc0;
+
+    &.premier-league {
+      background-color: #37003c;
+    }
+
+    &.bundesliga {
+      background-color: #b33030;
+    }
+
+    &.la-liga {
+      background-color: #323643;
+    }
+
+    &.serie-a {
+      background-color: #11468f;
+    }
+
+    &.ligue-1 {
+      background-color: #041562;
+    }
   }
 
-  .league-table {
+  .league-table,
+  .stats-table {
     border-collapse: separate;
     margin-left: auto;
     margin-right: auto;
+
+    .table-header {
+      text-decoration: underline;
+    }
 
     tr:first-child td:first-child {
       border-top-left-radius: 10px;
@@ -52,6 +76,23 @@
 
     tr:last-child td:last-child {
       border-bottom-right-radius: 10px;
+    }
+  }
+
+  .stats-tables-container {
+    display: block;
+    overflow: auto;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+
+    .stats-table-container {
+      float: left;
+      width: 50%;
+    }
+
+    .stats-table {
+      margin-right: auto;
+      margin-left: auto;
     }
   }
 }
