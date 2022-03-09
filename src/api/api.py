@@ -8,12 +8,13 @@ import os
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 
 app = flask.Flask(__name__)
 
 options = webdriver.ChromeOptions()
 options.headless = True
-driver = webdriver.Chrome(chrome_options=options)
+driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
     
 def create_selenium_driver(url):    
     driver.get(url)
