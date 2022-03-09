@@ -114,7 +114,6 @@ class LeagueCard extends React.Component {
       <div className="league-card-main">
         {this.setLeagueIndex()}
         {this.setData()}
-        {console.log(this.leagueScorers)}
         <div className="league-table-container">
           <h2>{this.props.leagueFilter} Table</h2>
           <table className={"league-table " + this.leagueColor}>
