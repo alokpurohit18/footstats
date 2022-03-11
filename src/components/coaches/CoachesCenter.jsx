@@ -9,11 +9,11 @@ class CoachesCenter extends React.Component {
     super(props);
     this.pages = [
       {
-        name: "Player Similarity Prediction Model",
+        name: "Player Similarity",
         link: "/coaches_center",
       },
       {
-        name: "Expected Goals Prediction Model",
+        name: "Expected Goals",
         link: "xg_model",
       },
     ];
@@ -48,7 +48,7 @@ class CoachesCenter extends React.Component {
           <Route
             path="/"
             element={
-              <div>
+              <div className="player-similarity-main">
                 <h2>Player Similarity Prediction Model</h2>
                 <img
                   alt="player similarity model"
@@ -60,11 +60,11 @@ class CoachesCenter extends React.Component {
           <Route
             path="xg_model"
             element={
-              <div>
+              <div className="xg-main">
                 <h2>Expected Goals Prediction Model</h2>
                 <img
-                  alt="Expected Goals model"
-                  src="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/Player_Similarity.png?raw=true"
+                  alt="expected goals model"
+                  src="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/xG_prediction.png?raw=true"
                 />
               </div>
             }

@@ -4,21 +4,46 @@
   padding: 0 2vw;
 
   .subnav-main {
-    width: 75vw;
+    width: 35vw;
     margin-left: auto;
     margin-right: auto;
   }
+}
 
+.xg-main,
+.player-similarity-main,
+.market-value-main {
   img {
-    height: 389vw;
     border-radius: 10px;
     border: 3px solid black;
+    margin-bottom: 1.5vw;
   }
 
   h2 {
     color: $secondary-text-color;
     font-size: 1.5vw;
     text-align: center;
-    margin-top: 0.5vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+  }
+}
+
+.player-similarity-main {
+  img {
+    height: 389vw;
+  }
+}
+
+.market-value-main {
+  padding: 0 2vw;
+
+  img {
+    height: 765vw;
+  }
+}
+
+.xg-main {
+  img {
+    height: 1250vw;
   }
 }
