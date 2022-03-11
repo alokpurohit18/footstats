@@ -9,6 +9,7 @@ class Subnav extends React.Component {
   constructor(props) {
     super(props);
     this.pages = this.props.pages;
+    this.elementWidth = this.props.elementWidth;
   }
 
   createNavElement = (pageObject) => {
@@ -16,7 +17,7 @@ class Subnav extends React.Component {
       <div
         key={pageObject.name}
         id={pageObject.name}
-        className="nav-element ant-col-4"
+        className={"nav-element ant-col-" + this.elementWidth}
         onClick={this.props.handleNavElementClick}
       >
         <Link to={pageObject.link}>{pageObject.name}</Link>

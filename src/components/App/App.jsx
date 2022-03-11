@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom";
 import DocumentPage from "../common/DocumentPage/DocumentPage.jsx";
 import ContactPage from "../contacts/ContactPage/ContactPage.jsx";
 import StatsPage from "../stats/StatsPage/StatsPage.jsx";
+import CoachesCenter from "../coaches/CoachesCenter.jsx";
 import { useEffect } from "react";
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
         <Route path="live_scores" element={<ScoresPage />} />
         <Route path="news" element={<NewsPage />} />
         <Route path="statistics/*" element={<StatsPage />} />
+        <Route path="coaches_center/*" element={<CoachesCenter />} />
         <Route
           path="terms_of_use"
           element={

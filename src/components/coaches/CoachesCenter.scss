@@ -1,0 +1,24 @@
+@import "../../utils/variables.scss";
+
+.coaches-center-main {
+  padding: 0 2vw;
+
+  .subnav-main {
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    height: 389vw;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+
+  h2 {
+    color: $secondary-text-color;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 0.5vw;
+  }
+}

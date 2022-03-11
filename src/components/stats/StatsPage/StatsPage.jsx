@@ -66,6 +66,7 @@ class StatsPage extends React.Component {
         <SubNav
           pages={this.pages}
           handleNavElementClick={this.handleNavElementClick}
+          elementWidth="4"
         />
         <Routes>
           <Route
