@@ -22,6 +22,31 @@
   padding-top: 0;
 }
 
+.landing-page-main {
+  .transfers-section-main {
+    margin-top: 0;
+
+    .transfer-card-main {
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+      outline: none;
+      border: none;
+      transition: all 0.2s ease-in-out;
+
+      &:active {
+        border-style: outset;
+        border: none;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
 .news-page-main,
 .scores-page-main,
 .document-page-main,

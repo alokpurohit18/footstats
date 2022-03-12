@@ -1,6 +1,6 @@
 import * as React from "react";
 import "antd/dist/antd.css";
-import "../coaches/CoachesCenter.scss";
+import "../coaches_center/CoachesCenter.scss";
 
 class MarketValue extends React.Component {
   render() {

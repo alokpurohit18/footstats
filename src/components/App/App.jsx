@@ -7,9 +7,9 @@ import NewsPage from "../news/NewsPage/NewsPage.jsx";
 import { Routes, Route } from "react-router-dom";
 import DocumentPage from "../common/DocumentPage/DocumentPage.jsx";
 import ContactPage from "../contacts/ContactPage/ContactPage.jsx";
-import StatsPage from "../stats/StatsPage/StatsPage.jsx";
-import CoachesCenter from "../coaches/CoachesCenter.jsx";
-import MarketValue from "../markets/MarketValue.jsx";
+import StatsPage from "../statistics/StatsPage/StatsPage.jsx";
+import CoachesCenter from "../coaches_center/CoachesCenter.jsx";
+import MarketValue from "../market_value/MarketValue.jsx";
 import { useEffect } from "react";
 
 function App() {
