@@ -19,10 +19,10 @@ module.exports = function (app) {
 
   //access point 3 and its proxy for flask server
   //currently disabled for faster server response
-  /* app.use(
+  /*app.use(
     "/league_details",
     createProxyMiddleware({
       target: "http://127.0.0.1:5000/",
     })
-  ); */
+  );*/
 };

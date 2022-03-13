@@ -29,31 +29,31 @@ class LandingPage extends React.Component {
         <div className="transfers-section-main ant-col ant-col-8">
           <h2>Latest Transfers</h2>
           <TransferCard
-            key={transferData.premier_league.winter[3].in[0].transfer_id}
+            key="0"
             cardInfo={transferData.premier_league.winter[3].in[0]}
             cardType="in"
             homeTeam="Manchester United"
           />
           <TransferCard
-            key={transferData.bundesliga.winter[0].in[0].transfer_id}
+            key="1"
             cardInfo={transferData.bundesliga.winter[0].in[0]}
             cardType="in"
             homeTeam="RB Leipzig"
           />
           <TransferCard
-            key={transferData.la_liga.winter[0].in[0].transfer_id}
+            key="2"
             cardInfo={transferData.la_liga.winter[0].in[0]}
             cardType="in"
             homeTeam="FC Barcelona"
           />
           <TransferCard
-            key={transferData.serie_a.winter[0].in[0].transfer_id}
+            key="3"
             cardInfo={transferData.serie_a.winter[0].in[0]}
             cardType="in"
             homeTeam="Genoa CFC"
           />
           <TransferCard
-            key={transferData.ligue_1.winter[2].in[0].transfer_id}
+            key="4"
             cardInfo={transferData.ligue_1.winter[2].in[0]}
             cardType="in"
             homeTeam="Olympique Lyon"
