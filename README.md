@@ -1,3 +1,7 @@
+## Description
+
+A football analysis and prediction app created using ReactJS and Flask. The application uses ML and AI to predict predict team and player statistics and attributes.
+
 ## Available Scripts
 
 In the project directory, you can run:
