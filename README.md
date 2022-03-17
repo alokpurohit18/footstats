@@ -82,13 +82,13 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 The app is ready to be deployed!
 
-<br/><br/>
+<br/>
 
 ## License:
 
 The source code is available under the [MIT license](https://github.com/bitcookies/winrar-keygen/blob/master/LICENSE)
 
-<br/><br/>
+<br/>
 
 ## Reach out to us on:
 
