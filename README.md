@@ -88,8 +88,6 @@ The app is ready to be deployed!
 
 The source code is available under the [MIT license](https://github.com/bitcookies/winrar-keygen/blob/master/LICENSE)
 
-<br/>
-
 ## Reach out to us on:
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-round&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alok-rajpurohit-1941461a3/)](https://www.linkedin.com/in/alok-rajpurohit-1941461a3/)
