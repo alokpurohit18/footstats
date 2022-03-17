@@ -36,7 +36,7 @@
 
 ### Libraries & Frameworks :
 
-![Node](https://img.shields.io/badge/-Node-black?style=flat-square&logo=nodejs)
+![Node](https://img.shields.io/badge/node.js%20support-8-brightgreen.svg)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Flask](https://img.shields.io/badge/-Flask-blue?style=flat-square&logo=flask)
 ![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-square&logo=jupyter)
