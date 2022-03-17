@@ -32,7 +32,7 @@
 ![CSS](https://img.shields.io/badge/-CSS3-blue?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
-![json](https://img.shields.io/badge/-json-FFE162?style=flat-square&logo=json)
+![JSON](https://img.shields.io/badge/-JSON-FFCC1D?style=flat-square&logo=JSON)
 
 ### Libraries & Frameworks :
 
@@ -41,7 +41,7 @@
 ![Flask](https://img.shields.io/badge/-Flask-blue?style=flat-square&logo=flask)
 ![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-square&logo=jupyter)
 ![Sklearn](https://img.shields.io/badge/-sklearn-E45826?style=flat-square&logo=Sklearn)
-![Beautifulsoup](https://img.shields.io/badge/-BeautifulSoup-C65D7B?style=flat-square&logo=BeautifulSoup)
+![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-C65D7B?style=flat-square&logo=BeautifulSoup)
 ![Selenium](https://img.shields.io/badge/-Selenium-black?style=flat-square&logo=selenium)
 ![AntDesign](https://img.shields.io/badge/-AntDesign-red?style=flat-square&logo=AntDesign)
 
