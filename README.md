@@ -3,6 +3,8 @@
  <h2 align="center">A Football Analysis Application</h3>
 </p>
 
+<br/>
+
 ## Description
 
  - A football analysis and prediction app created using ReactJS and Flask.
@@ -24,7 +26,7 @@
  - These modules use the data fetched/received from the server through api calls.
  - The coaches center module shows the results from the prediction models developed using machine learning on the server.
 
-<br/><br/>
+<br/>
 
 ## Available Scripts
 
