@@ -29,25 +29,25 @@
 ### Technologies & Languages :
 
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-round&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS3-blue?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
-![JSON](https://img.shields.io/badge/-JSON-FFCC1D?style=flat-square&logo=JSON)
+![CSS](https://img.shields.io/badge/-CSS3-blue?style=flat-round&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-round&logo=javascript)
+![Python](https://img.shields.io/badge/-Python-black?style=flat-round&logo=Python)
+![JSON](https://img.shields.io/badge/-JSON-FFCC1D?style=flat-round&logo=JSON)
 
 ### Libraries & Frameworks :
 
-![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
-![Node.js](https://img.shields.io/badge/-Node-026E00?style=flat-square&logo=node)
-![Flask](https://img.shields.io/badge/-Flask-blue?style=flat-square&logo=flask)
-![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-square&logo=jupyter)
-![Sklearn](https://img.shields.io/badge/-sklearn-E45826?style=flat-square&logo=Sklearn)
-![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-C65D7B?style=flat-square&logo=BeautifulSoup)
-![Selenium](https://img.shields.io/badge/-Selenium-black?style=flat-square&logo=selenium)
-![AntDesign](https://img.shields.io/badge/-AntDesign-red?style=flat-square&logo=AntDesign)
+![React](https://img.shields.io/badge/-React-black?style=flat-round&logo=react)
+![Node.js](https://img.shields.io/badge/-Node-026E00?style=flat-round&logo=node)
+![Flask](https://img.shields.io/badge/-Flask-blue?style=flat-round&logo=flask)
+![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-round&logo=jupyter)
+![Sklearn](https://img.shields.io/badge/-sklearn-E45826?style=flat-round&logo=Sklearn)
+![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-C65D7B?style=flat-round&logo=BeautifulSoup)
+![Selenium](https://img.shields.io/badge/-Selenium-black?style=flat-round&logo=selenium)
+![AntDesign](https://img.shields.io/badge/-AntDesign-red?style=flat-round&logo=AntDesign)
 
 ### Tools:
 
-![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![Git](https://img.shields.io/badge/-Git-black?style=flat-round&logo=git)
 <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
 <a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?logo=github&logoColor=white"></a> 
 <a href="#"><img alt="Heroku" src="https://img.shields.io/badge/Heroku%20-%23430098.svg?logo=heroku&logoColor=white"></a>
