@@ -1,5 +1,5 @@
 <p align="center">
- <img width="400px" src="https://i.redd.it/em1s8xzjs8b81.jpg" align="center" alt="footstats" />
+ <img width="320px" src="https://i.redd.it/em1s8xzjs8b81.jpg" align="center" alt="footstats" />
  <h2 align="center">A Football Analysis Application</h3>
 </p>
 
