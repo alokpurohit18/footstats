@@ -40,7 +40,7 @@
 ![Flask](https://img.shields.io/badge/-Flask-blue?style=flat-square&logo=flask)
 ![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-square&logo=jupyter)
 ![Sklearn](https://img.shields.io/badge/-sklearn-white?style=flat-square&logo=Sklearn)
-![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-white?style=flat-square&logo=BeautifulSoup)
+![BeautifulSoup](https://img.shields.io/badge/-beautifulsoup-green?style=flat-square&logo=beautifulsoup)
 ![JavaFX](https://img.shields.io/badge/-JavaFX-4D77FF?style=flat-square&logo=JavaFX)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-6610f2?style=flat-square&logo=Bootstrap)
 ![AntDesign](https://img.shields.io/badge/-AntDesign-red?style=flat-square&logo=AntDesign)
