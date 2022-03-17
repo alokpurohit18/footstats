@@ -58,11 +58,11 @@
 
 ### Installation :
 
-### `git clone https://github.com/alokpurohit18/footstats.git`
+#### `git clone https://github.com/alokpurohit18/footstats.git`
 
-### `cd footstats`
+#### `cd footstats`
 
-### `npm install`
+#### `npm install`
 
 ### To launch the application, in the project directory, you can run :
 
