@@ -28,24 +28,19 @@
 
 ### Technolgies and Languages :
 
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![Java](https://img.shields.io/badge/-java-E34A86?style=flat-square&logo=java)
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS3-blue?style=flat-square&logo=css3&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-purple?style=flat-square&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
+![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
 ![ES6](https://img.shields.io/badge/-ES6-yellow?style=flat-square&logo=es6)
-![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=Linux)
-![Shell Scripting](https://img.shields.io/badge/-ShellScripting-0E185F?style=flat-square&logo=shell)
-![LaTex](https://img.shields.io/badge/-LaTex-green?style=flat-square&logo=LaTex)
 
 ### Libraries & Frameworks :
 
-![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-square&logo=jupyter)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
-![Django](https://img.shields.io/badge/-Django-blue?style=flat-square&logo=django)
+![Flask](https://img.shields.io/badge/-Flask-blue?style=flat-square&logo=flask)
+![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-square&logo=jupyter)
 ![Sklearn](https://img.shields.io/badge/-sklearn-white?style=flat-square&logo=Sklearn)
+![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-white?style=flat-square&logo=BeautifulSoup)
 ![JavaFX](https://img.shields.io/badge/-JavaFX-4D77FF?style=flat-square&logo=JavaFX)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-6610f2?style=flat-square&logo=Bootstrap)
 ![AntDesign](https://img.shields.io/badge/-AntDesign-red?style=flat-square&logo=AntDesign)
