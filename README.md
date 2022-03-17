@@ -26,12 +26,13 @@
  - These modules use the data fetched/received from the server through api calls.
  - The coaches center module shows the results from the prediction models developed using machine learning on the server.
 
-### Languages :
+### Technologies & Languages :
 
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS3-blue?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
+![JSON](https://img.shields.io/badge/-JSON-black?style=flat-square&logo=JSON)
 
 ### Libraries & Frameworks :
 
