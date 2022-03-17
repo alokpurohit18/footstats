@@ -10,14 +10,14 @@
  - A football analysis and prediction app created using ReactJS and Flask.
  - The application uses ML and AI to predict predict team and player statistics and attributes.
 
-### Server
+### Server :
 
  - The server for the app is created using flask.
  - Data scraping is performed on the server, after which we use our own API's to create/fetch JSON data sets.
  - Uding these data sets we have created the machine learning models to predict player similarity, market value, expected goals etc using python.
  - We have deployed the developed models on the server. 
 
-### Client
+### Client :
 
  - The front-end was created using react. This interactive react app is dislayed to the end user.
  - The app includes 5 modules including home, live scores, news, stats and coaches center.
