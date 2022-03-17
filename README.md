@@ -24,8 +24,7 @@
  - These modules use the data fetched/received from the server through api calls.
  - The coaches center module shows the results from the prediction models developed using machine learning on the server.
 
-
-
+<br/><br/>
 
 ## Available Scripts
 
