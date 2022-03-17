@@ -1,5 +1,5 @@
 <p align="center">
- <kdb><img width="320px" styles="border-radius: 10px;" src="https://i.redd.it/em1s8xzjs8b81.jpg" align="center" alt="footstats" /><kdb/>
+<img width="320px" src="https://i.redd.it/em1s8xzjs8b81.jpg" border-radius="100px" align="center" alt="footstats" />
  <h2 align="center">A Football Analysis Application</h3>
 </p>
 
