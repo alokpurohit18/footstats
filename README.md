@@ -5,7 +5,7 @@
 
 <br/>
 
-![](screenshots/home.png)
+![](screenshots/Home.png)
 
 ## Description
 
