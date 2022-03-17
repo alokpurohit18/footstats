@@ -1,3 +1,19 @@
+<p align="center">
+  <a href="https://github.com/bitcookies/winrar-keygen/releases">
+  	<img src="https://img.shields.io/github/v/release/bitcookies/winrar-keygen?label=version" />
+  </a>
+  <a href="https://github.com/bitcookies/winrar-keygen/issues">
+  	<img alt="Issues" src="https://img.shields.io/github/issues/bitcookies/winrar-keygen?color=F48D73" />
+  </a>
+  <img src="https://img.shields.io/badge/Visual%20Studio-2022-5D4298" />
+  <a href="https://github.com/bitcookies/winrar-keygen/actions">
+      <img src="https://img.shields.io/badge/Github-Actions-4184F4" />
+  </a>
+  <a href="https://github.com/bitcookies/winrar-keygen/blob/master/LICENSE">
+  	<img alt="License" src="https://img.shields.io/github/license/bitcookies/winrar-keygen.svg" />
+  </a>
+</p>
+
 ## Description
 
  - A football analysis and prediction app created using ReactJS and Flask.
