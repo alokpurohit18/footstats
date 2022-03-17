@@ -64,7 +64,7 @@
 
 ### `npm install`
 
-### To launch the application, in the project directory, you can run:
+### To launch the application, in the project directory, you can run :
 
 ### `npm start`
 
@@ -82,7 +82,15 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 The app is ready to be deployed!
 
-### To deploy the server locally, you can run (to test or contribute to the application) :
+### To start the server locally, you can run (to test or contribute to the application) :
+
+### `cd footstats`
+
+### `(Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process) ; (./venv/Scripts/Activate.ps1)`
+
+### `cd src/api`
+
+### `flask run`
 
 <br/>
 
