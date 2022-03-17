@@ -37,7 +37,7 @@
 ### Libraries & Frameworks :
 
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
-![Node](https://img.shields.io/badge/-Node-026E00?style=flat-square&logo=node)
+![Node.js](https://img.shields.io/badge/-Node-026E00?style=flat-square&logo=node)
 ![Flask](https://img.shields.io/badge/-Flask-blue?style=flat-square&logo=flask)
 ![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-square&logo=jupyter)
 ![Sklearn](https://img.shields.io/badge/-sklearn-white?style=flat-square&logo=Sklearn)
