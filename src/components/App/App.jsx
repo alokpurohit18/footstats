@@ -61,6 +61,7 @@ function App() {
             <DocumentPage
               heading="Terms of Use"
               source="https://drive.google.com/file/d/1d_MD_YnI78jlP6VSxkg6amj0nta4M6pW/preview"
+              shiftFlag={false}
             />
           }
         />
@@ -70,6 +71,17 @@ function App() {
             <DocumentPage
               heading="Privacy Policy"
               source="https://drive.google.com/file/d/1PE_cJNH2rhSjrR2DaY2hPU1McF9VGQa5/preview"
+              shiftFlag={false}
+            />
+          }
+        />
+        <Route
+          path="sitemap"
+          element={
+            <DocumentPage
+              heading="Sitemap"
+              source="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/module_diagram.png?raw=true"
+              shiftFlag={true}
             />
           }
         />
