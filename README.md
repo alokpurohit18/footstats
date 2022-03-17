@@ -59,9 +59,9 @@
 ### Installation :
 
 ### `git clone https://github.com/alokpurohit18/footstats.git`
-<br/>
+
 ### `cd footstats`
-<br/>
+
 ### `npm install`
 
 In the project directory, you can run:
