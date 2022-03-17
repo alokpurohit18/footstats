@@ -42,7 +42,7 @@
 ![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-square&logo=jupyter)
 ![Sklearn](https://img.shields.io/badge/-sklearn-E45826?style=flat-square&logo=Sklearn)
 ![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-C65D7B?style=flat-square&logo=BeautifulSoup)
-![Selenium](https://img.shields.io/badge/-selenium-019267?style=flat-square&logo=selenium)
+![Selenium](https://img.shields.io/badge/-Selenium-black?style=flat-square&logo=selenium)
 ![AntDesign](https://img.shields.io/badge/-AntDesign-red?style=flat-square&logo=AntDesign)
 
 ### Tools:
