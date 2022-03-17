@@ -64,7 +64,9 @@
 
 ### `npm install`
 
-In the project directory, you can run:
+<br/>
+
+### To run the application, in the project directory, you can run:
 
 ### `npm start`
 
