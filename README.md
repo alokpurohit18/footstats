@@ -1,5 +1,5 @@
 <p align="center">
-<img width="320px" src="https://i.redd.it/em1s8xzjs8b81.jpg" border-radius="100px" align="center" alt="footstats" />
+<img width="320px" src="https://i.redd.it/em1s8xzjs8b81.jpg" align="center" alt="footstats" />
  <h2 align="center">A Football Analysis Application</h3>
 </p>
 
@@ -45,7 +45,7 @@
 ![Selenium](https://img.shields.io/badge/-Selenium-black?style=flat-round&logo=selenium)
 ![AntDesign](https://img.shields.io/badge/-AntDesign-red?style=flat-round&logo=AntDesign)
 
-### Tools:
+### Tools :
 
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-round&logo=git)
 <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
@@ -55,6 +55,12 @@
 <br/>
 
 ## Available Scripts
+
+### Installation :
+
+` - git clone https://github.com/alokpurohit18/footstats.git`
+` - cd footstats`
+` - npm install`
 
 In the project directory, you can run:
 
