@@ -36,18 +36,17 @@
 
 ### Libraries & Frameworks :
 
-![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
+![Node](https://img.shields.io/badge/-Node-black?style=flat-square&logo=react)
+![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=node)
 ![Flask](https://img.shields.io/badge/-Flask-blue?style=flat-square&logo=flask)
 ![Jupyter](https://img.shields.io/badge/-jupyter-white?style=flat-square&logo=jupyter)
 ![Sklearn](https://img.shields.io/badge/-sklearn-white?style=flat-square&logo=Sklearn)
 ![BeautifulSoup](https://img.shields.io/badge/-beautifulsoup-green?style=flat-square&logo=beautifulsoup)
-![JavaFX](https://img.shields.io/badge/-JavaFX-4D77FF?style=flat-square&logo=JavaFX)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-6610f2?style=flat-square&logo=Bootstrap)
 ![AntDesign](https://img.shields.io/badge/-AntDesign-red?style=flat-square&logo=AntDesign)
 
 ### Tools:
 
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-black?style=flat-square&logo=google-cloud)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
 <a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?logo=github&logoColor=white"></a> 
