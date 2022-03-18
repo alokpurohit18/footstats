@@ -80,7 +80,7 @@ function App() {
           element={
             <DocumentPage
               heading="Sitemap"
-              source="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/module_diagram.png?raw=true"
+              source="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/module_diagram1.png?raw=true"
               shiftFlag={true}
             />
           }
