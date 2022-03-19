@@ -21,7 +21,7 @@
 
 ### Client :
 
- - The front-end was created using react. This interactive react app is dislayed to the end user.
+ - The front-end was created using react. This interactive react app is displayed to the end user.
  - The app includes 5 modules including home, live scores, news, stats and coaches center.
  - Live scores from matches across the world are displayed to user in the live scores modules. These scores can be filtered by leagues.
  - Latest football news is displayed under the news module and various live league and player stats are shown in the stats module.
