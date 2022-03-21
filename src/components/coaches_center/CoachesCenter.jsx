@@ -52,7 +52,7 @@ class CoachesCenter extends React.Component {
                 <h2>Player Similarity Prediction Model</h2>
                 <img
                   alt="player similarity model"
-                  src="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/Player_Similarity.png?raw=true"
+                  src="https://github.com/alokpurohit18/KaunBanegaCrorepati/blob/master/Screenshots/Player_Similarity.png?raw=true"
                 />
               </div>
             }
@@ -64,7 +64,7 @@ class CoachesCenter extends React.Component {
                 <h2>Expected Goals Prediction Model</h2>
                 <img
                   alt="expected goals model"
-                  src="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/xG_prediction.png?raw=true"
+                  src="https://github.com/alokpurohit18/KaunBanegaCrorepati/blob/master/Screenshots/xG_Model.png?raw=true"
                 />
               </div>
             }

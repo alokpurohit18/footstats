@@ -9,7 +9,7 @@ class MarketValue extends React.Component {
         <h2>Market Value Prediction Model</h2>
         <img
           alt="market value model"
-          src="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/market_value.png?raw=true"
+          src="https://github.com/alokpurohit18/KaunBanegaCrorepati/blob/master/Screenshots/Market_Value.png?raw=true"
         />
       </div>
     );
