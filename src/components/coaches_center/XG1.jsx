@@ -8,7 +8,7 @@ class XG1 extends React.Component {
       <table className="dataframe league-table">
         <thead>
           <tr className="table-header">
-            <th></th>
+            <th>No.</th>
             <th>Player Name</th>
             <th>Total Shots</th>
             <th>Goals Scored</th>

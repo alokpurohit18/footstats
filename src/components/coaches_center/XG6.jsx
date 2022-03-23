@@ -8,7 +8,7 @@ class XG6 extends React.Component {
       <table className="dataframe league-table">
         <thead>
           <tr className="table-header">
-            <th></th>
+            <th>No.</th>
             <th>Player Name</th>
             <th>Total Shots</th>
             <th>Goals Scored</th>
@@ -20,816 +20,771 @@ class XG6 extends React.Component {
         <tbody>
           <tr>
             <th>0</th>
-            <td>lionel messi</td>
-            <td>914</td>
-            <td>205.0</td>
-            <td>147.785301</td>
-            <td>-57.214699</td>
-            <td>0.161691</td>
+            <td>tom huddlestone</td>
+            <td>108</td>
+            <td>2.0</td>
+            <td>3.801665</td>
+            <td>1.801665</td>
+            <td>0.035201</td>
           </tr>
           <tr>
             <th>1</th>
-            <td>luis suarez</td>
-            <td>433</td>
-            <td>96.0</td>
-            <td>66.885136</td>
-            <td>-29.114864</td>
-            <td>0.154469</td>
+            <td>gokhan inler</td>
+            <td>185</td>
+            <td>9.0</td>
+            <td>7.333342</td>
+            <td>-1.666658</td>
+            <td>0.039640</td>
           </tr>
           <tr>
             <th>2</th>
-            <td>zlatan ibrahimovic</td>
-            <td>774</td>
-            <td>153.0</td>
-            <td>124.539731</td>
-            <td>-28.460269</td>
-            <td>0.160904</td>
+            <td>florent balmont</td>
+            <td>168</td>
+            <td>5.0</td>
+            <td>7.122417</td>
+            <td>2.122417</td>
+            <td>0.042395</td>
           </tr>
           <tr>
             <th>3</th>
-            <td>gonzalo higuain</td>
-            <td>552</td>
-            <td>118.0</td>
-            <td>89.582126</td>
-            <td>-28.417874</td>
-            <td>0.162286</td>
+            <td>ivan radovanovic</td>
+            <td>161</td>
+            <td>2.0</td>
+            <td>7.569230</td>
+            <td>5.569230</td>
+            <td>0.047014</td>
           </tr>
           <tr>
             <th>4</th>
-            <td>cristiano ronaldo</td>
-            <td>1190</td>
-            <td>198.0</td>
-            <td>172.517022</td>
-            <td>-25.482978</td>
-            <td>0.144972</td>
+            <td>saphir taider</td>
+            <td>102</td>
+            <td>4.0</td>
+            <td>4.932113</td>
+            <td>0.932113</td>
+            <td>0.048354</td>
           </tr>
           <tr>
             <th>5</th>
-            <td>robert lewandowski</td>
-            <td>633</td>
-            <td>124.0</td>
-            <td>99.958186</td>
-            <td>-24.041814</td>
-            <td>0.157912</td>
+            <td>ruben rochina</td>
+            <td>179</td>
+            <td>12.0</td>
+            <td>8.727522</td>
+            <td>-3.272478</td>
+            <td>0.048757</td>
           </tr>
           <tr>
             <th>6</th>
-            <td>alexandre lacazette</td>
-            <td>391</td>
-            <td>88.0</td>
-            <td>65.477343</td>
-            <td>-22.522657</td>
-            <td>0.167461</td>
+            <td>daniel baier</td>
+            <td>177</td>
+            <td>5.0</td>
+            <td>8.670070</td>
+            <td>3.670070</td>
+            <td>0.048983</td>
           </tr>
           <tr>
             <th>7</th>
-            <td>antoine griezmann</td>
-            <td>493</td>
-            <td>80.0</td>
-            <td>60.674942</td>
-            <td>-19.325058</td>
-            <td>0.123073</td>
+            <td>michael pereira</td>
+            <td>101</td>
+            <td>3.0</td>
+            <td>4.961315</td>
+            <td>1.961315</td>
+            <td>0.049122</td>
           </tr>
           <tr>
             <th>8</th>
-            <td>alexis sanchez</td>
-            <td>445</td>
-            <td>80.0</td>
-            <td>60.690420</td>
-            <td>-19.309580</td>
-            <td>0.136383</td>
+            <td>marco estrada</td>
+            <td>106</td>
+            <td>6.0</td>
+            <td>5.324807</td>
+            <td>-0.675193</td>
+            <td>0.050234</td>
           </tr>
           <tr>
             <th>9</th>
-            <td>karim benzema</td>
-            <td>434</td>
-            <td>85.0</td>
-            <td>65.942142</td>
-            <td>-19.057858</td>
-            <td>0.151940</td>
+            <td>gregory sertic</td>
+            <td>148</td>
+            <td>5.0</td>
+            <td>7.485724</td>
+            <td>2.485724</td>
+            <td>0.050579</td>
           </tr>
           <tr>
             <th>10</th>
-            <td>diego costa</td>
-            <td>410</td>
-            <td>93.0</td>
-            <td>75.104347</td>
-            <td>-17.895653</td>
-            <td>0.183181</td>
+            <td>marcel schmelzer</td>
+            <td>135</td>
+            <td>2.0</td>
+            <td>6.883636</td>
+            <td>4.883636</td>
+            <td>0.050990</td>
           </tr>
           <tr>
             <th>11</th>
-            <td>franck ribery</td>
-            <td>226</td>
-            <td>40.0</td>
-            <td>22.639183</td>
-            <td>-17.360817</td>
-            <td>0.100173</td>
+            <td>milan badelj</td>
+            <td>102</td>
+            <td>6.0</td>
+            <td>5.217673</td>
+            <td>-0.782327</td>
+            <td>0.051154</td>
           </tr>
           <tr>
             <th>12</th>
-            <td>eden hazard</td>
-            <td>332</td>
-            <td>62.0</td>
-            <td>45.046184</td>
-            <td>-16.953816</td>
-            <td>0.135681</td>
+            <td>paul lasne</td>
+            <td>121</td>
+            <td>8.0</td>
+            <td>6.198490</td>
+            <td>-1.801510</td>
+            <td>0.051227</td>
           </tr>
           <tr>
             <th>13</th>
-            <td>mario mandzukic</td>
-            <td>329</td>
-            <td>67.0</td>
-            <td>51.158645</td>
-            <td>-15.841355</td>
-            <td>0.155497</td>
+            <td>ruben pardo</td>
+            <td>102</td>
+            <td>5.0</td>
+            <td>5.319500</td>
+            <td>0.319500</td>
+            <td>0.052152</td>
           </tr>
           <tr>
             <th>14</th>
-            <td>wissam ben yedder</td>
-            <td>367</td>
-            <td>69.0</td>
-            <td>54.078384</td>
-            <td>-14.921616</td>
-            <td>0.147353</td>
+            <td>bebe</td>
+            <td>146</td>
+            <td>5.0</td>
+            <td>7.643569</td>
+            <td>2.643569</td>
+            <td>0.052353</td>
           </tr>
           <tr>
             <th>15</th>
-            <td>fernando llorente</td>
-            <td>282</td>
-            <td>56.0</td>
-            <td>41.342096</td>
-            <td>-14.657904</td>
-            <td>0.146603</td>
+            <td>suso</td>
+            <td>160</td>
+            <td>14.0</td>
+            <td>8.405002</td>
+            <td>-5.594998</td>
+            <td>0.052531</td>
           </tr>
           <tr>
             <th>16</th>
-            <td>marco reus</td>
-            <td>408</td>
-            <td>65.0</td>
-            <td>50.730262</td>
-            <td>-14.269738</td>
-            <td>0.124339</td>
+            <td>fabien lemoine</td>
+            <td>116</td>
+            <td>5.0</td>
+            <td>6.166675</td>
+            <td>1.166675</td>
+            <td>0.053161</td>
           </tr>
           <tr>
             <th>17</th>
-            <td>mauro icardi</td>
-            <td>323</td>
-            <td>72.0</td>
-            <td>57.785937</td>
-            <td>-14.214063</td>
-            <td>0.178904</td>
+            <td>johannes geis</td>
+            <td>189</td>
+            <td>8.0</td>
+            <td>10.109328</td>
+            <td>2.109328</td>
+            <td>0.053489</td>
           </tr>
           <tr>
             <th>18</th>
-            <td>gareth bale</td>
-            <td>301</td>
-            <td>50.0</td>
-            <td>35.786042</td>
-            <td>-14.213958</td>
-            <td>0.118891</td>
+            <td>tino costa</td>
+            <td>147</td>
+            <td>8.0</td>
+            <td>8.027179</td>
+            <td>0.027179</td>
+            <td>0.054607</td>
           </tr>
           <tr>
             <th>19</th>
-            <td>alexander meier</td>
-            <td>291</td>
-            <td>57.0</td>
-            <td>43.291728</td>
-            <td>-13.708272</td>
-            <td>0.148769</td>
+            <td>perparim hetemaj</td>
+            <td>139</td>
+            <td>1.0</td>
+            <td>7.626188</td>
+            <td>6.626188</td>
+            <td>0.054865</td>
           </tr>
           <tr>
             <th>20</th>
-            <td>miroslav klose</td>
-            <td>205</td>
-            <td>51.0</td>
-            <td>38.509038</td>
-            <td>-12.490962</td>
-            <td>0.187849</td>
+            <td>marcel risse</td>
+            <td>158</td>
+            <td>12.0</td>
+            <td>8.710838</td>
+            <td>-3.289162</td>
+            <td>0.055132</td>
           </tr>
           <tr>
             <th>21</th>
-            <td>harry kane</td>
-            <td>353</td>
-            <td>65.0</td>
-            <td>52.556966</td>
-            <td>-12.443034</td>
-            <td>0.148887</td>
+            <td>lossemy karaboue</td>
+            <td>105</td>
+            <td>2.0</td>
+            <td>5.806428</td>
+            <td>3.806428</td>
+            <td>0.055299</td>
           </tr>
           <tr>
             <th>22</th>
-            <td>bas dost</td>
-            <td>137</td>
-            <td>36.0</td>
-            <td>23.906053</td>
-            <td>-12.093947</td>
-            <td>0.174497</td>
+            <td>riccardo montolivo</td>
+            <td>195</td>
+            <td>11.0</td>
+            <td>10.799163</td>
+            <td>-0.200837</td>
+            <td>0.055380</td>
           </tr>
           <tr>
             <th>23</th>
-            <td>mario gotze</td>
-            <td>203</td>
-            <td>37.0</td>
-            <td>24.994029</td>
-            <td>-12.005971</td>
-            <td>0.123123</td>
+            <td>granit xhaka</td>
+            <td>158</td>
+            <td>7.0</td>
+            <td>8.882076</td>
+            <td>1.882076</td>
+            <td>0.056216</td>
           </tr>
           <tr>
             <th>24</th>
-            <td>carlos tevez</td>
-            <td>239</td>
-            <td>39.0</td>
-            <td>27.548329</td>
-            <td>-11.451671</td>
-            <td>0.115265</td>
+            <td>luca cigarini</td>
+            <td>187</td>
+            <td>7.0</td>
+            <td>10.747968</td>
+            <td>3.747968</td>
+            <td>0.057476</td>
           </tr>
           <tr>
             <th>25</th>
-            <td>raffael</td>
-            <td>318</td>
-            <td>50.0</td>
-            <td>38.779334</td>
-            <td>-11.220666</td>
-            <td>0.121948</td>
+            <td>bakary sako</td>
+            <td>136</td>
+            <td>6.0</td>
+            <td>7.904307</td>
+            <td>1.904307</td>
+            <td>0.058120</td>
           </tr>
           <tr>
             <th>26</th>
-            <td>arjen robben</td>
-            <td>343</td>
-            <td>50.0</td>
-            <td>38.828671</td>
-            <td>-11.171329</td>
-            <td>0.113203</td>
+            <td>idrissa gueye</td>
+            <td>120</td>
+            <td>4.0</td>
+            <td>7.057758</td>
+            <td>3.057758</td>
+            <td>0.058815</td>
           </tr>
           <tr>
             <th>27</th>
-            <td>olivier giroud</td>
-            <td>442</td>
-            <td>71.0</td>
-            <td>59.869051</td>
-            <td>-11.130949</td>
-            <td>0.135450</td>
+            <td>alfred duncan</td>
+            <td>104</td>
+            <td>2.0</td>
+            <td>6.126429</td>
+            <td>4.126429</td>
+            <td>0.058908</td>
           </tr>
           <tr>
             <th>28</th>
-            <td>cheick diabate</td>
-            <td>228</td>
-            <td>47.0</td>
-            <td>35.991931</td>
-            <td>-11.008069</td>
-            <td>0.157859</td>
+            <td>andros townsend</td>
+            <td>117</td>
+            <td>8.0</td>
+            <td>6.900839</td>
+            <td>-1.099161</td>
+            <td>0.058982</td>
           </tr>
           <tr>
             <th>29</th>
-            <td>carlos bacca</td>
-            <td>230</td>
-            <td>57.0</td>
-            <td>46.001342</td>
-            <td>-10.998658</td>
-            <td>0.200006</td>
+            <td>sebastian rudy</td>
+            <td>104</td>
+            <td>8.0</td>
+            <td>6.153365</td>
+            <td>-1.846635</td>
+            <td>0.059167</td>
           </tr>
           <tr>
             <th>30</th>
-            <td>mohamed salah</td>
-            <td>160</td>
-            <td>29.0</td>
-            <td>18.506692</td>
-            <td>-10.493308</td>
-            <td>0.115667</td>
+            <td>recio</td>
+            <td>110</td>
+            <td>5.0</td>
+            <td>6.522439</td>
+            <td>1.522439</td>
+            <td>0.059295</td>
           </tr>
           <tr>
             <th>31</th>
-            <td>salomon kalou</td>
-            <td>281</td>
-            <td>56.0</td>
-            <td>45.526441</td>
-            <td>-10.473559</td>
-            <td>0.162016</td>
+            <td>pape diop</td>
+            <td>134</td>
+            <td>8.0</td>
+            <td>7.955311</td>
+            <td>-0.044689</td>
+            <td>0.059368</td>
           </tr>
           <tr>
             <th>32</th>
-            <td>valere germain</td>
-            <td>149</td>
-            <td>30.0</td>
-            <td>20.029965</td>
-            <td>-9.970035</td>
-            <td>0.134429</td>
+            <td>chris brunt</td>
+            <td>113</td>
+            <td>8.0</td>
+            <td>6.719354</td>
+            <td>-1.280646</td>
+            <td>0.059463</td>
           </tr>
           <tr>
             <th>33</th>
-            <td>iago falque</td>
-            <td>154</td>
-            <td>26.0</td>
-            <td>16.062664</td>
-            <td>-9.937336</td>
-            <td>0.104303</td>
+            <td>matias vecino</td>
+            <td>137</td>
+            <td>4.0</td>
+            <td>8.238430</td>
+            <td>4.238430</td>
+            <td>0.060135</td>
           </tr>
           <tr>
             <th>34</th>
-            <td>dimitri payet</td>
-            <td>456</td>
-            <td>44.0</td>
-            <td>34.123482</td>
-            <td>-9.876518</td>
-            <td>0.074832</td>
+            <td>fredy guarin</td>
+            <td>312</td>
+            <td>15.0</td>
+            <td>18.803511</td>
+            <td>3.803511</td>
+            <td>0.060268</td>
           </tr>
           <tr>
             <th>35</th>
-            <td>falcao</td>
-            <td>381</td>
-            <td>80.0</td>
-            <td>70.178498</td>
-            <td>-9.821502</td>
-            <td>0.184196</td>
+            <td>ander</td>
+            <td>158</td>
+            <td>7.0</td>
+            <td>9.574583</td>
+            <td>2.574583</td>
+            <td>0.060599</td>
           </tr>
           <tr>
             <th>36</th>
-            <td>heungmin son</td>
-            <td>225</td>
-            <td>32.0</td>
-            <td>22.180773</td>
-            <td>-9.819227</td>
-            <td>0.098581</td>
+            <td>dani alves</td>
+            <td>140</td>
+            <td>5.0</td>
+            <td>8.509612</td>
+            <td>3.509612</td>
+            <td>0.060783</td>
           </tr>
           <tr>
             <th>37</th>
-            <td>cedric barbosa</td>
-            <td>111</td>
-            <td>21.0</td>
-            <td>11.343856</td>
-            <td>-9.656144</td>
-            <td>0.102197</td>
+            <td>michael krohndehli</td>
+            <td>154</td>
+            <td>3.0</td>
+            <td>9.384587</td>
+            <td>6.384587</td>
+            <td>0.060939</td>
           </tr>
           <tr>
             <th>38</th>
-            <td>yaya toure</td>
-            <td>236</td>
-            <td>37.0</td>
-            <td>27.508287</td>
-            <td>-9.491713</td>
-            <td>0.116561</td>
+            <td>jonjo shelvey</td>
+            <td>187</td>
+            <td>10.0</td>
+            <td>11.416929</td>
+            <td>1.416929</td>
+            <td>0.061053</td>
           </tr>
           <tr>
             <th>39</th>
-            <td>josip drmic</td>
-            <td>97</td>
-            <td>24.0</td>
-            <td>14.547361</td>
-            <td>-9.452639</td>
-            <td>0.149973</td>
+            <td>sergio canales</td>
+            <td>158</td>
+            <td>9.0</td>
+            <td>9.802688</td>
+            <td>0.802688</td>
+            <td>0.062042</td>
           </tr>
           <tr>
             <th>40</th>
-            <td>claudio pizarro</td>
-            <td>200</td>
-            <td>47.0</td>
-            <td>37.665620</td>
-            <td>-9.334380</td>
-            <td>0.188328</td>
+            <td>adrien regattin</td>
+            <td>150</td>
+            <td>8.0</td>
+            <td>9.341698</td>
+            <td>1.341698</td>
+            <td>0.062278</td>
           </tr>
           <tr>
             <th>41</th>
-            <td>mesut ozil</td>
-            <td>187</td>
-            <td>33.0</td>
-            <td>23.684490</td>
-            <td>-9.315510</td>
-            <td>0.126655</td>
+            <td>lazaros christodoulopoulos</td>
+            <td>117</td>
+            <td>5.0</td>
+            <td>7.423294</td>
+            <td>2.423294</td>
+            <td>0.063447</td>
           </tr>
           <tr>
             <th>42</th>
-            <td>james rodriguez</td>
-            <td>183</td>
-            <td>27.0</td>
-            <td>17.859730</td>
-            <td>-9.140270</td>
-            <td>0.097594</td>
+            <td>konstantin rausch</td>
+            <td>122</td>
+            <td>8.0</td>
+            <td>7.764728</td>
+            <td>-0.235272</td>
+            <td>0.063645</td>
           </tr>
           <tr>
             <th>43</th>
-            <td>alberto bueno</td>
-            <td>198</td>
-            <td>32.0</td>
-            <td>22.880932</td>
-            <td>-9.119068</td>
-            <td>0.115560</td>
+            <td>vieirinha</td>
+            <td>126</td>
+            <td>4.0</td>
+            <td>8.048631</td>
+            <td>4.048631</td>
+            <td>0.063878</td>
           </tr>
           <tr>
             <th>44</th>
-            <td>blerim dzemaili</td>
-            <td>197</td>
-            <td>24.0</td>
-            <td>14.977664</td>
-            <td>-9.022336</td>
-            <td>0.076029</td>
+            <td>gary medel</td>
+            <td>114</td>
+            <td>9.0</td>
+            <td>7.299124</td>
+            <td>-1.700876</td>
+            <td>0.064027</td>
           </tr>
           <tr>
             <th>45</th>
-            <td>antonio cassano</td>
-            <td>151</td>
-            <td>29.0</td>
-            <td>20.083135</td>
-            <td>-8.916865</td>
-            <td>0.133001</td>
+            <td>gabi</td>
+            <td>150</td>
+            <td>8.0</td>
+            <td>9.781902</td>
+            <td>1.781902</td>
+            <td>0.065213</td>
           </tr>
           <tr>
             <th>46</th>
-            <td>gregoire defrel</td>
-            <td>134</td>
-            <td>22.0</td>
-            <td>13.141009</td>
-            <td>-8.858991</td>
-            <td>0.098067</td>
+            <td>toni kroos</td>
+            <td>210</td>
+            <td>15.0</td>
+            <td>13.702728</td>
+            <td>-1.297272</td>
+            <td>0.065251</td>
           </tr>
           <tr>
             <th>47</th>
-            <td>isco</td>
-            <td>267</td>
-            <td>33.0</td>
-            <td>24.228152</td>
-            <td>-8.771848</td>
-            <td>0.090742</td>
+            <td>radja nainggolan</td>
+            <td>396</td>
+            <td>22.0</td>
+            <td>25.913369</td>
+            <td>3.913369</td>
+            <td>0.065438</td>
           </tr>
           <tr>
             <th>48</th>
-            <td>pierreemerick aubameyang</td>
-            <td>580</td>
-            <td>100.0</td>
-            <td>91.229665</td>
-            <td>-8.770335</td>
-            <td>0.157293</td>
+            <td>antoine devaux</td>
+            <td>104</td>
+            <td>6.0</td>
+            <td>6.883990</td>
+            <td>0.883990</td>
+            <td>0.066192</td>
           </tr>
           <tr>
             <th>49</th>
-            <td>ivan perisic</td>
-            <td>307</td>
-            <td>41.0</td>
-            <td>32.425258</td>
-            <td>-8.574742</td>
-            <td>0.105620</td>
+            <td>luka modric</td>
+            <td>129</td>
+            <td>8.0</td>
+            <td>8.583159</td>
+            <td>0.583159</td>
+            <td>0.066536</td>
           </tr>
           <tr>
             <th>50</th>
-            <td>pedro</td>
-            <td>267</td>
-            <td>45.0</td>
-            <td>36.443374</td>
-            <td>-8.556626</td>
-            <td>0.136492</td>
+            <td>manu trigueros</td>
+            <td>125</td>
+            <td>7.0</td>
+            <td>8.369612</td>
+            <td>1.369612</td>
+            <td>0.066957</td>
           </tr>
           <tr>
             <th>51</th>
-            <td>younes belhanda</td>
-            <td>148</td>
-            <td>26.0</td>
-            <td>17.455110</td>
-            <td>-8.544890</td>
-            <td>0.117940</td>
+            <td>mauro zarate</td>
+            <td>140</td>
+            <td>12.0</td>
+            <td>9.376992</td>
+            <td>-2.623008</td>
+            <td>0.066979</td>
           </tr>
           <tr>
             <th>52</th>
-            <td>nabil fekir</td>
-            <td>151</td>
-            <td>22.0</td>
-            <td>13.466439</td>
-            <td>-8.533561</td>
-            <td>0.089182</td>
+            <td>yann jouffre</td>
+            <td>243</td>
+            <td>17.0</td>
+            <td>16.289337</td>
+            <td>-0.710663</td>
+            <td>0.067034</td>
           </tr>
           <tr>
             <th>53</th>
-            <td>javier hernandez</td>
-            <td>112</td>
-            <td>28.0</td>
-            <td>19.554662</td>
-            <td>-8.445338</td>
-            <td>0.174595</td>
+            <td>markus feulner</td>
+            <td>137</td>
+            <td>9.0</td>
+            <td>9.189010</td>
+            <td>0.189010</td>
+            <td>0.067073</td>
           </tr>
           <tr>
             <th>54</th>
-            <td>modibo maiga</td>
+            <td>johan cavalli</td>
             <td>108</td>
-            <td>20.0</td>
-            <td>11.561715</td>
-            <td>-8.438285</td>
-            <td>0.107053</td>
+            <td>7.0</td>
+            <td>7.261248</td>
+            <td>0.261248</td>
+            <td>0.067234</td>
           </tr>
           <tr>
             <th>55</th>
-            <td>dries mertens</td>
-            <td>270</td>
-            <td>34.0</td>
-            <td>25.630041</td>
-            <td>-8.369959</td>
-            <td>0.094926</td>
+            <td>alessandro diamanti</td>
+            <td>386</td>
+            <td>21.0</td>
+            <td>25.969401</td>
+            <td>4.969401</td>
+            <td>0.067278</td>
           </tr>
           <tr>
             <th>56</th>
-            <td>pablo piatti</td>
-            <td>140</td>
-            <td>21.0</td>
-            <td>12.904694</td>
-            <td>-8.095306</td>
-            <td>0.092176</td>
+            <td>dusan basta</td>
+            <td>148</td>
+            <td>9.0</td>
+            <td>10.046783</td>
+            <td>1.046783</td>
+            <td>0.067884</td>
           </tr>
           <tr>
             <th>57</th>
-            <td>bernardo silva</td>
-            <td>105</td>
-            <td>20.0</td>
-            <td>11.943886</td>
-            <td>-8.056114</td>
-            <td>0.113751</td>
+            <td>nathan redmond</td>
+            <td>159</td>
+            <td>9.0</td>
+            <td>10.869577</td>
+            <td>1.869577</td>
+            <td>0.068362</td>
           </tr>
           <tr>
             <th>58</th>
-            <td>maxwell</td>
-            <td>53</td>
-            <td>14.0</td>
-            <td>6.043775</td>
-            <td>-7.956225</td>
-            <td>0.114033</td>
+            <td>panagiotis tachtsidis</td>
+            <td>112</td>
+            <td>9.0</td>
+            <td>7.656952</td>
+            <td>-1.343048</td>
+            <td>0.068366</td>
           </tr>
           <tr>
             <th>59</th>
-            <td>mario gomez</td>
-            <td>221</td>
-            <td>48.0</td>
-            <td>40.046813</td>
-            <td>-7.953187</td>
-            <td>0.181207</td>
+            <td>jasmin kurtic</td>
+            <td>207</td>
+            <td>9.0</td>
+            <td>14.198862</td>
+            <td>5.198862</td>
+            <td>0.068594</td>
           </tr>
           <tr>
             <th>60</th>
-            <td>nolito</td>
-            <td>320</td>
-            <td>46.0</td>
-            <td>38.199907</td>
-            <td>-7.800093</td>
-            <td>0.119375</td>
+            <td>yannis salibur</td>
+            <td>120</td>
+            <td>12.0</td>
+            <td>8.250579</td>
+            <td>-3.749421</td>
+            <td>0.068755</td>
           </tr>
           <tr>
             <th>61</th>
-            <td>ruben castro</td>
-            <td>415</td>
-            <td>69.0</td>
-            <td>61.339920</td>
-            <td>-7.660080</td>
-            <td>0.147807</td>
+            <td>juan vargas</td>
+            <td>135</td>
+            <td>7.0</td>
+            <td>9.300796</td>
+            <td>2.300796</td>
+            <td>0.068895</td>
           </tr>
           <tr>
             <th>62</th>
-            <td>andrepierre gignac</td>
-            <td>409</td>
-            <td>51.0</td>
-            <td>43.391474</td>
-            <td>-7.608526</td>
-            <td>0.106092</td>
+            <td>piotr zielinski</td>
+            <td>115</td>
+            <td>6.0</td>
+            <td>7.959403</td>
+            <td>1.959403</td>
+            <td>0.069212</td>
           </tr>
           <tr>
             <th>63</th>
-            <td>jacheol koo</td>
-            <td>120</td>
-            <td>20.0</td>
-            <td>12.526796</td>
-            <td>-7.473204</td>
-            <td>0.104390</td>
+            <td>jose antonio reyes</td>
+            <td>112</td>
+            <td>5.0</td>
+            <td>7.767890</td>
+            <td>2.767890</td>
+            <td>0.069356</td>
           </tr>
           <tr>
             <th>64</th>
-            <td>sergio aguero</td>
-            <td>416</td>
-            <td>75.0</td>
-            <td>67.555521</td>
-            <td>-7.444479</td>
-            <td>0.162393</td>
+            <td>carlos sanchez</td>
+            <td>124</td>
+            <td>4.0</td>
+            <td>8.603782</td>
+            <td>4.603782</td>
+            <td>0.069385</td>
           </tr>
           <tr>
             <th>65</th>
-            <td>dario cvitanich</td>
-            <td>116</td>
-            <td>30.0</td>
-            <td>22.702182</td>
-            <td>-7.297818</td>
-            <td>0.195708</td>
+            <td>sergio almiron</td>
+            <td>121</td>
+            <td>9.0</td>
+            <td>8.470118</td>
+            <td>-0.529882</td>
+            <td>0.070001</td>
           </tr>
           <tr>
             <th>66</th>
-            <td>jose callejon</td>
-            <td>319</td>
-            <td>48.0</td>
-            <td>40.741845</td>
-            <td>-7.258155</td>
-            <td>0.127717</td>
+            <td>roberto trashorras</td>
+            <td>214</td>
+            <td>6.0</td>
+            <td>15.005265</td>
+            <td>9.005265</td>
+            <td>0.070118</td>
           </tr>
           <tr>
             <th>67</th>
-            <td>marco sau</td>
-            <td>137</td>
-            <td>28.0</td>
-            <td>20.810726</td>
-            <td>-7.189274</td>
-            <td>0.151903</td>
+            <td>edgar barreto</td>
+            <td>131</td>
+            <td>5.0</td>
+            <td>9.223236</td>
+            <td>4.223236</td>
+            <td>0.070406</td>
           </tr>
           <tr>
             <th>68</th>
-            <td>daniel didavi</td>
-            <td>196</td>
-            <td>27.0</td>
-            <td>19.826556</td>
-            <td>-7.173444</td>
-            <td>0.101156</td>
+            <td>juanfran</td>
+            <td>155</td>
+            <td>7.0</td>
+            <td>10.946801</td>
+            <td>3.946801</td>
+            <td>0.070625</td>
           </tr>
           <tr>
             <th>69</th>
-            <td>max kruse</td>
-            <td>280</td>
-            <td>40.0</td>
-            <td>32.902116</td>
-            <td>-7.097884</td>
-            <td>0.117508</td>
+            <td>jaroslav plasil</td>
+            <td>166</td>
+            <td>9.0</td>
+            <td>11.731898</td>
+            <td>2.731898</td>
+            <td>0.070674</td>
           </tr>
           <tr>
             <th>70</th>
-            <td>domenico berardi</td>
-            <td>287</td>
-            <td>40.0</td>
-            <td>32.917630</td>
-            <td>-7.082370</td>
-            <td>0.114696</td>
+            <td>alain traore</td>
+            <td>165</td>
+            <td>17.0</td>
+            <td>11.704467</td>
+            <td>-5.295533</td>
+            <td>0.070936</td>
           </tr>
           <tr>
             <th>71</th>
-            <td>dele alli</td>
-            <td>125</td>
-            <td>21.0</td>
-            <td>14.003370</td>
-            <td>-6.996630</td>
-            <td>0.112027</td>
+            <td>stewart downing</td>
+            <td>129</td>
+            <td>8.0</td>
+            <td>9.160402</td>
+            <td>1.160402</td>
+            <td>0.071011</td>
           </tr>
           <tr>
             <th>72</th>
-            <td>jese</td>
-            <td>59</td>
-            <td>14.0</td>
-            <td>7.014941</td>
-            <td>-6.985059</td>
-            <td>0.118897</td>
+            <td>alvaro cejudo</td>
+            <td>212</td>
+            <td>11.0</td>
+            <td>15.061212</td>
+            <td>4.061212</td>
+            <td>0.071043</td>
           </tr>
           <tr>
             <th>73</th>
-            <td>stefan kiessling</td>
-            <td>359</td>
-            <td>67.0</td>
-            <td>60.079123</td>
-            <td>-6.920877</td>
-            <td>0.167351</td>
+            <td>hernanes</td>
+            <td>354</td>
+            <td>28.0</td>
+            <td>25.299641</td>
+            <td>-2.700359</td>
+            <td>0.071468</td>
           </tr>
           <tr>
             <th>74</th>
-            <td>francesc fabregas</td>
-            <td>140</td>
-            <td>27.0</td>
-            <td>20.123383</td>
-            <td>-6.876617</td>
-            <td>0.143738</td>
+            <td>joao moutinho</td>
+            <td>116</td>
+            <td>7.0</td>
+            <td>8.324246</td>
+            <td>1.324246</td>
+            <td>0.071761</td>
           </tr>
           <tr>
             <th>75</th>
-            <td>nicola sansone</td>
-            <td>245</td>
-            <td>32.0</td>
-            <td>25.178835</td>
-            <td>-6.821165</td>
-            <td>0.102771</td>
+            <td>manuel pasqual</td>
+            <td>101</td>
+            <td>5.0</td>
+            <td>7.261687</td>
+            <td>2.261687</td>
+            <td>0.071898</td>
           </tr>
           <tr>
             <th>76</th>
-            <td>daniel sturridge</td>
-            <td>196</td>
-            <td>31.0</td>
-            <td>24.208198</td>
-            <td>-6.791802</td>
-            <td>0.123511</td>
+            <td>yannick bolasie</td>
+            <td>199</td>
+            <td>10.0</td>
+            <td>14.331303</td>
+            <td>4.331303</td>
+            <td>0.072017</td>
           </tr>
           <tr>
             <th>77</th>
-            <td>ousmane dembele</td>
-            <td>73</td>
-            <td>16.0</td>
-            <td>9.228357</td>
-            <td>-6.771643</td>
-            <td>0.126416</td>
+            <td>benoit cheyrou</td>
+            <td>116</td>
+            <td>8.0</td>
+            <td>8.354627</td>
+            <td>0.354627</td>
+            <td>0.072023</td>
           </tr>
           <tr>
             <th>78</th>
-            <td>manolo gabbiadini</td>
-            <td>330</td>
-            <td>38.0</td>
-            <td>31.286191</td>
-            <td>-6.713809</td>
-            <td>0.094807</td>
+            <td>ricardo alvarez</td>
+            <td>165</td>
+            <td>12.0</td>
+            <td>11.889103</td>
+            <td>-0.110897</td>
+            <td>0.072055</td>
           </tr>
           <tr>
             <th>79</th>
-            <td>yoann gourcuff</td>
-            <td>119</td>
+            <td>valentin eysseric</td>
+            <td>217</td>
             <td>16.0</td>
-            <td>9.324299</td>
-            <td>-6.675701</td>
-            <td>0.078355</td>
+            <td>15.656669</td>
+            <td>-0.343331</td>
+            <td>0.072151</td>
           </tr>
           <tr>
             <th>80</th>
-            <td>shinji kagawa</td>
-            <td>151</td>
-            <td>25.0</td>
-            <td>18.356041</td>
-            <td>-6.643959</td>
-            <td>0.121563</td>
+            <td>alexander esswein</td>
+            <td>188</td>
+            <td>12.0</td>
+            <td>13.565030</td>
+            <td>1.565030</td>
+            <td>0.072154</td>
           </tr>
           <tr>
             <th>81</th>
-            <td>gregory pujol</td>
+            <td>salif sane</td>
             <td>121</td>
-            <td>20.0</td>
-            <td>13.401306</td>
-            <td>-6.598694</td>
-            <td>0.110755</td>
+            <td>10.0</td>
+            <td>8.806639</td>
+            <td>-1.193361</td>
+            <td>0.072782</td>
           </tr>
           <tr>
             <th>82</th>
-            <td>benjamin moukandjo</td>
-            <td>203</td>
-            <td>37.0</td>
-            <td>30.508221</td>
-            <td>-6.491779</td>
-            <td>0.150287</td>
+            <td>sebastien corchia</td>
+            <td>133</td>
+            <td>8.0</td>
+            <td>9.696714</td>
+            <td>1.696714</td>
+            <td>0.072908</td>
           </tr>
           <tr>
             <th>83</th>
-            <td>anthony martial</td>
-            <td>143</td>
-            <td>24.0</td>
-            <td>17.659621</td>
-            <td>-6.340379</td>
-            <td>0.123494</td>
+            <td>marcell jansen</td>
+            <td>119</td>
+            <td>8.0</td>
+            <td>8.701326</td>
+            <td>0.701326</td>
+            <td>0.073120</td>
           </tr>
           <tr>
             <th>84</th>
-            <td>lukas podolski</td>
-            <td>148</td>
-            <td>22.0</td>
-            <td>15.662317</td>
-            <td>-6.337683</td>
-            <td>0.105826</td>
+            <td>franck tabanou</td>
+            <td>217</td>
+            <td>11.0</td>
+            <td>15.899567</td>
+            <td>4.899567</td>
+            <td>0.073270</td>
           </tr>
           <tr>
             <th>85</th>
-            <td>adam lallana</td>
-            <td>180</td>
-            <td>24.0</td>
-            <td>17.696279</td>
-            <td>-6.303721</td>
-            <td>0.098313</td>
-          </tr>
-          <tr>
-            <th>86</th>
-            <td>mevlut erdinc</td>
-            <td>290</td>
-            <td>44.0</td>
-            <td>37.732196</td>
-            <td>-6.267804</td>
-            <td>0.130111</td>
-          </tr>
-          <tr>
-            <th>87</th>
-            <td>alvaro morata</td>
-            <td>166</td>
-            <td>28.0</td>
-            <td>21.733428</td>
-            <td>-6.266572</td>
-            <td>0.130924</td>
-          </tr>
-          <tr>
-            <th>88</th>
-            <td>bojan</td>
-            <td>158</td>
-            <td>24.0</td>
-            <td>17.774814</td>
-            <td>-6.225186</td>
-            <td>0.112499</td>
-          </tr>
-          <tr>
-            <th>89</th>
-            <td>felipe anderson</td>
-            <td>165</td>
-            <td>19.0</td>
-            <td>12.852658</td>
-            <td>-6.147342</td>
-            <td>0.077895</td>
-          </tr>
-          <tr>
-            <th>90</th>
             <td>maximilian arnold</td>
             <td>148</td>
             <td>17.0</td>
@@ -838,94 +793,139 @@ class XG6 extends React.Component {
             <td>0.073398</td>
           </tr>
           <tr>
+            <th>86</th>
+            <td>carlos carmona</td>
+            <td>105</td>
+            <td>12.0</td>
+            <td>7.712154</td>
+            <td>-4.287846</td>
+            <td>0.073449</td>
+          </tr>
+          <tr>
+            <th>87</th>
+            <td>andrea cossu</td>
+            <td>103</td>
+            <td>3.0</td>
+            <td>7.570746</td>
+            <td>4.570746</td>
+            <td>0.073502</td>
+          </tr>
+          <tr>
+            <th>88</th>
+            <td>charlie adam</td>
+            <td>160</td>
+            <td>16.0</td>
+            <td>11.765430</td>
+            <td>-4.234570</td>
+            <td>0.073534</td>
+          </tr>
+          <tr>
+            <th>89</th>
+            <td>morgan sanson</td>
+            <td>124</td>
+            <td>13.0</td>
+            <td>9.126769</td>
+            <td>-3.873231</td>
+            <td>0.073603</td>
+          </tr>
+          <tr>
+            <th>90</th>
+            <td>geoffrey kondogbia</td>
+            <td>119</td>
+            <td>5.0</td>
+            <td>8.878129</td>
+            <td>3.878129</td>
+            <td>0.074606</td>
+          </tr>
+          <tr>
             <th>91</th>
-            <td>alberto gilardino</td>
-            <td>235</td>
-            <td>47.0</td>
-            <td>40.876697</td>
-            <td>-6.123303</td>
-            <td>0.173943</td>
+            <td>dimitri payet</td>
+            <td>456</td>
+            <td>44.0</td>
+            <td>34.123482</td>
+            <td>-9.876518</td>
+            <td>0.074832</td>
           </tr>
           <tr>
             <th>92</th>
-            <td>stevan jovetic</td>
-            <td>351</td>
-            <td>41.0</td>
-            <td>34.951424</td>
-            <td>-6.048576</td>
-            <td>0.099577</td>
+            <td>angel di maria</td>
+            <td>347</td>
+            <td>30.0</td>
+            <td>26.156045</td>
+            <td>-3.843955</td>
+            <td>0.075378</td>
           </tr>
           <tr>
             <th>93</th>
-            <td>son heungmin</td>
-            <td>102</td>
-            <td>16.0</td>
-            <td>10.047432</td>
-            <td>-5.952568</td>
-            <td>0.098504</td>
+            <td>marco benassi</td>
+            <td>139</td>
+            <td>13.0</td>
+            <td>10.532425</td>
+            <td>-2.467575</td>
+            <td>0.075773</td>
           </tr>
           <tr>
             <th>94</th>
-            <td>martin harnik</td>
-            <td>235</td>
-            <td>40.0</td>
-            <td>34.053115</td>
-            <td>-5.946885</td>
-            <td>0.144907</td>
+            <td>daniele baselli</td>
+            <td>103</td>
+            <td>10.0</td>
+            <td>7.817116</td>
+            <td>-2.182884</td>
+            <td>0.075894</td>
           </tr>
           <tr>
             <th>95</th>
-            <td>ivica olic</td>
-            <td>188</td>
-            <td>31.0</td>
-            <td>25.166751</td>
-            <td>-5.833249</td>
-            <td>0.133866</td>
+            <td>ibai gomez</td>
+            <td>193</td>
+            <td>15.0</td>
+            <td>14.648133</td>
+            <td>-0.351867</td>
+            <td>0.075897</td>
           </tr>
           <tr>
             <th>96</th>
-            <td>hatem ben arfa</td>
-            <td>128</td>
-            <td>18.0</td>
-            <td>12.195448</td>
-            <td>-5.804552</td>
-            <td>0.095277</td>
+            <td>victor rodriguez</td>
+            <td>139</td>
+            <td>8.0</td>
+            <td>10.561782</td>
+            <td>2.561782</td>
+            <td>0.075984</td>
           </tr>
           <tr>
             <th>97</th>
-            <td>xavi</td>
-            <td>123</td>
-            <td>18.0</td>
-            <td>12.212120</td>
-            <td>-5.787880</td>
-            <td>0.099286</td>
+            <td>blerim dzemaili</td>
+            <td>197</td>
+            <td>24.0</td>
+            <td>14.977664</td>
+            <td>-9.022336</td>
+            <td>0.076029</td>
           </tr>
           <tr>
             <th>98</th>
-            <td>luca rigoni</td>
-            <td>136</td>
-            <td>22.0</td>
-            <td>16.300859</td>
-            <td>-5.699141</td>
-            <td>0.119859</td>
+            <td>raphael guerreiro</td>
+            <td>127</td>
+            <td>12.0</td>
+            <td>9.701845</td>
+            <td>-2.298155</td>
+            <td>0.076392</td>
           </tr>
           <tr>
             <th>99</th>
-            <td>florian thauvin</td>
-            <td>283</td>
-            <td>31.0</td>
-            <td>25.312982</td>
-            <td>-5.687018</td>
-            <td>0.089445</td>
+            <td>juan arango</td>
+            <td>231</td>
+            <td>17.0</td>
+            <td>17.684023</td>
+            <td>0.684023</td>
+            <td>0.076554</td>
           </tr>
           <tr>
             <th>100</th>
-            <td>suso</td>
-            <td>160</td>
-            <td>14.0</td>
-            <td>8.405002</td>
-            <td>-5.594998</td>
-            <td>0.052531</td>
+            <td>ronny rodelin</td>
+            <td>233</td>
+            <td>19.0</td>
+            <td>17.867604</td>
+            <td>-1.132396</td>
+            <td>0.076685</td>
           </tr>
         </tbody>
       </table>

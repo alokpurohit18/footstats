@@ -68,6 +68,13 @@ class CoachesCenter extends React.Component {
             element={
               <div className="xg-main">
                 <h2>Predicting Expected Goals</h2>
+                <div className="xg-container">
+                  <img
+                    className="xg-result"
+                    alt="xG-correlation"
+                    src="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/xg_correlation.png?raw=true"
+                  />
+                </div>
                 <details open>
                   <summary>Best Finishers</summary>
                   <XG1 />
