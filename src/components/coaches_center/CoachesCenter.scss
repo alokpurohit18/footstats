@@ -30,7 +30,13 @@
 
 .xg-result {
   display: block;
+  width: fit-content;
   margin: auto;
-  width: 30vw;
   margin-top: 2vw;
+
+  .td,
+  th,
+  tr {
+    background-color: rgb(31, 31, 31);
+  }
 }

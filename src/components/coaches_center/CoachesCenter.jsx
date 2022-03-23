@@ -8,6 +8,7 @@ import XG3 from "./XG3.jsx";
 import XG4 from "./XG4.jsx";
 import XG5 from "./XG5.jsx";
 import XG6 from "./XG6.jsx";
+import "./XG.scss";
 import { Route, Routes } from "react-router-dom";
 
 class CoachesCenter extends React.Component {
@@ -68,13 +69,25 @@ class CoachesCenter extends React.Component {
             element={
               <div className="xg-main">
                 <h2>Predicting Expected Goals</h2>
-                <div className="xg-container">
-                  <img
-                    className="xg-result"
-                    alt="xG-correlation"
-                    src="https://github.com/alokpurohit18/Shoot-Off-Game/blob/master/screenshots/xg_correlation.png?raw=true"
-                  />
-                </div>
+                <table className="dataframe league-table xg-result">
+                  <tbody>
+                    <tr>
+                      <td>🢄🢆</td>
+                      <td>Goals Scored</td>
+                      <td>Expected Goals</td>
+                    </tr>
+                    <tr>
+                      <td>Goals Scored</td>
+                      <td>1.000000</td>
+                      <td>0.976885</td>
+                    </tr>
+                    <tr>
+                      <td>Expected Goals</td>
+                      <td>0.976885</td>
+                      <td>1.000000</td>
+                    </tr>
+                  </tbody>
+                </table>
                 <details open>
                   <summary className="high-xg">Players with Highest xG</summary>
                   <XG2 />
