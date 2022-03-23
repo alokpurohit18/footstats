@@ -8,12 +8,35 @@ details {
 
   summary {
     margin-bottom: 1vw;
-    background-color: black;
     border-radius: 10px;
     width: fit-content;
     padding: 0.5vw 2vw;
     margin-left: auto;
     margin-right: auto;
+
+    &.finishers {
+      background-color: #4c0027;
+    }
+
+    &.heading {
+      background-color: black;
+    }
+
+    &.assists {
+      background-color: #f10086;
+    }
+
+    &.high-xg {
+      background-color: #072227;
+    }
+
+    &.worst {
+      background-color: #151d3b;
+    }
+
+    &.outside-box {
+      background-color: #05595b;
+    }
   }
 }
 
@@ -28,7 +51,6 @@ details {
     text-align: center;
     font-size: 1.25vw;
     font-weight: 600;
-    background-color: black;
     border-radius: 10px;
   }
 
@@ -47,5 +69,41 @@ details {
       text-decoration: underline;
       font-style: italic;
     }
+  }
+
+  .finishers th,
+  .finishers td,
+  .finishers tr {
+    background-color: #4c0027;
+  }
+
+  .high-xg th,
+  .high-xg td,
+  .high-xg tr {
+    background-color: #072227;
+  }
+
+  .assists th,
+  .assists td,
+  .assists tr {
+    background-color: #f10086;
+  }
+
+  .heading th,
+  .heading td,
+  .heading tr {
+    background-color: black;
+  }
+
+  .outside-box th,
+  .outside-box td,
+  .outside-box tr {
+    background-color: #05595b;
+  }
+
+  .worst th,
+  .worst td,
+  .worst tr {
+    background-color: #151d3b;
   }
 }

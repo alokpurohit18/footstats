@@ -76,27 +76,29 @@ class CoachesCenter extends React.Component {
                   />
                 </div>
                 <details open>
-                  <summary>Best Finishers</summary>
-                  <XG1 />
-                </details>
-                <details>
-                  <summary>Players with Highest xG</summary>
+                  <summary className="high-xg">Players with Highest xG</summary>
                   <XG2 />
                 </details>
                 <details>
-                  <summary>Best Headers</summary>
+                  <summary className="finishers">Best Finishers</summary>
+                  <XG1 />
+                </details>
+                <details>
+                  <summary className="heading">Best at Heading</summary>
                   <XG3 />
                 </details>
                 <details>
-                  <summary>Best from Outside the Box</summary>
+                  <summary className="outside-box">
+                    Best from Outside the Box
+                  </summary>
                   <XG4 />
                 </details>
                 <details>
-                  <summary>Best Assisters</summary>
+                  <summary className="assists">Best Assisters</summary>
                   <XG5 />
                 </details>
                 <details>
-                  <summary>Worst at Shooting</summary>
+                  <summary className="worst">Worst at Shooting</summary>
                   <XG6 />
                 </details>
               </div>

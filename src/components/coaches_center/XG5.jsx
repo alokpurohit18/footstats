@@ -5,7 +5,7 @@ import "./XG.scss";
 class XG5 extends React.Component {
   render() {
     return (
-      <table className="dataframe league-table">
+      <table className="dataframe league-table assists">
         <thead>
           <tr className="table-header">
             <th></th>
