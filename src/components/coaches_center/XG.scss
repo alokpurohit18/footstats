@@ -1,0 +1,51 @@
+@import "../../utils/variables.scss";
+
+details {
+  text-align: center;
+  font-size: 1.25vw;
+  font-weight: 600;
+  margin-top: 2vw;
+
+  summary {
+    margin-bottom: 1vw;
+    background-color: black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0.5vw 2vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.coaches-center-main {
+  padding: 1vw 2vw;
+  color: whitesmoke;
+
+  th,
+  td {
+    border: 2px solid $secondary-color;
+    padding: 0.5vw 1vw;
+    text-align: center;
+    font-size: 1.25vw;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .league-table-container {
+    position: relative;
+  }
+
+  .league-table {
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    .table-header {
+      text-decoration: underline;
+      font-style: italic;
+    }
+  }
+}

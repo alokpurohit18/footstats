@@ -2,6 +2,12 @@ import * as React from "react";
 import "antd/dist/antd.css";
 import "./CoachesCenter.scss";
 import Subnav from "../common/SubNav/SubNav";
+import XG1 from "./XG1.jsx";
+import XG2 from "./XG2.jsx";
+import XG3 from "./XG3.jsx";
+import XG4 from "./XG4.jsx";
+import XG5 from "./XG5.jsx";
+import XG6 from "./XG6.jsx";
 import { Route, Routes } from "react-router-dom";
 
 class CoachesCenter extends React.Component {
@@ -61,11 +67,31 @@ class CoachesCenter extends React.Component {
             path="xg_model"
             element={
               <div className="xg-main">
-                <h2>Expected Goals Prediction Model</h2>
-                <img
-                  alt="expected goals model"
-                  src="https://github.com/alokpurohit18/KaunBanegaCrorepati/blob/master/Screenshots/xG_Model.png?raw=true"
-                />
+                <h2>Predicting Expected Goals</h2>
+                <details open>
+                  <summary>Best Finishers</summary>
+                  <XG1 />
+                </details>
+                <details>
+                  <summary>Players with Highest xG</summary>
+                  <XG2 />
+                </details>
+                <details>
+                  <summary>Best Headers</summary>
+                  <XG3 />
+                </details>
+                <details>
+                  <summary>Best from Outside the Box</summary>
+                  <XG4 />
+                </details>
+                <details>
+                  <summary>Best Assisters</summary>
+                  <XG5 />
+                </details>
+                <details>
+                  <summary>Worst at Shooting</summary>
+                  <XG6 />
+                </details>
               </div>
             }
           />
