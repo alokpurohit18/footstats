@@ -1,6 +1,7 @@
 import * as React from "react";
 import "antd/dist/antd.css";
 import "./CoachesCenter.scss";
+import PlayerSimilarity from "./PlayerSimilarity";
 import Subnav from "../common/SubNav/SubNav";
 import XG1 from "./XG1.jsx";
 import XG2 from "./XG2.jsx";
@@ -52,18 +53,7 @@ class CoachesCenter extends React.Component {
           elementWidth="12"
         />
         <Routes>
-          <Route
-            path="/"
-            element={
-              <div className="player-similarity-main">
-                <h2>Player Similarity Prediction Model</h2>
-                <img
-                  alt="player similarity model"
-                  src="https://github.com/alokpurohit18/KaunBanegaCrorepati/blob/master/Screenshots/Player_Similarity.png?raw=true"
-                />
-              </div>
-            }
-          />
+          <Route path="/" element={<PlayerSimilarity />} />
           <Route
             path="xg_model"
             element={

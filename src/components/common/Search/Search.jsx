@@ -13,14 +13,11 @@ class Search extends React.Component {
     };
   }
 
-  handleSearch = () => {
-    let searchString = document.getElementsByClassName("search-bar")[0].value;
+  handleSearch = (event) => {
+    let searchString = event.target.value;
     let playerNames = this.props.playerNames;
     var searchResults = [];
-    let searchBar = document.getElementsByClassName("search-bar")[0];
-    if (searchBar.value.length >= 3) {
-      document.getElementsByClassName("search-results")[0].style.height =
-        "20vw";
+    if (searchString.length >= 3) {
       for (let i = 0; i < playerNames.length; i++) {
         if (
           playerNames[i].value
@@ -37,38 +34,6 @@ class Search extends React.Component {
           label: "No Search Results",
           value: "No Search Results",
         };
-        document.getElementsByClassName("search-results")[0].style.height =
-          "4vw";
-      }
-
-      if (searchResults.length === 6) {
-        document.getElementsByClassName("search-results")[0].style.height =
-          "18vw";
-      }
-
-      if (searchResults.length === 5) {
-        document.getElementsByClassName("search-results")[0].style.height =
-          "16vw";
-      }
-
-      if (searchResults.length === 4) {
-        document.getElementsByClassName("search-results")[0].style.height =
-          "12vw";
-      }
-
-      if (searchResults.length === 3) {
-        document.getElementsByClassName("search-results")[0].style.height =
-          "10vw";
-      }
-
-      if (searchResults.length === 2) {
-        document.getElementsByClassName("search-results")[0].style.height =
-          "6vw";
-      }
-
-      if (searchResults.length === 1) {
-        document.getElementsByClassName("search-results")[0].style.height =
-          "4vw";
       }
 
       this.setState({
@@ -100,7 +65,7 @@ class Search extends React.Component {
 
   render() {
     return (
-      <div className="search-container ant-row">
+      <div key={this.props.id} className="search-container ant-row">
         <input
           className="search-bar ant-col ant-col-24"
           type="search"

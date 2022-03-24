@@ -9,6 +9,14 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
+import numpy as np
+import os
+import pandas as pd
+from scipy import spatial
+from sklearn import preprocessing
+from matplotlib import pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import StandardScaler
 
 app = flask.Flask(__name__)
 
@@ -259,7 +267,7 @@ def player_details():
     return resultingPlayer
 
 
-@app.route("/league_details", methods=["POST"], strict_slashes=False)
+@app.route("/leagu_details", methods=["POST"], strict_slashes=False)
 def league_details():
     os.chdir("F:/Projects/footstats/src/api/data")
     tables_url = "https://www.espn.com/soccer/standings/_/league/" 
@@ -376,20 +384,10 @@ def league_details():
 
 @app.route("/player_similarity_prediction", methods=["POST"], strict_slashes=False)
 def player_similarity_prediction():
-    # -*- coding: utf-8 -*-
     # Player Similarity Prediction
 
     """Two players are similar if they have attributes similar to each other. This helps football teams replace a player if one leaves/retires. It also helps teams scout potential future players. However, in our model, by similar we mean stats skewed in a similar fashion, not necessarily values being similar. By that we mean, Player A can be similar to Player B even if he has 2x the values for shooting, passing, dribbling, pace, physical, defending.
     """
-
-    import numpy as np
-    import os
-    import pandas as pd
-    from scipy import spatial
-    from sklearn import preprocessing
-    from matplotlib import pyplot as plt
-    from sklearn.preprocessing import MinMaxScaler
-    from sklearn.preprocessing import StandardScaler
 
     os.chdir("F:/Projects/footstats/src/api")
 
@@ -418,8 +416,9 @@ def player_similarity_prediction():
 
     """# Taking User Input"""
 
-    player_1 = input("Enter the first player name")
-    player_2 = input("Enter the second player name")
+    request = flask.request.json
+    player_1 = request[0]
+    player_2 = request[1]
 
     p1 = x.loc[x["short_name"] == player_1]
     p1_df = pd.DataFrame(data=p1)
@@ -434,5 +433,7 @@ def player_similarity_prediction():
         index_2 = row
 
     cosine_result_1 = 1 - spatial.distance.cosine(new_data.iloc[index_1:index_1+1,:], new_data.iloc[index_2:index_2+1,:])
+    
+    player_similarity = {"similarity_percent": cosine_result_1*100}
 
-    print(cosine_result_1)
+    return player_similarity

@@ -77,6 +77,7 @@ class PlayersSection extends React.Component {
           />
         )}
         <Search
+          id={1}
           placeholder="Search for Players"
           playerNames={playerNames}
           setSourceLink={this.setSourceLink}

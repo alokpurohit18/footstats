@@ -25,4 +25,12 @@ module.exports = function (app) {
       target: "http://127.0.0.1:5000/",
     })
   );*/
+
+  //access point 4 and its proxy for flask server
+  app.use(
+    "/player_similarity_prediction",
+    createProxyMiddleware({
+      target: "http://127.0.0.1:5000/",
+    })
+  );
 };
