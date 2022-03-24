@@ -373,3 +373,66 @@ def league_details():
             "server-message" : "league stats data loaded",
         }
   
+
+@app.route("/player_similarity_prediction", methods=["POST"], strict_slashes=False)
+def player_similarity_prediction():
+    # -*- coding: utf-8 -*-
+    # Player Similarity Prediction
+
+    """Two players are similar if they have attributes similar to each other. This helps football teams replace a player if one leaves/retires. It also helps teams scout potential future players. However, in our model, by similar we mean stats skewed in a similar fashion, not necessarily values being similar. By that we mean, Player A can be similar to Player B even if he has 2x the values for shooting, passing, dribbling, pace, physical, defending.
+    """
+
+    import numpy as np
+    import os
+    import pandas as pd
+    from scipy import spatial
+    from sklearn import preprocessing
+    from matplotlib import pyplot as plt
+    from sklearn.preprocessing import MinMaxScaler
+    from sklearn.preprocessing import StandardScaler
+
+    os.chdir("F:/Projects/footstats/src/api")
+
+    predata=pd.read_csv("players_22.csv")  # Reading data from the dataset
+
+    x=predata.iloc[:,0:2]
+    y=predata['nationality_name']
+    x.join(y)
+
+    data=predata.drop(['short_name','nationality_name','player_positions','club_contract_valid_until'],axis=1, inplace=False)
+    data= pd.get_dummies(data, columns = ['preferred_foot'])
+
+    scaler = MinMaxScaler()
+
+    new_data = scaler.fit_transform(data.to_numpy())
+    new_data = pd.DataFrame(new_data, columns = ["overall", "potential", "wage_eur", "age", "weak_foot", "skill_moves", "release_clause_eur", "pace", "shooting",
+                                             "passing", "dribbling", "defending", "physic", "attacking_crossing", "attacking_finishing", "attacking_heading_accuracy",
+                                             "attacking_short_passing", "attacking_volleys", "skill_dribbling", "skill_curve", "skill_fk_accuracy", "skill_long_passing",
+                                             "skill_ball_control", "movement_acceleration", "movement_sprint_speed", "movement_agility", "movement_reactions", "movement_balance",
+                                             "power_shot_power", "power_jumping", "power_stamina", "power_strength", "power_long_shots", "mentality_aggression",
+                                             "mentality_interceptions", "mentality_positioning", "mentality_vision", "mentality_penalties", "mentality_composure",
+                                             "defending_marking_awareness", "defending_standing_tackle", "defending_sliding_tackle", "goalkeeping_diving", "goalkeeping_handling",
+                                             "goalkeeping_kicking", "goalkeeping_positioning", "goalkeeping_reflexes", "goalkeeping_speed", "value_eur", "preferred_foot_Left",
+                                             "preferred_foot_Right"])
+
+
+    """# Taking User Input"""
+
+    player_1 = input("Enter the first player name")
+    player_2 = input("Enter the second player name")
+
+    p1 = x.loc[x["short_name"] == player_1]
+    p1_df = pd.DataFrame(data=p1)
+    index_1 = 0
+    for row in p1_df.index:
+        index_1 = row
+
+    p2 = x.loc[x["short_name"] == player_2]
+    p2_df = pd.DataFrame(data=p2)
+    index_2 = 0
+    for row in p2_df.index:
+        index_2 = row
+
+    cosine_result_1 = 1 - spatial.distance.cosine(new_data.iloc[index_1:index_1+1,:], new_data.iloc[index_2:index_2+1,:])
+
+    print(cosine_result_1)
