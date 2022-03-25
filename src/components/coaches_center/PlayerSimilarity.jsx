@@ -12,7 +12,7 @@ class PlayerSimilarity extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      playerPair: ["Neymar Jr", "Noa Lang"],
+      playerPair: ["T. Courtois", "Neymar Jr"],
       similarity_percent: 0,
       apiLoaded: false,
     };
@@ -64,6 +64,16 @@ class PlayerSimilarity extends React.Component {
           />
         )}
 
+        <div className="model-description">
+          Two players are similar if they have attributes similar to each other.
+          This helps football teams replace a player if one leaves/retires. It
+          also helps teams scout potential future players. However, in our
+          model, by similar we mean stats skewed in a similar fashion, not
+          necessarily values being similar. By that we mean, Player A can be
+          similar to Player B even if he has 2x the values for shooting,
+          passing, dribbling, pace, physical, defending.
+        </div>
+
         <div className="ant-row">
           <div className="ant-col ant-col-6"></div>
           <div className="ant-col ant-col-6">
@@ -94,7 +104,7 @@ class PlayerSimilarity extends React.Component {
               " and " +
               this.state.playerPair[1] +
               " is " +
-              this.state.similarity_percent +
+              Math.round(this.state.similarity_percent * 100) / 100 +
               " %"}
           </div>
         ) : (
