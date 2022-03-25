@@ -7,20 +7,43 @@ import Search from "../common/Search/Search";
 import playerNames from "./../../api/data/playerNames.json";
 
 class PlayerSimilarity extends React.Component {
+  playerNames;
+
   constructor(props) {
     super(props);
     this.state = {
-      sourceLink: 0,
+      playerPair: ["Neymar Jr", "Noa Lang"],
       similarity_percent: 0,
       apiLoaded: false,
     };
+    this.playerNames = [];
   }
 
-  setSourceLink = (link) => {
-    this.setState({
-      sourceLink: link,
-      apiLoaded: false,
-    });
+  setPlayerPair = (link) => {
+    if (this.playerNames.length === 2) {
+      this.playerNames = [];
+      this.playerNames[this.playerNames.length] = link;
+      this.setState({
+        playerPair: this.playerNames,
+        apiLoaded: true,
+      });
+    } else if (this.playerNames.length === 1) {
+      this.playerNames[this.playerNames.length] = link;
+
+      document.getElementsByClassName("search-bar")[0].value = "";
+      document.getElementsByClassName("search-bar")[1].value = "";
+
+      this.setState({
+        playerPair: this.playerNames,
+        apiLoaded: false,
+      });
+    } else {
+      this.playerNames[this.playerNames.length] = link;
+      this.setState({
+        playerPair: this.playerNames,
+        apiLoaded: true,
+      });
+    }
   };
 
   setData = (player_similarity) => {
@@ -33,30 +56,52 @@ class PlayerSimilarity extends React.Component {
   render() {
     return (
       <div className="player-similarity-main">
-        <div className="player-similarity-main">
-          {this.state.apiLoaded ? null : (
-            <LoadAPI
-              url="/player_similarity_prediction"
-              sourceLink={["T. Courtois", "H. Kane"]}
-              setData={this.setData}
+        {this.state.apiLoaded ? null : (
+          <LoadAPI
+            url="/player_similarity_prediction"
+            sourceLink={this.state.playerPair}
+            setData={this.setData}
+          />
+        )}
+
+        <div className="ant-row">
+          <div className="ant-col ant-col-6"></div>
+          <div className="ant-col ant-col-6">
+            <Search
+              id={1}
+              placeholder="Search for Player 1..."
+              playerNames={playerNames}
+              setSourceLink={this.setPlayerPair}
+              callSource="player_similarity"
             />
-          )}
-          {console.log(this.state.similarity_percent + " %")}
-
-          <Search
-            id={1}
-            placeholder="Search for Player 1"
-            playerNames={playerNames}
-            setSourceLink={this.setSourceLink}
-          />
-
-          <Search
-            id={2}
-            placeholder="Search for Player 2"
-            playerNames={playerNames}
-            setSourceLink={this.setSourceLink}
-          />
+          </div>
+          <div className="ant-col ant-col-6">
+            <Search
+              id={2}
+              placeholder="Search for Player 2..."
+              playerNames={playerNames}
+              setSourceLink={this.setPlayerPair}
+              callSource="player_similarity"
+            />
+          </div>
+          <div className="ant-col ant-col-6"></div>
         </div>
+
+        {this.state.playerPair.length === 2 ? (
+          <div className="similarity-result">
+            {"The similarity between the players " +
+              this.state.playerPair[0] +
+              " and " +
+              this.state.playerPair[1] +
+              " is " +
+              this.state.similarity_percent +
+              " %"}
+          </div>
+        ) : (
+          <div className="similarity-result">
+            {"Please select 2 players..."}
+          </div>
+        )}
       </div>
     );
   }

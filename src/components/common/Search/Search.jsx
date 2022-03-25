@@ -48,11 +48,12 @@ class Search extends React.Component {
         <button
           onClick={() => {
             if (searchResult.key !== "None") {
-              this.props.setSourceLink(searchResult.key);
+              if (this.props.callSource === "player_details") {
+                this.props.setSourceLink(searchResult.key);
+              } else {
+                this.props.setSourceLink(searchResult.label);
+              }
               this.setState({ searchResults: [] });
-              document.getElementsByClassName(
-                "search-results"
-              )[0].style.height = "0";
             }
           }}
           className="button"

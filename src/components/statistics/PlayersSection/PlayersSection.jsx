@@ -81,6 +81,7 @@ class PlayersSection extends React.Component {
           placeholder="Search for Players"
           playerNames={playerNames}
           setSourceLink={this.setSourceLink}
+          callSource="player_details"
         />
         <h2 className="player-card-heading">
           {Object.keys(this.state.player).length === 0 &&

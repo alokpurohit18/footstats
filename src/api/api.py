@@ -389,7 +389,7 @@ def player_similarity_prediction():
     """Two players are similar if they have attributes similar to each other. This helps football teams replace a player if one leaves/retires. It also helps teams scout potential future players. However, in our model, by similar we mean stats skewed in a similar fashion, not necessarily values being similar. By that we mean, Player A can be similar to Player B even if he has 2x the values for shooting, passing, dribbling, pace, physical, defending.
     """
 
-    os.chdir("F:/Projects/footstats/src/api")
+    os.chdir("F:/Projects/footstats/src/api/data")
 
     predata=pd.read_csv("players_22.csv")  # Reading data from the dataset
 

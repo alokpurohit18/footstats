@@ -41,3 +41,22 @@
     background-color: rgb(31, 31, 31);
   }
 }
+
+.player-similarity-main {
+  padding: 2vw 1vw;
+  .search-bar {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .similarity-result {
+    margin-top: 2vw;
+    font-size: 1.35vw;
+    font-weight: 600;
+    font-style: italic;
+    padding: 1vw;
+    background-color: black;
+    width: fit-content;
+    border-radius: 10px;
+  }
+}
