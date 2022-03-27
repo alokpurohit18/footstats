@@ -56,6 +56,8 @@ class PlayerSimilarity extends React.Component {
   render() {
     return (
       <div className="player-similarity-main">
+        <h2>Prediction Similarity between Players</h2>
+
         {this.state.apiLoaded ? null : (
           <LoadAPI
             url="/player_similarity_prediction"
